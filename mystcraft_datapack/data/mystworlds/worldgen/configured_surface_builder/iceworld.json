@@ -1,0 +1,18 @@
+{
+  "config": {
+    "top_material": {
+      "Properties": {
+        "snowy": "true",
+        "layers": "2"
+      },
+      "Name": "minecraft:grass_block"
+    },
+    "under_material": {
+      "Name": "minecraft:ice"
+    },
+    "underwater_material": {
+      "Name": "minecraft:gravel"
+    }
+  },
+  "type": "minecraft:default"
+}

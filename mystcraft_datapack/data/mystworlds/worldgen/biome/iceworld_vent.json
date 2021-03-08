@@ -1,0 +1,103 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 11847935,
+    "fog_color": 12638463,
+    "water_color": 1989077,
+    "water_fog_color": 329011,
+    "foliage_color": 27702,
+    "grass_color": 15661305,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.15
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
+  },
+  "carvers": {
+    "air": [
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave"
+    ],
+    "liquid": [
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "starts": [
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ruined_portal_ocean"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava",
+      "minecraft:ore_magma",
+      "minecraft:ore_soul_sand",
+      "minecraft:ore_blackstone"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:ore_coal"
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "none",
+  "precipitation": "none",
+  "surface_builder": "mystworlds:iceworld_vent",
+  "scale": 0.3,
+  "downfall": 0.4,
+  "depth": -1.9,
+  "temperature": 1,
+  "player_spawn_friendly": false,
+  "spawn_costs": {}
+}

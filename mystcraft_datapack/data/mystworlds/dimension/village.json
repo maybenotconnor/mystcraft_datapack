@@ -1,0 +1,37 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "seed":0,
+    "settings": {
+      "structures": {
+        "structures": {
+          "minecraft:village": {
+            "spacing": 6,
+            "separation": 2,
+            "salt": 0
+          }
+        }
+      },
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:dirt",
+          "height": 8
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 60
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 1
+        }
+      ],
+      "biome": "mystworlds:villageworld"
+    }
+  },
+  "type": "mystworlds:villageworld"
+}

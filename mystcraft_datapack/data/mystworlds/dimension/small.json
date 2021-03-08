@@ -1,0 +1,19 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "seed":0,
+    "settings": {
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:barrier",
+          "height": 70
+        }
+      ],
+      "biome": "mystworlds:small"
+    }
+  },
+  "type": "mystworlds:small"
+}

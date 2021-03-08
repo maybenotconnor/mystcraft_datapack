@@ -1,0 +1,87 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 12303291,
+    "fog_color": 14671839,
+    "water_color": 4473924,
+    "water_fog_color": 1776411,
+    "foliage_color": 7697781,
+    "grass_color": 7237230
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "starts": [
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
+  ],
+  "features": [
+    [
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_lapis",
+      "minecraft:ore_emerald"
+    ],
+    [
+    ],
+    [
+      "minecraft:lake_lava"
+    ],
+    [
+      "minecraft:monster_room"
+    ],
+    [
+      "minecraft:ore_iron",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_diamond"
+    ],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal"
+    ],
+    [],
+    [
+      "minecraft:ore_diamond",
+      "minecraft:ore_redstone"
+    ],
+    []
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 10
+      }
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "icy",
+  "precipitation": "snow",
+  "surface_builder": "minecraft:mountain",
+  "scale": 0.2,
+  "downfall": 0.4,
+  "depth": 0.12,
+  "temperature": 0.2,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}

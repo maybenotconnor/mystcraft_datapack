@@ -1,0 +1,241 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Linking Book",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:6,Unbreakable:1b,CustomModelData:696312,linkbook:1b,fresh_link:1b}"
+              },
+              {
+                "function": "minecraft:copy_nbt",
+                "source": "this",
+                "ops": [
+                  {
+                    "source": "Pos",
+                    "target": "Warp",
+                    "op": "replace"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Overworld",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "minecraft:overworld"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The Nether",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "minecraft:the_nether"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The End",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "minecraft:the_end"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The Nightmare",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:twilightworld"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The Caves",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:cavesworld"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Archipeligo",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:archipeligo"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Sanctuary",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:sanctuaryworld"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Wasteland",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:volcanoworld"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Ice",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:ice"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The Village",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:village"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Pocket Dimension",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:small"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

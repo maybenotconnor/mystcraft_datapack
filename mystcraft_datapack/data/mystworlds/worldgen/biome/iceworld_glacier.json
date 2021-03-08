@@ -1,0 +1,89 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 11847935,
+    "fog_color": 12638463,
+    "water_color": 1989077,
+    "water_fog_color": 329011,
+    "foliage_color": 27702,
+    "grass_color": 15661305,
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.2
+    }
+  },
+  "carvers": {
+    "air": []
+  },
+  "starts": [
+    "minecraft:ruined_portal",
+    "minecraft:igloo"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis"
+    ],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "minCount": 1,
+        "maxCount": 3,
+        "weight": 1
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": [
+      {
+        "type": "minecraft:cod",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "category": "icy",
+  "precipitation": "snow",
+  "surface_builder": "mystworlds:iceworld_glacier",
+  "scale": 0.1,
+  "downfall": 0.4,
+  "depth": 2,
+  "temperature": 0.0,
+  "player_spawn_friendly": false,
+  "spawn_costs": {}
+}

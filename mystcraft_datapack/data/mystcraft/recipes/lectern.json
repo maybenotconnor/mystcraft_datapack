@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "___",
+        " _ ",
+        " _ "
+    ],
+    "key": {
+        "_": {
+            "tag": "mystcraft:slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:lectern",
+        "count": 1
+    }
+}
