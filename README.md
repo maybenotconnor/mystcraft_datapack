@@ -3,6 +3,7 @@ Datapack addon for Minecraft Java Edition 1.16 based on the popular game MYST, a
 
 ## Installation
 To install, move the mystcraft_datapack folder into .minecraft/saves/YOURSAVE/datapacks
+
 Then add the mystcraft_resources.zip into .minecraft/resourcepacks
 
 ## How to play
