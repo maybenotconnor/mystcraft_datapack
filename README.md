@@ -17,6 +17,7 @@ You can also craft link books to teleport you to where they were crafted.
 - Sanctuary
 - Ice Age
 - Pocket Dimension
+
 (descriptions can be found in the in-game guide)
 #### In-Game Guide:
 >/trigger mystguide
