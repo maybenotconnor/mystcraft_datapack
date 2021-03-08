@@ -11,7 +11,7 @@ execute as @e[type=item,nbt={Item:{tag:{fresh_link:1b}}}] at @s run function mys
 execute as @e[tag=fresh_craft] at @s run function mystcraft:crafting_remove
 
 #comment out this line if in multiplayer/LAN:
-#execute as @a[nbt={SelectedItem:{id:"minecraft:written_book"}}] run function mystcraft:enabletriggers
+execute as @a[nbt={SelectedItem:{id:"minecraft:written_book"}}] run function mystcraft:enabletriggers
 
 execute as @a[scores={bookuse=1..}] run function mystcraft:enabletriggers
 execute as @a[scores={lecternuse=1..}] run function mystcraft:enabletriggers
