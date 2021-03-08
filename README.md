@@ -25,7 +25,8 @@ You can also craft link books to teleport you to where they were crafted.
 
 ## Contributing
 I designed Mystcraft to run on a light server, therefore there is no custom structures or features in the dimensions. If someone who better understands them would like to fork and add some, please do! I will likely merge to main and add credits.
-Also please report any bugs and I will fix them asap.
+
+Also, please report any bugs and I will fix them asap.
 
 ## Technical Notes
 - If running on a server, you can comment out a line dealing with teleport trigger permissions in data/mystcraft/loop.mcfunction 
