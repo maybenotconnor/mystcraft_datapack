@@ -4,7 +4,7 @@ Datapack addon for Minecraft Java Edition 1.16 based on the popular game MYST, a
 ## Installation
 To install, move the mystcraft_datapack folder into .minecraft/saves/YOURSAVE/datapacks
 
-Then add the mystcraft_resources.zip into .minecraft/resourcepacks
+Then add the mystcraft_resources.zip into .minecraft/resourcepacks and activate it in the GUI
 
 ## How to play
 Mystcraft adds 8 new dimensions to explore! These dimensions can be opened with relative coordinate dimension books you can craft.
