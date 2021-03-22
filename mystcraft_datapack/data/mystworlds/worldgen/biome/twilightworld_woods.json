@@ -17,19 +17,26 @@
     "air": [
       "minecraft:cave",
       "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
+      "minecraft:underwater_cave",
+      "minecraft:canyon"
     ],
     "liquid": [
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:canyon",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave"
     ]
   },
   "starts": [
-    "minecraft:stronghold",
     "minecraft:monument",
     "minecraft:nether_fossil",
     "minecraft:ruined_portal",
     "minecraft:fortress",
-    "minecraft:bastion_remnant"
+    "minecraft:bastion_remnant",
+    "minecraft:buried_treasure",
+    "minecraft:shipwreck_beached"
   ],
   "features": [
     [
@@ -38,7 +45,10 @@
       "minecraft:lake_water",
       "minecraft:chorus_plant",
       "minecraft:red_mushroom_giant",
-      "minecraft:brown_mushroom_giant"
+      "minecraft:brown_mushroom_giant",
+      "minecraft:ice_patch",
+      "minecraft:ore_infested",
+      "minecraft:ore_blackstone"
     ],
     [],
     [],
@@ -59,6 +69,7 @@
       "minecraft:ore_iron",
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
       "minecraft:ore_diamond"
     ],
     [
@@ -89,21 +100,33 @@
     "creature": [
       {
         "type": "minecraft:sheep",
-        "weight": 12,
+        "weight": 24,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:phantom",
-        "weight": 18,
-        "minCount": 3,
-        "maxCount": 4
+        "type": "minecraft:skeleton_horse",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:mooshroom",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:spider",
+        "type": "minecraft:phantom",
+        "weight": 2,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cave_spider",
         "weight": 1,
         "minCount": 1,
         "maxCount": 2
@@ -129,8 +152,13 @@
   "surface_builder": "minecraft:grass",
   "scale": 0.4,
   "downfall": 0.4,
-  "depth": 0.13,
+  "depth": 0.1,
   "temperature": 0.2,
   "player_spawn_friendly": true,
-  "spawn_costs": {}
+  "spawn_costs": {
+    "minecraft:phantom": {
+      "energy_budget": 0.12,
+      "charge": 1.0
+    }
+  }
 }
