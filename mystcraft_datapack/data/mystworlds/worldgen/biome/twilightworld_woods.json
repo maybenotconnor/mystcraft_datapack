@@ -35,8 +35,10 @@
     "minecraft:ruined_portal",
     "minecraft:fortress",
     "minecraft:bastion_remnant",
+    "minecraft:bastion_remnant",
     "minecraft:buried_treasure",
-    "minecraft:shipwreck_beached"
+    "minecraft:shipwreck_beached",
+    "mystworlds:nightmare_portal"
   ],
   "features": [
     [

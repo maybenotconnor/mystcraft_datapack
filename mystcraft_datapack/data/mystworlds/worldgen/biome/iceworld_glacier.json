@@ -24,7 +24,8 @@
   },
   "starts": [
     "minecraft:ruined_portal",
-    "minecraft:igloo"
+    "minecraft:igloo",
+    "mystworlds:ice_igloo"
   ],
   "features": [
     [],

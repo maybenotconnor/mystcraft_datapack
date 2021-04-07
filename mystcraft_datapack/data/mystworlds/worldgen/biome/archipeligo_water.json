@@ -17,7 +17,8 @@
   "starts": [
     "minecraft:monument",
     "minecraft:ocean_ruin_cold",
-    "minecraft:ruined_portal_ocean"
+    "minecraft:ruined_portal_ocean",
+    "mystworlds:archi_iceberg"
   ],
   "features": [
     [],
@@ -84,9 +85,15 @@
       },
       {
         "type": "minecraft:squid",
-        "minCount": 1,
+        "minCount": 2,
         "maxCount": 6,
-        "weight": 5
+        "weight": 10
+      },
+      {
+        "type": "minecraft:dolphin",
+        "minCount": 2,
+        "maxCount": 6,
+        "weight": 4
       }
     ]
   },

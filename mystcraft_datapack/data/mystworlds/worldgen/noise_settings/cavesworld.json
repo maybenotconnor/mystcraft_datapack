@@ -25,13 +25,13 @@
   "noise": {
     "height": 256,
     "sampling": {
-      "xz_scale": 2,
+      "xz_scale": 1,
       "y_scale": 3,
       "xz_factor": 80,
       "y_factor": 60
     },
     "top_slide": {
-      "target": 120,
+      "target": 250,
       "size": 3,
       "offset": 0
     },

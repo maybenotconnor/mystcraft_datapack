@@ -11,7 +11,8 @@
     "air": []
   },
   "starts": [
-    "minecraft:shipwreck_beached"
+    "minecraft:shipwreck_beached",
+    "minecraft:buried_treasure"
   ],
   "features": [
     [],

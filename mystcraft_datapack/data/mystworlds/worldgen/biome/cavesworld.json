@@ -16,6 +16,10 @@
   "carvers": {
     "air": [
       "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:canyon",
       "minecraft:cave"
     ]
   },
@@ -29,7 +33,15 @@
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_lapis",
-      "minecraft:ore_emerald"
+      "minecraft:ore_emerald",
+      "mystworlds:ore_diamond_extra",
+      "mystworlds:ore_iron_extra",
+      "mystworlds:ore_diamond_extra",
+      "mystworlds:ore_iron_extra",
+      "mystworlds:ore_lapis_extra",
+      "mystworlds:ore_iron_extra",
+      "mystworlds:ore_coal_extra",
+      "mystworlds:ore_coal_extra"
     ],
     [
     ],
@@ -55,8 +67,7 @@
     ],
     [],
     [
-      "minecraft:ore_diamond",
-      "minecraft:ore_redstone"
+      "minecraft:ore_diamond"
     ],
     []
   ],

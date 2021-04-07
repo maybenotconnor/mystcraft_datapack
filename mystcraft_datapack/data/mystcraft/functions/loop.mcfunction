@@ -1,17 +1,21 @@
 
 function mystcraft:teleports
 
-#run craft as dropped book
-execute as @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}}] at @s run function mystcraft:crafting
+#run link craft as dropped book
+execute as @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}}] at @s run function mystcraft:crafting/crafting
+
+#run dim craft as dropped book quill
+execute as @e[type=item,nbt={Item:{id:"minecraft:writable_book",Count:1b}}] at @s run function mystcraft:crafting/dimcrafting
 
 #functions for crafted link book
 execute as @e[type=item,nbt={Item:{tag:{fresh_link:1b}}}] at @s run function mystcraft:linkbook/link_crafting
 
 #remove fresh crafts
-execute as @e[tag=fresh_craft] at @s run function mystcraft:crafting_remove
+execute as @e[tag=fresh_craft] at @s run function mystcraft:crafting/crafting_remove
 
 #comment out this line if in multiplayer/LAN:
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book"}}] run function mystcraft:enabletriggers
+
 
 execute as @a[scores={bookuse=1..}] run function mystcraft:enabletriggers
 execute as @a[scores={lecternuse=1..}] run function mystcraft:enabletriggers
