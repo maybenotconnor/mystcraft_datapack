@@ -40,6 +40,9 @@ scoreboard objectives add linkbookuse minecraft.used:minecraft.carrot_on_a_stick
 #Skull Book Init
 scoreboard objectives add skullbookuse minecraft.used:minecraft.carrot_on_a_stick
 
+#PlayerBook Init
+scoreboard objectives add playerbookuse minecraft.used:minecraft.carrot_on_a_stick
+
 #Player Walking Init
 scoreboard objectives add walking minecraft.custom:minecraft.walk_one_cm
 
@@ -54,8 +57,21 @@ scoreboard objectives add deathX dummy
 scoreboard objectives add deathY dummy
 scoreboard objectives add deathZ dummy
 scoreboard objectives add deathDim dummy
-
 scoreboard objectives add death_lastUsed dummy
 scoreboard objectives add mystdeaths deathCount
+
+#playerbook uuids
+scoreboard objectives add uuid_self_0 dummy
+scoreboard objectives add uuid_self_1 dummy
+scoreboard objectives add uuid_self_2 dummy
+scoreboard objectives add uuid_self_3 dummy
+
+scoreboard objectives add uuid_tp_0 dummy
+scoreboard objectives add uuid_tp_1 dummy
+scoreboard objectives add uuid_tp_2 dummy
+scoreboard objectives add uuid_tp_3 dummy
+
+#when player leaves (unused)
+scoreboard objectives add offline minecraft.custom:minecraft.leave_game
 
 say Mystcraft Initialized!
