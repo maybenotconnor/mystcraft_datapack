@@ -5,7 +5,6 @@
  },
 
  "overrides": [
-  { "predicate": {"custom_model_data": 691}, "model": "item/worldbook"},
   { "predicate": {"custom_model_data": 670}, "model": "item/pocketbook"},
   { "predicate": {"custom_model_data": 671}, "model": "item/cavesbook"},
   { "predicate": {"custom_model_data": 672}, "model": "item/wastelandbook"},
@@ -15,7 +14,8 @@
   { "predicate": {"custom_model_data": 678}, "model": "item/archibook"},
   { "predicate": {"custom_model_data": 679}, "model": "item/sanctuarybook"},
   { "predicate": {"custom_model_data": 680}, "model": "item/overworldbook"},
-  { "predicate": {"custom_model_data": 681}, "model": "item/guidebook"}
+  { "predicate": {"custom_model_data": 681}, "model": "item/guidebook"},
+  { "predicate": {"custom_model_data": 691}, "model": "item/worldbook"}
 
  ]
 
