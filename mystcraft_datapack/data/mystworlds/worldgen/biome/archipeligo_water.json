@@ -46,7 +46,8 @@
     [
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",
-      "minecraft:plain_vegetation"
+      "minecraft:plain_vegetation",
+      "minecraft:oak"
     ],
     [
       "minecraft:freeze_top_layer"

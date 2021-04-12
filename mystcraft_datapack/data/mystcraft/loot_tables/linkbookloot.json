@@ -22,7 +22,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{HideFlags:6,Unbreakable:1b,CustomModelData:196312,linkbook:1b,fresh_link:1b}"
+                "tag": "{HideFlags:6,Unbreakable:1b,CustomModelData:696312,linkbook:1b,fresh_link:1b}"
               },
               {
                 "function": "minecraft:copy_nbt",

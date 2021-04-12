@@ -1,7 +1,7 @@
 scoreboard players add @s teleporting 1
 
 #drops dummy item
-execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedlink"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Linking Book","italic":false,"color":"green"}',Lore:['{"text":"Go Home"}']},HideFlags:6,Unbreakable:1b,CustomModelData:196312,linkbook:1b}}}
+execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedlink"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Linking Book","italic":false,"color":"green"}',Lore:['{"text":"Go Home"}']},HideFlags:6,Unbreakable:1b,CustomModelData:696312,linkbook:1b}}}
 
 #copies held nbt data to dropped dummy
 data modify entity @e[type=item,limit=1,distance=..5,tag=droppedlink] Item set from entity @s SelectedItem

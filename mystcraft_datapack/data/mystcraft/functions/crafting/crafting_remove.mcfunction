@@ -12,6 +12,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:apple",Count:1b}},sort=nearest,limit=
 #kill @e[type=item,nbt={Item:{id:"minecraft:snowball",Count:1b}},sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:crying_obsidian",Count:1b}},sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:player_head",Count:1b}},sort=nearest,limit=1]
+kill @e[type=item,nbt={Item:{id:"minecraft:shears",Count:1b}},sort=nearest,limit=1]
 
 playsound minecraft:item.book.page_turn master @p
 particle enchanted_hit ~ ~ ~ 1 1 1 .05 10 normal

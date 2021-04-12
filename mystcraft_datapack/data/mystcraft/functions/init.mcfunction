@@ -43,6 +43,13 @@ scoreboard objectives add skullbookuse minecraft.used:minecraft.carrot_on_a_stic
 #PlayerBook Init
 scoreboard objectives add playerbookuse minecraft.used:minecraft.carrot_on_a_stick
 
+#Torn Book Init
+scoreboard objectives add tornbookuse minecraft.used:minecraft.carrot_on_a_stick
+
+#Random Time Init
+scoreboard objectives add time dummy
+scoreboard objectives add time_div dummy
+
 #Player Walking Init
 scoreboard objectives add walking minecraft.custom:minecraft.walk_one_cm
 
