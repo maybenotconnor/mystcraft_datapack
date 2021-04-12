@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Player Book\",\"color\":\"red\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:689,playerbook:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Player Book\",\"color\":\"red\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:789689,playerbook:1b}"
             },
             {
               "function": "minecraft:copy_nbt",

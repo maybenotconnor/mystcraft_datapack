@@ -20,7 +20,7 @@ execute as @a if score @s uuid_self_0 = $playertp uuid_tp_0 if score @s uuid_sel
 scoreboard players add @s teleporting 1
 
 #drops dummy item
-execute at @s[nbt={SelectedItem:{tag:{playerbook:1b}}}] run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedbook"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"PlayerBook","color":"Black","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'},HideFlags:7,CustomModelData:689}}}
+execute at @s[nbt={SelectedItem:{tag:{playerbook:1b}}}] run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedbook"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"PlayerBook","color":"Black","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'},HideFlags:7,CustomModelData:789689}}}
 
 #copies held nbt data to dropped dummy
 data modify entity @e[type=item,limit=1,distance=..5,tag=droppedbook] Item set from entity @s[nbt={SelectedItem:{tag:{playerbook:1b}}}] SelectedItem
