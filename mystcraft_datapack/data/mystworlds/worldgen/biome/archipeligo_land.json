@@ -8,11 +8,18 @@
     "grass_color": 49408
   },
   "carvers": {
-    "air": []
+    "air": [],
+    "liquid": [
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave"
+    ]
   },
   "starts": [
     "minecraft:shipwreck_beached",
-    "minecraft:buried_treasure"
+    "minecraft:buried_treasure",
+    "mystworlds:archi_iceberg"
   ],
   "features": [
     [],

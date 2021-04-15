@@ -8,7 +8,7 @@
       "Name": "minecraft:grass_block"
     },
     "under_material": {
-      "Name": "minecraft:ice"
+      "Name": "minecraft:packed_ice"
     },
     "underwater_material": {
       "Name": "minecraft:gravel"

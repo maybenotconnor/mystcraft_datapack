@@ -1,4 +1,4 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{archibook:1b}}}] run scoreboard players enable @s archipeligotele
+execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{archipeligobook:1b}}}] run scoreboard players enable @s archipeligotele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{cavebook:1b}}}] run scoreboard players enable @s cavetele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{icebook:1b}}}] run scoreboard players enable @s icetele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{overworldbook:1b}}}] run scoreboard players enable @s overworldtele
