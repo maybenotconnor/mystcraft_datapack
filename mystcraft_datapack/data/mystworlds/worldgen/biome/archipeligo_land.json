@@ -5,7 +5,7 @@
     "water_color": 2384383,
     "water_fog_color": 1591456,
     "foliage_color": 358947,
-    "grass_color": 49408
+    "grass_color": 39206
   },
   "carvers": {
     "air": [],
@@ -131,9 +131,9 @@
   "category": "forest",
   "precipitation": "rain",
   "surface_builder": "minecraft:grass",
-  "scale": 0.4,
-  "downfall": 0.4,
-  "depth": 0.12,
+  "scale": 0.5,
+  "downfall": 1.0,
+  "depth": 0.4,
   "temperature": 0.5,
   "player_spawn_friendly": true,
   "spawn_costs": {}

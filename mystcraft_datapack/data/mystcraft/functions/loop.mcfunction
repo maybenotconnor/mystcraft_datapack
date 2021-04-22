@@ -1,5 +1,6 @@
 function mystcraft:teleports
 
+
 #run link craft as dropped book
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}}] at @s run function mystcraft:crafting/crafting
 

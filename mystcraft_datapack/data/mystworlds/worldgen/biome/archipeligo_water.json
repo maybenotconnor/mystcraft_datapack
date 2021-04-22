@@ -5,7 +5,7 @@
     "water_color": 2384383,
     "water_fog_color": 1591456,
     "foliage_color": 358947,
-    "grass_color": 49408
+    "grass_color": 39206
   },
   "carvers": {
     "air": [],
@@ -47,7 +47,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",
       "minecraft:plain_vegetation",
-      "minecraft:oak"
+      "minecraft:dark_oak",
+      "minecraft:plain_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -102,7 +103,7 @@
   "precipitation": "rain",
   "surface_builder": "minecraft:grass",
   "scale": 0.3,
-  "downfall": 0.4,
+  "downfall": 1.0,
   "depth": -1.5,
   "temperature": 0.5,
   "player_spawn_friendly": false,

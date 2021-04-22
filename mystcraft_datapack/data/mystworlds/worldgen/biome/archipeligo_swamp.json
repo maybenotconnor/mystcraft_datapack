@@ -5,7 +5,7 @@
     "water_color": 2384383,
     "water_fog_color": 1591456,
     "foliage_color": 6975545,
-    "grass_color": 49408
+    "grass_color": 29982
   },
   "carvers": {
     "air": []
@@ -120,7 +120,7 @@
   "precipitation": "rain",
   "surface_builder": "minecraft:swamp",
   "scale": 0.1,
-  "downfall": 0.8,
+  "downfall": 0.4,
   "depth": 0,
   "temperature": 0.5,
   "player_spawn_friendly": true,

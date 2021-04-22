@@ -7,7 +7,7 @@ execute at @p[distance=0..15] run effect give @p resistance 10 10 true
 execute at @p[distance=0..15] run fill ~ ~ ~ ~ ~1 ~ minecraft:air destroy
 
 #clear triggers
-execute as @a[scores={teleporting=1..}] run function mystcraft:disabletriggers
+execute as @a[scores={teleporting=1..}] run function mystcraft:triggers/disabletriggers
 
 #Clear Teleporting Tag
 scoreboard players remove @a[scores={teleporting=1..}] teleporting 1
