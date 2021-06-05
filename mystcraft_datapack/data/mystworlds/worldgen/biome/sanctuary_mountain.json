@@ -21,9 +21,7 @@
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:canyon"
-    ]
+    "liquid": []
   },
   "starts": [],
   "features": [
@@ -143,7 +141,7 @@
       }
     ]
   },
-  "category": "plains",
+  "category": "forest",
   "precipitation": "rain",
   "surface_builder": "mystworlds:sanctuary",
   "scale": 1.6,

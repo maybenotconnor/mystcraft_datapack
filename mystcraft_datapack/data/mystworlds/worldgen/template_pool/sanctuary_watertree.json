@@ -1,0 +1,15 @@
+{
+    "name": "sanctuary_watertree",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "mystworlds:sanctuary_watertree",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

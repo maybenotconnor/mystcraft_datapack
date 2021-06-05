@@ -35,10 +35,10 @@
     "minecraft:mineshaft",
     "minecraft:mineshaft_mesa",
     "minecraft:desert_pyramid",
-    "minecraft:village_desert",
     "minecraft:ruined_portal",
     "minecraft:ruined_portal_desert",
-    "mystworlds:waste_tower"
+    "mystworlds:waste_tower",
+    "minecraft:nether_fossil"
   ],
   "features": [
     [],

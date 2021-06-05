@@ -41,9 +41,10 @@
   ],
   "starts": [
     "minecraft:village_plains",
+    "mystworlds:village_shrine",
     "minecraft:village_savanna",
     "minecraft:village_taiga",
-    "minecraft:village_snovy"
+    "minecraft:village_snowy"
   ],
   "spawners": {
     "monster": [],

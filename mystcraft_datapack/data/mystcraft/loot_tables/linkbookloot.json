@@ -220,6 +220,60 @@
                 "entity": "this",
                 "lore": [
                   {
+                    "text": "Rock Age",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:rock"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "The Warrens",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:warrendimension"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Skylands",
+                    "italic": false
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "mystworlds:skylanddimension"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
                     "text": "Pocket Dimension",
                     "italic": false
                   }

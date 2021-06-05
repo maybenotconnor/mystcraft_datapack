@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 4
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "maximum": 128,
+                "bottom_offset": 0,
+                "top_offset": 0
+              }
+            },
+            "feature": {
+              "type": "minecraft:block_pile",
+              "config": {
+                "state_provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:white_wool"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

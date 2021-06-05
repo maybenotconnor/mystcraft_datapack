@@ -32,16 +32,18 @@
     ]
   },
   "starts": [
-    "mystworlds:pillager_outpost",
+    "minecraft:pillager_outpost",
     "minecraft:mineshaft",
     "minecraft:desert_pyramid",
-    "minecraft:village_desert",
+    "minecraft:village_savanna",
     "minecraft:ruined_portal",
-    "minecraft:ruined_portal_desert"
+    "minecraft:ruined_portal_desert",
+    "minecraft:nether_fossil"
   ],
   "features": [
     [],
     [
+      "minecraft:lake_lava",
       "minecraft:lake_lava",
       "minecraft:ore_gold",
       "minecraft:ore_gold_extra"
@@ -90,7 +92,8 @@
       "minecraft:ore_blackstone",
       "minecraft:mushroom_field_vegetation",
       "minecraft:ore_gold",
-      "minecraft:ore_gold_extra"
+      "minecraft:ore_gold_extra",
+      "mystworlds:pile_terracotta"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -168,9 +171,9 @@
       }
     ]
   },
-  "category": "mesa",
+  "category": "desert",
   "precipitation": "none",
-  "surface_builder": "minecraft:badlands",
+  "surface_builder": "mystworlds:wasteland_desert",
   "scale": 0.05,
   "downfall": 0.4,
   "depth": 0.1,

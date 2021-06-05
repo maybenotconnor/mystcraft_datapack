@@ -1,0 +1,7 @@
+{
+  "config": {
+    "start_pool": "mystworlds:village_shrine",
+    "size": 1
+  },
+  "type": "minecraft:bastion_remnant"
+}

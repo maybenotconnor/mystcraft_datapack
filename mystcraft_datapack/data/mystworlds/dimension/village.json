@@ -9,6 +9,11 @@
             "spacing": 6,
             "separation": 2,
             "salt": 0
+          },
+          "minecraft:bastion_remnant": {
+            "spacing": 13,
+            "separation": 9,
+            "salt": 0
           }
         }
       },
@@ -18,12 +23,12 @@
           "height": 1
         },
         {
-          "block": "minecraft:dirt",
-          "height": 8
-        },
-        {
           "block": "minecraft:stone",
           "height": 60
+        },
+        {
+          "block": "minecraft:dirt",
+          "height": 8
         },
         {
           "block": "minecraft:grass_block",

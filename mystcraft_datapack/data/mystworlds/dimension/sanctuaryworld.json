@@ -56,7 +56,7 @@
         }
       ]
     },
-    "settings": "minecraft:overworld"
+    "settings": "mystworlds:sanctuaryworld"
   },
   "type": "mystworlds:sanctuary"
 }

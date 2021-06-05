@@ -1,0 +1,37 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": 0,
+    "settings": {
+      "structures": {
+        "structures": {
+          "minecraft:bastion_remnant": {
+            "spacing": 3,
+            "separation": 2,
+            "salt": 0
+          }
+        }
+      },
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:smooth_sandstone",
+          "height": 31
+        },
+        {
+          "block": "minecraft:light_gray_terracotta",
+          "height": 64
+        },
+        {
+          "block": "minecraft:smooth_sandstone",
+          "height": 160
+        }
+      ],
+      "biome": "mystworlds:warren"
+    }
+  },
+  "type": "mystworlds:warren"
+}

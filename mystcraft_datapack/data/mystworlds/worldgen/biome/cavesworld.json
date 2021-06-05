@@ -26,7 +26,8 @@
   "starts": [
     "minecraft:mineshaft",
     "minecraft:stronghold",
-    "minecraft:ruined_portal"
+    "minecraft:ruined_portal",
+    "mystworlds:caves_ball"
   ],
   "features": [
     [
@@ -86,13 +87,13 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "category": "icy",
+  "category": "none",
   "precipitation": "snow",
   "surface_builder": "minecraft:mountain",
   "scale": 0.2,
   "downfall": 0.4,
   "depth": 0.12,
-  "temperature": 0.2,
+  "temperature": 0.5,
   "player_spawn_friendly": true,
   "spawn_costs": {}
 }

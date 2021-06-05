@@ -1,0 +1,62 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 286956243,
+    "biome_source": {
+      "seed": 286956243,
+      "type": "minecraft:multi_noise",
+      "temperature_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "biomes": [
+        {
+          "biome": "mystworlds:skyland_forest",
+          "parameters": {
+            "altitude": 0.1,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 0.2,
+            "humidity": 0.4
+          }
+        },
+        {
+          "biome": "mystworlds:skyland_mountain",
+          "parameters": {
+            "altitude": 0.2,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 0.4,
+            "humidity": 0.3
+          }
+        }
+      ]
+    },
+    "settings": "mystworlds:skylanddimension"
+  },
+  "type": "minecraft:overworld"
+}

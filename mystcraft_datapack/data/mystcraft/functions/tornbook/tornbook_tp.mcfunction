@@ -7,8 +7,9 @@ scoreboard players operation $random time /= $random time_div
 replaceitem entity @s[nbt={SelectedItem:{tag:{tornbook:1b}}}] weapon air
 
 #spread player in dimension
-execute if score $random time matches ..2 in overworld run tp @s ~ 300 ~
-execute if score $random time matches 2..4 in the_nether run tp @s ~ 300 ~
+execute if score $random time matches 0..1 in overworld run tp @s ~ 300 ~
+execute if score $random time matches 1..2 in mystworlds:skylanddimension run tp @s ~ 300 ~
+execute if score $random time matches 2..3 in mystworlds:rock run tp @s ~ 300 ~
 execute if score $random time matches 3..4 in mystworlds:archipeligo run tp @s ~ 300 ~
 execute if score $random time matches 4..5 in mystworlds:ice run tp @s ~ 300 ~
 execute if score $random time matches 5..6 in mystworlds:volcanoworld run tp @s ~ 300 ~

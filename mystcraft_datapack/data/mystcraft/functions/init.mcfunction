@@ -28,6 +28,15 @@ scoreboard objectives add icetele trigger
 #Small Dimension Init
 scoreboard objectives add smalltele trigger
 
+#Stone Age Init
+scoreboard objectives add rocktele trigger
+
+#Warren Dimension Init
+scoreboard objectives add warrentele trigger
+
+#Skylands Init
+scoreboard objectives add skylandtele trigger
+
 #In Lectern Init
 scoreboard objectives add lecternuse minecraft.custom:minecraft.interact_with_lectern
 
@@ -79,6 +88,6 @@ scoreboard objectives add uuid_tp_2 dummy
 scoreboard objectives add uuid_tp_3 dummy
 
 #when player leaves (unused)
-scoreboard objectives add offline minecraft.custom:minecraft.leave_game
+#scoreboard objectives add offline minecraft.custom:minecraft.leave_game
 
 say Mystcraft Initialized!

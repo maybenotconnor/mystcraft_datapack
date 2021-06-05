@@ -113,20 +113,7 @@
       }
     ],
     "water_ambient": [],
-    "water_creature": [
-      {
-        "type": "minecraft:cod",
-        "minCount": 1,
-        "maxCount": 2,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:salmon",
-        "minCount": 1,
-        "maxCount": 2,
-        "weight": 1
-      }
-    ]
+    "water_creature": []
   },
   "category": "forest",
   "precipitation": "rain",

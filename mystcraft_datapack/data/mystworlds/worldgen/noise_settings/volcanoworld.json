@@ -6,19 +6,29 @@
   "structures": {
     "structures": {
       "minecraft:nether_fossil": {
-        "spacing": 2,
-        "separation": 1,
-        "salt": 14357921
+        "spacing": 5,
+        "separation": 2,
+        "salt": 0
       },
       "minecraft:pillager_outpost": {
         "spacing": 24,
-        "separation": 8,
+        "separation": 5,
         "salt": 0
       },
       "minecraft:desert_pyramid": {
         "spacing": 32,
-        "separation": 8,
-        "salt": 14357617
+        "separation": 27,
+        "salt": 0
+      },
+      "minecraft:village": {
+        "spacing": 32,
+        "separation": 20,
+        "salt": 0
+      },
+      "minecraft:ruined_portal": {
+        "spacing": 32,
+        "separation": 30,
+        "salt": 0
       },
       "minecraft:mineshaft": {
         "spacing": 1,
@@ -57,7 +67,7 @@
   "default_fluid": {
     "Name": "minecraft:lava",
     "Properties": {
-      "level": "6"
+      "level": "0"
     }
   }
 }

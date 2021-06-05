@@ -1,0 +1,55 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": 0,
+  "sea_level": 0,
+  "disable_mob_generation": false,
+  "structures": {
+    "structures": {
+      "minecraft:village": {
+        "spacing": 10,
+        "separation": 9,
+        "salt": 0
+      },
+      "minecraft:bastion_remnant": {
+        "spacing": 5,
+        "separation": 4,
+        "salt": 30084232
+      },
+      "minecraft:pillager_outpost": {
+        "spacing": 10,
+        "separation": 9,
+        "salt": 165745296
+      }
+    }
+  },
+  "noise": {
+    "height": 256,
+    "sampling": {
+      "xz_scale": 1,
+      "y_scale": 1,
+      "xz_factor": 80,
+      "y_factor": 160
+    },
+    "top_slide": {
+      "target": -10,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": -30,
+      "size": 0,
+      "offset": 0
+    },
+    "size_horizontal": 1,
+    "size_vertical": 2,
+    "density_factor": 1,
+    "density_offset": -0.47,
+    "simplex_surface_noise": true
+  },
+  "default_block": {
+    "Name": "minecraft:air"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  }
+}

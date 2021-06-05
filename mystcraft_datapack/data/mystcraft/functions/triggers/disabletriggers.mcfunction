@@ -10,6 +10,9 @@ trigger smalltele add 0
 trigger twilighttele add 0
 trigger villagetele add 0
 trigger volcanotele add 0
+trigger rocktele add 0
+trigger warrentele add 0
+trigger skylandtele add 0
 
 scoreboard players set @s walking 0
 scoreboard players set @s hastriggers 0

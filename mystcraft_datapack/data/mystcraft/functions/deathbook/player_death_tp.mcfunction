@@ -13,6 +13,9 @@ execute if score @s deathDim matches 23 in mystworlds:volcanoworld run tp @s ~ ~
 execute if score @s deathDim matches 14 in mystworlds:ice run tp @s ~ ~ ~
 execute if score @s deathDim matches 18 in mystworlds:village run tp @s ~ ~ ~
 execute if score @s deathDim matches 16 in mystworlds:small run tp @s ~ ~ ~
+execute if score @s deathDim matches 15 in mystworlds:rock run tp @s ~ ~ ~
+execute if score @s deathDim matches 26 in mystworlds:warrendimension run tp @s ~ ~ ~
+execute if score @s deathDim matches 27 in mystworlds:skylanddimension run tp @s ~ ~ ~
 
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["death_stand"],NoGravity:1b,Invisible:1b,Marker:1b}
 tag @s add death_player_tp

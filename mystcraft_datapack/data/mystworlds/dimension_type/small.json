@@ -12,7 +12,7 @@
   "coordinate_scale": 32,
   "min_y": 0,
   "height": 256,
-  "has_skylight": true,
+  "has_skylight": false,
   "has_ceiling": false,
   "fixed_time": 6000
 }

@@ -21,22 +21,19 @@
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:canyon"
-    ]
+    "liquid": []
   },
   "starts": [
-    "mystworlds:sanctuary_tree_oak_skinny",
-    "mystworlds:sanctuary_tree_oak_skinny",
-    "mystworlds:sanctuary_tree_oak_skinny"
+    "mystworlds:sanctuary_hole",
+    "mystworlds:sanctuary_watertree"
   ],
   "features": [
-    [
-      "minecraft:forest_flower_trees"
-    ],
+    [],
     [
       "minecraft:spring_delta",
-      "minecraft:lake_water"
+      "minecraft:lake_water",
+      "minecraft:disk_sand",
+      "minecraft:spring_water"
     ],
     [],
     [
@@ -55,14 +52,12 @@
       "minecraft:patch_grass_normal"
     ],
     [
-      "minecraft:disk_sand",
       "minecraft:ore_gravel",
       "minecraft:ore_diorite",
       "minecraft:ore_andesite"
     ],
     [],
     [
-      "minecraft:spring_water",
       "minecraft:patch_pumpkin",
       "minecraft:patch_grass_plain",
       "minecraft:patch_tall_grass_2",
@@ -70,7 +65,9 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:flower_plain_decorated",
-      "minecraft:plain_vegetation"
+      "minecraft:plain_vegetation",
+      "minecraft:forest_flower_vegetation",
+      "minecraft:forest_flower_trees"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -133,7 +130,7 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "category": "plains",
+  "category": "forest",
   "precipitation": "rain",
   "surface_builder": "mystworlds:sanctuary",
   "scale": 0.05,

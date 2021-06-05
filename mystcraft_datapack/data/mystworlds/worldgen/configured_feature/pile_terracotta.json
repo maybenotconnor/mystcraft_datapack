@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:decorated",
+      "name": "mystworlds:terracotta",
+      "config": {
+        "feature": {
+          "config": {
+            "state_provider": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "minecraft:red_terracotta"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:white_terracotta"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:orange_terracotta"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:yellow_terracotta"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:brown_terracotta"
+                  }
+                }
+              ]
+            }
+          },
+          "type": "minecraft:block_pile"
+        },
+        "decorator": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:chance",
+      "config": {
+        "chance": 2
+      }
+    }
+  }
+}

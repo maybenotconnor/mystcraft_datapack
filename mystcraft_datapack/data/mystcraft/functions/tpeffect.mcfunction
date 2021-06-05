@@ -4,7 +4,10 @@ execute at @p[distance=0..15] run particle minecraft:enchanted_hit ~ ~ ~ .4 .4 .
 execute at @p[distance=0..15] run particle minecraft:nautilus ~ ~ ~ .4 .4 .4 1 100 normal @a
 
 execute at @p[distance=0..15] run effect give @p resistance 10 10 true
-execute at @p[distance=0..15] run fill ~ ~ ~ ~ ~1 ~ minecraft:air destroy
+
+#clear blocks
+execute at @p[distance=0..15] unless block ~ ~ ~ #mystcraft:non-solid run fill ~ ~ ~ ~ ~ ~ minecraft:air destroy
+execute at @p[distance=0..15] unless block ~ ~1 ~ #mystcraft:non-solid run fill ~ ~1 ~ ~ ~1 ~ minecraft:air destroy
 
 #clear triggers
 execute as @a[scores={teleporting=1..}] run function mystcraft:triggers/disabletriggers

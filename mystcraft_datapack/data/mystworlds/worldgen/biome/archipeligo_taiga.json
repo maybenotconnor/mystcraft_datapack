@@ -1,0 +1,135 @@
+{
+  "effects": {
+    "sky_color": 6410748,
+    "fog_color": 936423,
+    "water_color": 2384383,
+    "water_fog_color": 1591456,
+    "foliage_color": 16762930
+  },
+  "carvers": {
+    "air": [],
+    "liquid": [
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave",
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave"
+    ]
+  },
+  "starts": [
+    "minecraft:shipwreck_beached",
+    "minecraft:buried_treasure",
+    "mystworlds:archi_iceberg"
+  ],
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:spruce",
+      "minecraft:pine",
+      "minecraft:birch",
+      "mystworlds:tree_spruce_max",
+      "mystworlds:tree_spruce_oakleaf"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_lapis"
+    ],
+    [],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_savanna",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "minCount": 1,
+        "maxCount": 10,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:fox",
+        "minCount": 1,
+        "maxCount": 10,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:cat",
+        "minCount": 1,
+        "maxCount": 10,
+        "weight": 6
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": [
+      {
+        "type": "minecraft:cod",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:salmon",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      }
+    ]
+  },
+  "category": "taiga",
+  "precipitation": "rain",
+  "surface_builder": "minecraft:grass",
+  "scale": 0.45,
+  "downfall": 0.8,
+  "depth": 0.4,
+  "temperature": 0.3,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
+}
+
+

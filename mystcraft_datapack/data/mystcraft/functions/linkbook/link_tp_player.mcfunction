@@ -18,6 +18,9 @@ execute if data entity @s {SelectedItem:{tag:{WarpDim:23s}}} in mystworlds:volca
 execute if data entity @s {SelectedItem:{tag:{WarpDim:14s}}} in mystworlds:ice run tp @s ~ ~ ~
 execute if data entity @s {SelectedItem:{tag:{WarpDim:18s}}} in mystworlds:village run tp @s ~ ~ ~
 execute if data entity @s {SelectedItem:{tag:{WarpDim:16s}}} in mystworlds:small run tp @s ~ ~ ~
+execute if data entity @s {SelectedItem:{tag:{WarpDim:15s}}} in mystworlds:rock run tp @s ~ ~ ~
+execute if data entity @s {SelectedItem:{tag:{WarpDim:26s}}} in mystworlds:warrendimension run tp @s ~ ~ ~
+execute if data entity @s {SelectedItem:{tag:{WarpDim:27s}}} in mystworlds:skylanddimension run tp @s ~ ~ ~
 
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["link_stand"],NoGravity:1b,Invisible:1b,Marker:1b}
 tag @s add link_teleporting

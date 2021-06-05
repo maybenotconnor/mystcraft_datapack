@@ -1,0 +1,1 @@
+execute at @a as @a[nbt={Dimension:"mystworlds:skylanddimension"},y=-10,dy=-60] run function mystcraft:vertical/skyland_vertical
