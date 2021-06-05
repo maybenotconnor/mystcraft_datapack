@@ -18,6 +18,9 @@ You can also craft link books to teleport you to where they were crafted.
 - Sanctuary
 - Ice Age
 - Pocket Dimension
+- Skylands
+- Rock Age
+- Warrens
 
 (descriptions can be found in the in-game guide)
 #### In-Game Guide:
@@ -37,6 +40,6 @@ If other datapack developers are interested, feel free to implement these below:
 - If running on a server, you can comment out a line dealing with teleport trigger permissions in data/mystcraft/loop.mcfunction 
 This will protect against teleporting to a dimension without the proper book, but does not work in singleplayer due to the game pausing when a book is opened
 - This is not compatible with spigot servers, as custom dimensions are stored differently
-- Designed on Java version 1.16.5, probably works with all of 1.16, but is untested with 1.17 snapshots. I will update on release.
+- Designed on Java version 1.16.5, probably works with all of 1.16, but is untested with 1.17. I will update asap.
 
 Thanks to Vanilla Tweaks and the Minecraft Commands subreddit/discord for helping this datapack become a reality.
