@@ -110,7 +110,7 @@
   "precipitation": "rain",
   "surface_builder": "minecraft:grass",
   "scale": 0.3,
-  "downfall": 1.0,
+  "downfall": 1,
   "depth": -1.5,
   "temperature": 0.5,
   "player_spawn_friendly": false,

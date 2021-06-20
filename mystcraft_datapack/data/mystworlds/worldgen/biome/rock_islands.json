@@ -50,13 +50,23 @@
       "minecraft:ore_coal"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal",
+      "mystworlds:ore_coal_extra"
     ],
     [
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
       "minecraft:ore_andesite",
-      "minecraft:ore_coal"
+      "minecraft:ore_coal",
+
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:dripleaf",
+
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate"
     ],
     [],
     [

@@ -1,7 +1,7 @@
 {
   "generator": {
     "type": "minecraft:flat",
-    "seed":0,
+    "seed": 0,
     "settings": {
       "structures": {
         "structures": {
@@ -35,7 +35,7 @@
           "height": 1
         }
       ],
-      "biome": "mystworlds:villageworld"
+      "biome": "mystworlds:village_plains"
     }
   },
   "type": "mystworlds:villageworld"

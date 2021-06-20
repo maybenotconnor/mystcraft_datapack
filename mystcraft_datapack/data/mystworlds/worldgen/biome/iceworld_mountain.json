@@ -58,7 +58,8 @@
       "minecraft:pile_ice"
     ],
     [
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+      "mystworlds:pile_powder"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -73,7 +74,19 @@
         "maxCount": 8
       }
     ],
-    "creature": [],
+    "creature": [      
+      {
+      "type": "minecraft:goat",
+      "weight": 2,
+      "minCount": 3,
+      "maxCount": 6
+    },
+    {
+      "type": "minecraft:llama",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }],
     "misc": [],
     "monster": [
       {
@@ -98,7 +111,7 @@
   "scale": 0.8,
   "downfall": 0.4,
   "depth": 0.3,
-  "temperature": 0.0,
+  "temperature": 0,
   "player_spawn_friendly": true,
   "spawn_costs": {}
 }

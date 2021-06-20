@@ -11,5 +11,7 @@
     "ambient_light": 0.03,
     "fixed_time": 13900,
     "logical_height": 256,
+    "min_y": 0,
+    "height": 256,
     "infiniburn": "minecraft:infiniburn_overworld"
 }

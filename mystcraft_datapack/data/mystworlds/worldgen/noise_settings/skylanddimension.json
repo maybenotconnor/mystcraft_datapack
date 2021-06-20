@@ -1,6 +1,6 @@
 {
   "disable_mob_generation": false,
-  "bedrock_floor_position": -20,
+  "bedrock_floor_position": -2147483648,
   "sea_level": 0,
   "default_block": {
     "Name": "minecraft:diorite"
@@ -11,7 +11,7 @@
     },
     "Name": "minecraft:water"
   },
-  "bedrock_roof_position": -20,
+  "bedrock_roof_position": -2147483648,
   "structures": {
     "stronghold": {
       "distance": 32,
@@ -50,8 +50,8 @@
         "salt": 14357921
       },
       "minecraft:bastion_remnant": {
-        "spacing": 19,
-        "separation": 10,
+        "spacing": 20,
+        "separation": 16,
         "salt": 30084232
       },
       "minecraft:mineshaft": {
@@ -114,8 +114,8 @@
   "noise": {
     "simplex_surface_noise": true,
     "size_vertical": 1,
-    "density_factor": 0.0,
-    "density_offset": 0.0,
+    "density_factor": 0,
+    "density_offset": 0,
     "top_slide": {
       "target": -255,
       "size": 64,
@@ -127,13 +127,19 @@
       "offset": 3
     },
     "size_horizontal": 2,
-    "min_y": 64,
+    "min_y": 0,
     "height": 128,
     "sampling": {
-      "xz_scale": 4.0,
-      "y_scale": 3.0,
-      "xz_factor": 50.0,
-      "y_factor": 100.0
+      "xz_scale": 4,
+      "y_scale": 3,
+      "xz_factor": 50,
+      "y_factor": 100
     }
-  }
+  },
+  "min_surface_level": 0,
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false
 }

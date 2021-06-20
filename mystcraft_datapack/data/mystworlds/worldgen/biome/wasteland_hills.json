@@ -49,7 +49,16 @@
       "minecraft:ore_gold_extra"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:dripleaf",
+
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate"
     ],
     [
       "minecraft:ore_gold_extra",
@@ -172,7 +181,7 @@
   "scale": 0.4,
   "downfall": 0.4,
   "depth": 0.4,
-  "temperature": 2.0,
+  "temperature": 2,
   "player_spawn_friendly": true,
   "spawn_costs": {}
 }

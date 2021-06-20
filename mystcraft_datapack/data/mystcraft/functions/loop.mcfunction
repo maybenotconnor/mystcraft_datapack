@@ -28,6 +28,3 @@ execute as @a[scores={walking=50..,hastriggers=1..}] run function mystcraft:trig
 #store player death point
 execute as @a[scores={mystdeaths=1..}] at @s run function mystcraft:deathbook/get_death_point
 scoreboard players set @a mystdeaths 0
-
-
-execute as @a[scores={teleporting=1..}] at @s run function mystcraft:tpeffect

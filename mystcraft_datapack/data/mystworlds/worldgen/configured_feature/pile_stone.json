@@ -19,7 +19,9 @@
             },
             "inner": {
               "type": "minecraft:heightmap",
-              "config": {}
+              "config": {
+                "heightmap": "MOTION_BLOCKING"
+              }
             }
           }
         },

@@ -1,0 +1,3 @@
+execute if entity @e[type=marker,tag=myst.death.marker,sort=nearest,limit=1] as @p[tag=myst.death.tping] run function mystcraft:deathbook/late_player
+execute if entity @e[type=marker,tag=myst.death.marker,sort=nearest,limit=1] as @e[type=marker,tag=myst.death.marker,sort=nearest,limit=1] run function mystcraft:deathbook/late_marker
+execute unless entity @e[type=marker,tag=myst.death.marker,sort=nearest,limit=1] run schedule function mystcraft:deathbook/search 1t append

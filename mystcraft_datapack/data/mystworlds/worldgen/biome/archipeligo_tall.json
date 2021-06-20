@@ -121,7 +121,7 @@
   "surface_builder": "minecraft:swamp",
   "scale": 0.01,
   "downfall": 0.4,
-  "depth": -0.2,
+  "depth": -0.3,
   "temperature": 0.5,
   "player_spawn_friendly": true,
   "spawn_costs": {}

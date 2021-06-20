@@ -5,7 +5,7 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "sky_color": 11067647,
     "fog_color": 12706303,
@@ -32,7 +32,6 @@
     [],
     [],
     [
-
       "minecraft:monster_room"
     ],
     [],

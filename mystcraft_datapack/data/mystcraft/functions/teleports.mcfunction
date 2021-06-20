@@ -5,21 +5,18 @@ execute as @a[scores={mystguide=1..}] at @s run give @s written_book{display:{Na
 scoreboard players remove @a[scores={mystguide=1..}] mystguide 1
 
 #Link Book Teleport
-execute as @a[scores={linkbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{linkbook:1b}}}] at @s run function mystcraft:linkbook/link_tp_player
-scoreboard players remove @a[scores={linkbookuse=1..}] linkbookuse 1
+execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{linkbook:1b}}}] at @s run function mystcraft:linkbook/pre_player
 
 #Skull Book Teleport
 scoreboard players add @a deathY 0
-execute as @a[scores={skullbookuse=1..,death_lastUsed=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{skullbook:1b}}}] in overworld at @s unless score @s deathY matches 0 run function mystcraft:deathbook/player_death_tp
-scoreboard players remove @a[scores={skullbookuse=1..}] skullbookuse 1
+execute as @a[scores={carrotbookuse=1..,death_lastUsed=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{skullbook:1b}}}] at @s unless score @s deathY matches 0 run function mystcraft:deathbook/pre_player
 
 #PlayerBook Teleport
-execute as @a[scores={playerbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{playerbook:1b}}}] at @s run function mystcraft:playerbook/playerbook_tp
-scoreboard players remove @a[scores={playerbookuse=1..}] playerbookuse 1
+execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{playerbook:1b}}}] at @s run function mystcraft:playerbook/playerbook_tp
 
 #Torn Book Teleport
-execute as @a[scores={tornbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{tornbook:1b}}}] at @s run function mystcraft:tornbook/tornbook_tp
-scoreboard players remove @a[scores={tornbookuse=1..}] tornbookuse 1
+execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{tornbook:1b}}}] at @s run function mystcraft:tornbook/tornbook_tp
+scoreboard players remove @a[scores={carrotbookuse=1..}] carrotbookuse 1
 
 #Cave Dimension Teleport
 execute as @a[scores={cavetele=1..}] at @s run function mystcraft:dim_teles/func_cave

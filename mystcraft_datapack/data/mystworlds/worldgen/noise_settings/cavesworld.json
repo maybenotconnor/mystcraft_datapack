@@ -16,8 +16,8 @@
         "salt": 0
       },
       "minecraft:bastion_remnant": {
-        "spacing": 10,
-        "separation": 8,
+        "spacing": 16,
+        "separation": 13,
         "salt": 0
       }
     },
@@ -50,7 +50,8 @@
     "density_factor": 0,
     "density_offset": 0.019921875,
     "simplex_surface_noise": false,
-    "amplified":false
+    "amplified": false,
+    "min_y": 0
   },
   "default_block": {
     "Name": "minecraft:stone"
@@ -60,5 +61,11 @@
       "level": "0"
     },
     "Name": "minecraft:lava"
-  }
+  },
+  "min_surface_level": 0,
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false
 }

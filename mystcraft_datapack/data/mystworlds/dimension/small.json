@@ -1,7 +1,7 @@
 {
   "generator": {
     "type": "minecraft:flat",
-    "seed":0,
+    "seed": 0,
     "settings": {
       "structures": {
         "structures": {}

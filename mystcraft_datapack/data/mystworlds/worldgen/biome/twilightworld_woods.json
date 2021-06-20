@@ -41,16 +41,16 @@
     "mystworlds:nightmare_portal"
   ],
   "features": [
-    [
-    ],
+    [],
     [
       "minecraft:lake_water",
       "minecraft:chorus_plant",
-      "minecraft:red_mushroom_giant",
-      "minecraft:brown_mushroom_giant",
       "minecraft:ice_patch",
       "minecraft:ore_infested",
-      "minecraft:ore_blackstone"
+      "minecraft:ore_blackstone",
+      "minecraft:mega_spruce",
+      "minecraft:mega_pine",
+      "minecraft:pine"
     ],
     [],
     [],
@@ -63,42 +63,50 @@
     [
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:disk_sand",
-      "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
-      "minecraft:ore_diamond"
+      "minecraft:ore_diamond",
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
+      "minecraft:amethyst_geode",
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:patch_waterlilly"
     ],
     [
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis",
+      "minecraft:patch_large_fern",
+      "minecraft:glow_lichen",
+      "minecraft:trees_giant",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_giant",
+      "minecraft:red_mushroom_giant",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:red_mushroom_giant",
-      "minecraft:brown_mushroom_giant",
-      "minecraft:ore_lapis",
-      "minecraft:seagrass_swamp",
-      "minecraft:mega_spruce",
-      "minecraft:mega_pine",
-      "minecraft:pine",
-      "minecraft:mushroom_field_vegetation",
-      "minecraft:patch_grass_forest",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:flower_default"
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:mushroom_field_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "spawners": {
-    "ambient": [
-    ],
+    "ambient": [],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -155,12 +163,12 @@
   "scale": 0.4,
   "downfall": 0.4,
   "depth": 0.1,
-  "temperature": 0.2,
+  "temperature": 0.19,
   "player_spawn_friendly": true,
   "spawn_costs": {
     "minecraft:phantom": {
       "energy_budget": 0.12,
-      "charge": 1.0
+      "charge": 1
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "bedrock_roof_position": -10,
+  "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": 0,
   "sea_level": 63,
   "disable_mob_generation": false,
@@ -59,7 +59,8 @@
     "size_vertical": 2,
     "density_factor": 1,
     "density_offset": -0.47,
-    "simplex_surface_noise": true
+    "simplex_surface_noise": true,
+    "min_y": 0
   },
   "default_block": {
     "Name": "minecraft:andesite"
@@ -69,5 +70,11 @@
     "Properties": {
       "level": "0"
     }
-  }
+  },
+  "min_surface_level": 0,
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false
 }

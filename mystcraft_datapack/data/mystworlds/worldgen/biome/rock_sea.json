@@ -74,7 +74,7 @@
   "surface_builder": "minecraft:stone",
   "scale": -0.05,
   "downfall": 0.4,
-  "depth": -1.0,
+  "depth": -1,
   "temperature": 0.8,
   "player_spawn_friendly": false,
   "spawn_costs": {}

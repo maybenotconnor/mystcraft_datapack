@@ -8,7 +8,9 @@
     "has_skylight": true,
     "has_ceiling": false,
     "coordinate_scale": 1,
-    "ambient_light": 0.0,
+    "ambient_light": 0,
     "logical_height": 256,
+    "height": 256,
+    "min_y": 0,
     "infiniburn": "minecraft:infiniburn_nether"
 }

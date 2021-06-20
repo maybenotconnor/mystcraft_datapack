@@ -6,22 +6,33 @@
           "config": {
             "feature": {
               "config": {
-                "target": {
-                  "tag": "minecraft:base_stone_overworld",
-                  "predicate_type": "minecraft:tag_match"
-                },
-                "state": {
-                  "Name": "minecraft:iron_ore"
-                },
-                "size": 9
+                "size": 9,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "tag": "minecraft:base_stone_overworld",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:iron_ore"
+                    }
+                  }
+                ]
               },
               "type": "minecraft:ore"
             },
             "decorator": {
               "config": {
-                "bottom_offset": 32,
-                "top_offset": 32,
-                "maximum": 250
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 32
+                  },
+                  "max_inclusive": {
+                    "absolute": 249
+                  }
+                }
               },
               "type": "minecraft:range"
             }

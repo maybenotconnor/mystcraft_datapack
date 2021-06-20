@@ -4,7 +4,7 @@ scoreboard players set $random time_div 3000
 scoreboard players operation $random time /= $random time_div
 
 #Removes Book on Use
-replaceitem entity @s[nbt={SelectedItem:{tag:{tornbook:1b}}}] weapon air
+item replace entity @s weapon.mainhand with minecraft:air
 
 #spread player in dimension
 execute if score $random time matches 0..1 in overworld run tp @s ~ 300 ~
@@ -18,6 +18,6 @@ execute if score $random time matches 7.. in the_end run tp @s ~ 300 ~
 
 execute at @s run spreadplayers 0 0 50 10000 false @s
 
-scoreboard players add @s teleporting 1
+execute run function mystcraft:tpeffect
 
 execute at @s run summon lightning_bolt ~ ~ ~

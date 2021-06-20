@@ -16,7 +16,7 @@
       "options": {
         "type": "minecraft:crimson_spore"
       },
-      "probability": 0.010
+      "probability": 0.01
     }
   },
   "carvers": {
@@ -135,7 +135,7 @@
   "surface_builder": "mystworlds:sanctuary",
   "scale": 0.05,
   "downfall": 0.4,
-  "depth": 0.0,
+  "depth": 0,
   "temperature": 0.8,
   "player_spawn_friendly": true,
   "spawn_costs": {}

@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:sanctuary_tree_oak_skinny",
-    "size": 2
-  },
-  "type": "minecraft:village"
-}

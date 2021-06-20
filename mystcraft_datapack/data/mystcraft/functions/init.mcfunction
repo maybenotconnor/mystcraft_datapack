@@ -43,17 +43,8 @@ scoreboard objectives add lecternuse minecraft.custom:minecraft.interact_with_le
 #In Book Init
 scoreboard objectives add bookuse minecraft.used:written_book
 
-#Linking Book Init
-scoreboard objectives add linkbookuse minecraft.used:minecraft.carrot_on_a_stick
-
-#Skull Book Init
-scoreboard objectives add skullbookuse minecraft.used:minecraft.carrot_on_a_stick
-
-#PlayerBook Init
-scoreboard objectives add playerbookuse minecraft.used:minecraft.carrot_on_a_stick
-
-#Torn Book Init
-scoreboard objectives add tornbookuse minecraft.used:minecraft.carrot_on_a_stick
+#Carrot Book Init
+scoreboard objectives add carrotbookuse minecraft.used:minecraft.carrot_on_a_stick
 
 #Random Time Init
 scoreboard objectives add time dummy
@@ -64,9 +55,6 @@ scoreboard objectives add walking minecraft.custom:minecraft.walk_one_cm
 
 #Has Triggers Init
 scoreboard objectives add hastriggers dummy
-
-#Teleport Effect Init
-scoreboard objectives add teleporting dummy
 
 #Death Book Init
 scoreboard objectives add deathX dummy

@@ -5,6 +5,6 @@ function mystcraft:dim_teles/drop_book
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] at @s in mystworlds:village run tp @s ~ 70 ~
 
 #run tp
-execute as @s at @s in mystworlds:village run tp @s ~ 70 ~
-scoreboard players add @s teleporting 1
+execute at @s in mystworlds:village run tp @s ~ 70 ~
+execute run function mystcraft:tpeffect
 scoreboard players remove @s villagetele 1

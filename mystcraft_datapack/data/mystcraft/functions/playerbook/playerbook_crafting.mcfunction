@@ -5,7 +5,7 @@ data modify entity @s Item.tag.playername set from entity @e[type=item,nbt={Item
 data modify entity @s Item.tag.playeruuid set from entity @e[type=item,nbt={Item:{id:"minecraft:player_head",Count:1b}},limit=1,sort=nearest,distance=0..1] Item.tag.SkullOwner.Id
 
 #loot table to set lore
-execute as @s run loot spawn ~ ~ ~ loot mystcraft:playerbookloot
+execute run loot spawn ~ ~ ~ loot mystcraft:playerbookloot
 
 execute at @s run function mystcraft:crafting/crafting_remove
 

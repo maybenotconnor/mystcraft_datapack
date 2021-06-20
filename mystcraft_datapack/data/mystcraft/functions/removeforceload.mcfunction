@@ -1,0 +1,14 @@
+execute in minecraft:the_nether run forceload remove all
+execute in minecraft:overworld run forceload remove all
+execute in minecraft:the_end run forceload remove all
+execute in mystworlds:twilightworld run forceload remove all
+execute in mystworlds:cavesworld run forceload remove all
+execute in mystworlds:archipeligo run forceload remove all
+execute in mystworlds:sanctuaryworld run forceload remove all
+execute in mystworlds:volcanoworld run forceload remove all
+execute in mystworlds:ice run forceload remove all
+execute in mystworlds:village run forceload remove all
+execute in mystworlds:small run forceload remove all
+execute in mystworlds:rock run forceload remove all
+execute in mystworlds:warrendimension run forceload remove all
+execute in mystworlds:skylanddimension run forceload remove all

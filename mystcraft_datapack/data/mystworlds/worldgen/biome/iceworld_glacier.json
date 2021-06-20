@@ -25,6 +25,8 @@
   "starts": [
     "minecraft:ruined_portal",
     "minecraft:igloo",
+    "mystworlds:ice_igloo",
+    "mystworlds:ice_igloo",
     "mystworlds:ice_igloo"
   ],
   "features": [
@@ -41,7 +43,15 @@
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_diamond",
-      "minecraft:ore_lapis"
+      "minecraft:ore_lapis",
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
+      "minecraft:pile_snow",
+      "mystworlds:pile_powder"
     ],
     [],
     [],
@@ -58,7 +68,19 @@
         "maxCount": 8
       }
     ],
-    "creature": [],
+    "creature": [      
+      {
+      "type": "minecraft:goat",
+      "weight": 2,
+      "minCount": 9,
+      "maxCount": 11
+    },
+    {
+      "type": "minecraft:llama",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }],
     "misc": [],
     "monster": [
       {
@@ -84,7 +106,7 @@
   "scale": 0.1,
   "downfall": 0.4,
   "depth": 2,
-  "temperature": 0.0,
+  "temperature": 0,
   "player_spawn_friendly": false,
   "spawn_costs": {}
 }

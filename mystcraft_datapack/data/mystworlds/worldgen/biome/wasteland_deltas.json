@@ -5,7 +5,7 @@
       "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2
     },
     "additions_sound": {
       "sound": "minecraft:ambient.basalt_deltas.additions",
@@ -62,7 +62,16 @@
       "minecraft:ore_gold_deltas",
       "minecraft:ore_quartz_deltas",
       "minecraft:ore_debris_large",
-      "minecraft:ore_debris_small"
+      "minecraft:ore_debris_small",
+
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:dripleaf",
+
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate"
     ],
     [
       "minecraft:spring_lava_double"
@@ -104,8 +113,8 @@
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
+  "temperature": 2,
+  "downfall": 0,
   "category": "nether",
   "depth": 0.4
 }

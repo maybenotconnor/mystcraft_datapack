@@ -5,6 +5,6 @@ function mystcraft:dim_teles/drop_book
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] at @s in mystworlds:warrendimension run tp @s ~ ~ ~
 
 #run tp
-execute as @s at @s in mystworlds:warrendimension run tp @s ~ ~ ~
-scoreboard players add @s teleporting 1
+execute at @s in mystworlds:warrendimension run tp @s ~ ~ ~
+execute run function mystcraft:tpeffect
 scoreboard players remove @s warrentele 1

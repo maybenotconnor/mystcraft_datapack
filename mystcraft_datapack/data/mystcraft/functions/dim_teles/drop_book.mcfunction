@@ -5,4 +5,4 @@ execute at @s[nbt={SelectedItem:{id:"minecraft:written_book"}}] run summon minec
 data modify entity @e[type=item,limit=1,distance=..5,tag=droppedbook] Item set from entity @s[nbt={SelectedItem:{id:"minecraft:written_book"}}] SelectedItem
 
 #Removes Book on Use
-replaceitem entity @s[nbt={SelectedItem:{id:"minecraft:written_book"}}] weapon air
+item replace entity @s[nbt={SelectedItem:{id:"minecraft:written_book"}}] weapon.mainhand with minecraft:air

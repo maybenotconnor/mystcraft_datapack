@@ -17,7 +17,7 @@ scoreboard players operation $playertp uuid_tp_3 = @s uuid_tp_3
 
 execute as @a if score @s uuid_self_0 = $playertp uuid_tp_0 if score @s uuid_self_1 = $playertp uuid_tp_1 if score @s uuid_self_2 = $playertp uuid_tp_2 if score @s uuid_self_3 = $playertp uuid_tp_3 run tag @s add playerbook_target
 
-scoreboard players add @s teleporting 1
+execute run function mystcraft:tpeffect
 
 #drops dummy item
 execute at @s[nbt={SelectedItem:{tag:{playerbook:1b}}}] run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedbook"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"PlayerBook","color":"Black","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}'},HideFlags:7,CustomModelData:789689}}}
@@ -29,7 +29,7 @@ data modify entity @e[type=item,limit=1,distance=..5,tag=droppedbook] Item set f
 tp @s @a[tag=playerbook_target, limit=1]
 
 #Removes Book on Use
-replaceitem entity @s[nbt={SelectedItem:{tag:{playerbook:1b}}}] weapon air
+item replace entity @s weapon.mainhand with minecraft:air
 
 scoreboard players set $playertp uuid_tp_0 0
 scoreboard players set $playertp uuid_tp_1 0

@@ -44,7 +44,7 @@
       "minecraft:taiga_vegetation"
     ],
     [
-      "minecraft:spruce_snowy"
+      "minecraft:spruce"
     ],
     [
       "minecraft:ore_dirt",
@@ -57,7 +57,16 @@
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
-      "minecraft:ore_lapis"
+      "minecraft:ore_lapis",
+
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:dripleaf",
+
+      "minecraft:rare_small_dripstone",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate"
     ],
     [],
     [
@@ -116,7 +125,7 @@
   "scale": 0.05,
   "downfall": 0.4,
   "depth": 0.12,
-  "temperature": 0.0,
+  "temperature": 0,
   "player_spawn_friendly": true,
   "spawn_costs": {}
 }

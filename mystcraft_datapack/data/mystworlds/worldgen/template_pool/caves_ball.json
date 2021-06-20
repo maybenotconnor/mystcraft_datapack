@@ -1,15 +1,15 @@
 {
-    "name": "caves_ball",
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element": {
-          "location": "mystworlds:caves_ball",
-          "processors": "minecraft:empty",
-          "projection": "rigid",
-          "element_type": "minecraft:legacy_single_pool_element"
-        }
+  "name": "caves_ball",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mystworlds:caves_ball",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
       }
-    ]
-  }
+    }
+  ]
+}

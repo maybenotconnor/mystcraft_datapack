@@ -1,2 +1,2 @@
-scoreboard players add @s teleporting 1
+execute run function mystcraft:tpeffect
 execute at @s in mystworlds:sanctuaryworld run tp @s ~ 312 ~
