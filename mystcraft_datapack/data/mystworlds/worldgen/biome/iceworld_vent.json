@@ -21,55 +21,46 @@
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
   },
   "carvers": {
-    "air": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
-    ],
+    "air": [],
     "liquid": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
       "minecraft:canyon",
       "minecraft:cave"
     ]
   },
-  "starts": [
-    "minecraft:ocean_ruin_cold",
-    "minecraft:ruined_portal_ocean"
-  ],
   "features": [
     [],
     [
-      "minecraft:lake_lava",
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground",
       "minecraft:ore_magma",
       "minecraft:ore_soul_sand",
       "minecraft:ore_blackstone"
     ],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
+    [],
     [
       "minecraft:spring_lava"
     ],
@@ -99,11 +90,7 @@
   },
   "category": "none",
   "precipitation": "none",
-  "surface_builder": "mystworlds:iceworld_vent",
-  "scale": 0.3,
   "downfall": 0.4,
-  "depth": -1.9,
   "temperature": 1,
-  "player_spawn_friendly": false,
   "spawn_costs": {}
 }

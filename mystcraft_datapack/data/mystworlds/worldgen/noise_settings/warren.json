@@ -31,21 +31,23 @@
       "y_factor": 160
     },
     "top_slide": {
-      "target": -10,
+      "target": -0.078125,
       "size": 3,
       "offset": 0
     },
     "bottom_slide": {
-      "target": -30,
+      "target": -0.234375,
       "size": 0,
       "offset": 0
     },
     "size_horizontal": 1,
     "size_vertical": 2,
-    "density_factor": 1,
-    "density_offset": -0.47,
-    "simplex_surface_noise": true,
-    "min_y": 0
+    "min_y": 0,
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
   },
   "default_block": {
     "Name": "minecraft:air"
@@ -53,10 +55,34 @@
   "default_fluid": {
     "Name": "minecraft:air"
   },
-  "min_surface_level": 0,
   "noise_caves_enabled": false,
   "noodle_caves_enabled": false,
   "aquifers_enabled": false,
   "deepslate_enabled": false,
-  "ore_veins_enabled": false
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:bedrock_floor",
+          "true_at_and_below": {
+            "above_bottom": 5
+          },
+          "false_at_and_above": {
+            "above_bottom": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      }
+    ]
+  }
 }

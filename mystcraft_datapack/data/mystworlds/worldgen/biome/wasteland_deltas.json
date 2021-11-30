@@ -1,5 +1,4 @@
 {
-  "scale": 0.34,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
@@ -31,7 +30,6 @@
     "foliage_color": 10387789,
     "grass_color": 9470285
   },
-  "surface_builder": "minecraft:basalt_deltas",
   "carvers": {
     "air": []
   },
@@ -61,26 +59,14 @@
       "minecraft:spring_closed_double",
       "minecraft:ore_gold_deltas",
       "minecraft:ore_quartz_deltas",
-      "minecraft:ore_debris_large",
+      "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
-    [
-      "minecraft:spring_lava_double"
-    ]
-  ],
-  "starts": [
-    "minecraft:ruined_portal_nether",
-    "minecraft:fortress",
-    "mystworlds:waste_tower"
+    [],
+    []
   ],
   "spawners": {
     "monster": [
@@ -111,10 +97,8 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "temperature": 2,
   "downfall": 0,
-  "category": "nether",
-  "depth": 0.4
+  "category": "nether"
 }

@@ -8,46 +8,37 @@
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
-    ]
+    "liquid": []
   },
-  "starts": [
-    "minecraft:shipwreck_beached",
-    "minecraft:buried_treasure",
-    "mystworlds:archi_iceberg"
-  ],
   "features": [
     [],
     [],
     [
-      "minecraft:spruce",
-      "minecraft:pine",
-      "minecraft:birch",
+      "minecraft:spruce_checked",
+      "minecraft:pine_checked",
+      "minecraft:birch_checked",
       "mystworlds:tree_spruce_max",
       "mystworlds:tree_spruce_oakleaf"
     ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_lapis",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:ore_lapis_buried",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
     [],
     [
@@ -132,11 +123,7 @@
   },
   "category": "taiga",
   "precipitation": "rain",
-  "surface_builder": "minecraft:grass",
-  "scale": 0.45,
   "downfall": 0.8,
-  "depth": 0.4,
   "temperature": 0.3,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

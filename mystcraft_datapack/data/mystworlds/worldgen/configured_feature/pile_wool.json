@@ -1,49 +1,10 @@
 {
-  "type": "minecraft:decorated",
+  "type": "minecraft:block_pile",
   "config": {
-    "decorator": {
-      "type": "minecraft:count_multilayer",
-      "config": {
-        "count": 4
-      }
-    },
-    "feature": {
-      "type": "minecraft:decorated",
-      "config": {
-        "decorator": {
-          "type": "minecraft:square",
-          "config": {}
-        },
-        "feature": {
-          "type": "minecraft:decorated",
-          "config": {
-            "decorator": {
-              "type": "minecraft:range",
-              "config": {
-                "height": {
-                  "type": "minecraft:uniform",
-                  "min_inclusive": {
-                    "absolute": 0
-                  },
-                  "max_inclusive": {
-                    "absolute": 127
-                  }
-                }
-              }
-            },
-            "feature": {
-              "type": "minecraft:block_pile",
-              "config": {
-                "state_provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:white_wool"
-                  }
-                }
-              }
-            }
-          }
-        }
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:white_wool"
       }
     }
   }

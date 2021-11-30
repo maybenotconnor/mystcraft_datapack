@@ -15,24 +15,20 @@
     "particle": {
       "options": {
         "type": "minecraft:dust",
-        "scale": 1,
-        "r": 0.5137254901960784,
-        "g": 0.5137254901960784,
-        "b": 0.5137254901960784
+        "color": [
+          0.5137254901960784,
+          0.5137254901960784,
+          0.5137254901960784
+        ],
+        "scale": 1
       },
       "probability": 0.002
     }
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
-    ]
+    "liquid": []
   },
-  "starts": [
-    "minecraft:nether_fossil"
-  ],
   "features": [
     [],
     [],
@@ -43,12 +39,15 @@
     [
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal"
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
       "minecraft:seagrass_deep_cold"
     ],
+    [],
     [],
     [
       "minecraft:freeze_top_layer"
@@ -71,11 +70,7 @@
   },
   "category": "ocean",
   "precipitation": "rain",
-  "surface_builder": "minecraft:stone",
-  "scale": -0.05,
   "downfall": 0.4,
-  "depth": -1,
   "temperature": 0.8,
-  "player_spawn_friendly": false,
   "spawn_costs": {}
 }

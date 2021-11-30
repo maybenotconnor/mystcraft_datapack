@@ -15,10 +15,12 @@
     "particle": {
       "options": {
         "type": "minecraft:dust",
-        "scale": 1,
-        "r": 0.5137254901960784,
-        "g": 0.5137254901960784,
-        "b": 0.5137254901960784
+        "color": [
+          0.5137254901960784,
+          0.5137254901960784,
+          0.5137254901960784
+        ],
+        "scale": 1
       },
       "probability": 0.002
     }
@@ -29,47 +31,43 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "minecraft:jungle_pyramid"
-  ],
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:patch_grass_jungle"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
     [
       "minecraft:jungle_tree",
-      "minecraft:jungle_tree_no_vine",
       "minecraft:trees_jungle"
     ],
+    [],
     [
       "minecraft:spring_lava",
       "minecraft:spring_water",
@@ -77,9 +75,7 @@
       "minecraft:patch_tall_grass_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:plain_vegetation",
-      "minecraft:patch_brown_mushroom",
-      "minecraft:patch_red_mushroom",
+      "minecraft:trees_plains",
       "mystworlds:tree_stone",
       "mystworlds:fungus_stone"
     ],
@@ -130,11 +126,7 @@
   },
   "category": "jungle",
   "precipitation": "rain",
-  "surface_builder": "minecraft:grass",
-  "scale": 0.1,
   "downfall": 0.4,
-  "depth": 0.1,
   "temperature": 0.8,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

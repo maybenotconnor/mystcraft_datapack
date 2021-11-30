@@ -10,31 +10,31 @@
   "carvers": {
     "air": []
   },
-  "starts": [
-    "minecraft:shipwreck_beached",
-    "minecraft:buried_treasure",
-    "minecraft:swamp_hut"
-  ],
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "minecraft:disk_clay"
     ],
+    [],
     [],
     [
       "minecraft:flower_swamp",
@@ -42,7 +42,7 @@
       "minecraft:trees_water",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlilly",
+      "minecraft:patch_waterlily",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
@@ -53,17 +53,10 @@
       "minecraft:spring_lava",
       "minecraft:seagrass_swamp",
       "minecraft:bamboo_light",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
       "minecraft:ore_tuff",
-      "minecraft:ore_deepslate",
-      "minecraft:rooted_azalea_trees",
-      "minecraft:azalea_tree"
+      "minecraft:rooted_azalea_tree"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -130,11 +123,7 @@
   },
   "category": "swamp",
   "precipitation": "rain",
-  "surface_builder": "minecraft:swamp",
-  "scale": 0.0,
   "downfall": 0.4,
-  "depth": -0.25,
   "temperature": 0.5,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

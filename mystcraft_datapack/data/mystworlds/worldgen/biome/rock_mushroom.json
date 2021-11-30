@@ -15,10 +15,12 @@
     "particle": {
       "options": {
         "type": "minecraft:dust",
-        "scale": 1,
-        "r": 0.5137254901960784,
-        "g": 0.5137254901960784,
-        "b": 0.5137254901960784
+        "color": [
+          0.5137254901960784,
+          0.5137254901960784,
+          0.5137254901960784
+        ],
+        "scale": 1
       },
       "probability": 0.002
     }
@@ -29,12 +31,9 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [],
   "features": [
     [],
-    [
-      "minecraft:lake_water"
-    ],
+    [],
     [],
     [
       "minecraft:patch_dead_bush_2",
@@ -42,31 +41,32 @@
       "minecraft:patch_dead_bush_badlands"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal"
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
+    [],
     [],
     [
       "minecraft:spring_lava",
       "minecraft:spring_water",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_brown_mushroom",
-      "minecraft:patch_red_mushroom",
-      "minecraft:red_mushroom_giant",
-      "minecraft:brown_mushroom_giant",
-      "minecraft:huge_brown_mushroom",
-      "minecraft:huge_red_mushroom",
+      "minecraft:red_mushroom_old_growth",
+      "minecraft:brown_mushroom_old_growth",
       "minecraft:brown_mushroom_taiga",
-      "minecraft:mushroom_field_vegetation",
+      "minecraft:mushroom_island_vegetation",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:brown_mushroom_normal",
@@ -100,12 +100,8 @@
   },
   "category": "none",
   "precipitation": "rain",
-  "surface_builder": "minecraft:mycelium",
-  "scale": 0.2,
   "downfall": 0.4,
-  "depth": 0.05,
   "temperature": 0.8,
-  "player_spawn_friendly": true,
   "spawn_costs": {},
   "creature_spawn_probability": 0.1
 }

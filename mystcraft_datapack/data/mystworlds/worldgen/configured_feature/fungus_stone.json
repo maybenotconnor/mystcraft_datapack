@@ -1,32 +1,21 @@
 {
+  "type": "minecraft:huge_fungus",
   "config": {
-    "feature": {
-      "config": {
-        "hat_state": {
-          "Name": "minecraft:stone"
-        },
-        "decor_state": {
-          "Name": "minecraft:air"
-        },
-        "planted": false,
-        "valid_base_block": {
-          "Name": "minecraft:stone"
-        },
-        "stem_state": {
-          "Properties": {
-            "axis": "y"
-          },
-          "Name": "minecraft:polished_basalt"
-        }
-      },
-      "type": "minecraft:huge_fungus"
+    "hat_state": {
+      "Name": "minecraft:stone"
     },
-    "decorator": {
-      "config": {
-        "count": 1
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:stone"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
       },
-      "type": "minecraft:count_multilayer"
+      "Name": "minecraft:polished_basalt"
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

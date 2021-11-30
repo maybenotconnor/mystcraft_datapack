@@ -1,0 +1,27 @@
+{
+    "feature": "mystworlds:tree_tallwater",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 10
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

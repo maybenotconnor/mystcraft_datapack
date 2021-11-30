@@ -9,30 +9,14 @@
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
-    ]
+    "liquid": []
   },
-  "starts": [
-    "minecraft:monument",
-    "minecraft:ocean_ruin_cold",
-    "minecraft:ruined_portal_ocean",
-    "mystworlds:archi_iceberg",
-    "mystworlds:archi_iceberg",
-    "mystworlds:archi_iceberg",
-    "mystworlds:archi_iceberg",
-    "mystworlds:archi_iceberg",
-    "mystworlds:archi_iceberg"
-  ],
   "features": [
     [],
     [],
     [],
     [],
-    [
-      "minecraft:lake_water"
-    ],
+    [],
     [
       "minecraft:seagrass_cold",
       "minecraft:seagrass_deep_cold",
@@ -45,15 +29,17 @@
       "minecraft:disk_sand",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite"
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower"
     ],
+    [],
     [],
     [
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",
-      "minecraft:plain_vegetation",
-      "minecraft:dark_oak",
-      "minecraft:dark_oak",
+      "minecraft:trees_plains",
+      "minecraft:dark_oak_checked",
+      "minecraft:dark_oak_checked",
       "minecraft:patch_grass_plain",
       "minecraft:patch_tall_grass_2"
     ],
@@ -108,11 +94,7 @@
   },
   "category": "ocean",
   "precipitation": "rain",
-  "surface_builder": "minecraft:grass",
-  "scale": 0.3,
   "downfall": 1,
-  "depth": -1.5,
   "temperature": 0.5,
-  "player_spawn_friendly": false,
   "spawn_costs": {}
 }

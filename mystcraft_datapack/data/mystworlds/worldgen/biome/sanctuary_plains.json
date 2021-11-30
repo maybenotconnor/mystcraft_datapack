@@ -23,15 +23,10 @@
     "air": [],
     "liquid": []
   },
-  "starts": [
-    "mystworlds:sanctuary_hole",
-    "mystworlds:sanctuary_watertree"
-  ],
   "features": [
     [],
     [
       "minecraft:spring_delta",
-      "minecraft:lake_water",
       "minecraft:disk_sand",
       "minecraft:spring_water"
     ],
@@ -43,19 +38,20 @@
     [
       "minecraft:flower_default",
       "minecraft:flower_warm",
-      "minecraft:flower_plain_decorated",
-      "minecraft:forest_flower_vegetation_common",
+      "minecraft:flower_plains",
+      "minecraft:flower_forest_flowers",
       "minecraft:forest_rock",
-      "minecraft:patch_brown_mushroom",
-      "minecraft:patch_red_mushroom",
       "minecraft:patch_sunflower",
       "minecraft:patch_grass_normal"
     ],
     [
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite"
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower"
     ],
+    [],
     [],
     [
       "minecraft:patch_pumpkin",
@@ -64,10 +60,10 @@
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:flower_plain_decorated",
-      "minecraft:plain_vegetation",
-      "minecraft:forest_flower_vegetation",
-      "minecraft:forest_flower_trees"
+      "minecraft:flower_plains",
+      "minecraft:trees_plains",
+      "minecraft:forest_flowers",
+      "minecraft:trees_flower_forest"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -132,11 +128,7 @@
   },
   "category": "forest",
   "precipitation": "rain",
-  "surface_builder": "mystworlds:sanctuary",
-  "scale": 0.05,
   "downfall": 0.4,
-  "depth": 0,
   "temperature": 0.8,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

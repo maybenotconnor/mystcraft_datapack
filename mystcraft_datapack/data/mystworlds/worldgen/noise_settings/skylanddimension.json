@@ -112,17 +112,14 @@
     }
   },
   "noise": {
-    "simplex_surface_noise": true,
     "size_vertical": 1,
-    "density_factor": 0,
-    "density_offset": 0,
     "top_slide": {
-      "target": -255,
+      "target": -1.9921875,
       "size": 64,
       "offset": -40
     },
     "bottom_slide": {
-      "target": -64,
+      "target": -0.5,
       "size": 9,
       "offset": 3
     },
@@ -134,12 +131,21 @@
       "y_scale": 3,
       "xz_factor": 50,
       "y_factor": 100
+    },
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
     }
   },
-  "min_surface_level": 0,
   "noise_caves_enabled": false,
   "noodle_caves_enabled": false,
   "aquifers_enabled": false,
   "deepslate_enabled": false,
-  "ore_veins_enabled": false
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
 }

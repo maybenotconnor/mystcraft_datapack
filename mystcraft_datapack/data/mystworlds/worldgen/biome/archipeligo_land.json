@@ -9,18 +9,8 @@
   },
   "carvers": {
     "air": [],
-    "liquid": [
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave",
-      "minecraft:underwater_canyon",
-      "minecraft:underwater_cave"
-    ]
+    "liquid": []
   },
-  "starts": [
-    "minecraft:shipwreck_beached",
-    "minecraft:buried_treasure",
-    "mystworlds:archi_iceberg"
-  ],
   "features": [
     [],
     [],
@@ -29,7 +19,7 @@
       "minecraft:oak"
     ],
     [
-      "minecraft:dark_oak",
+      "minecraft:dark_oak_checked",
       "minecraft:dark_forest_vegetation_brown",
       "minecraft:dark_forest_vegetation_red"
     ],
@@ -40,24 +30,25 @@
       "minecraft:disk_sand",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:ore_lapis_buried",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate",
-      "minecraft:moss_vegetation",
-      "minecraft:moss_patch"
+      "minecraft:ore_tuff"
     ],
+    [],
     [],
     [
       "minecraft:spring_water",
@@ -67,8 +58,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:flower_plain_decorated",
-      "minecraft:plain_vegetation"
+      "minecraft:flower_plains",
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -128,11 +119,7 @@
   },
   "category": "forest",
   "precipitation": "rain",
-  "surface_builder": "minecraft:grass",
-  "scale": 0.5,
   "downfall": 1,
-  "depth": 0.4,
   "temperature": 0.5,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

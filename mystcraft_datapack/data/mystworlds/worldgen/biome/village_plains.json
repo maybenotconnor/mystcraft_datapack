@@ -1,5 +1,4 @@
 {
-  "scale": 0,
   "effects": {
     "sky_color": 7907327,
     "fog_color": 12638463,
@@ -12,7 +11,6 @@
       "probability": 0.0008
     }
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": []
   },
@@ -27,24 +25,18 @@
       "minecraft:ore_gravel"
     ],
     [],
+    [],
     [
       "minecraft:patch_grass_plain",
       "minecraft:patch_tall_grass_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:flower_plain_decorated",
-      "minecraft:plain_vegetation"
+      "minecraft:flower_plains",
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:village_plains",
-    "mystworlds:village_shrine",
-    "minecraft:village_savanna",
-    "minecraft:village_taiga",
-    "minecraft:village_snowy"
   ],
   "spawners": {
     "monster": [],
@@ -55,10 +47,8 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
   "precipitation": "rain",
   "temperature": 0.8,
   "downfall": 0.4,
-  "category": "plains",
-  "depth": 0.125
+  "category": "plains"
 }

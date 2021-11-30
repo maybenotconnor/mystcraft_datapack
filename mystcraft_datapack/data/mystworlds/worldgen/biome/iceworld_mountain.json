@@ -22,19 +22,13 @@
   "carvers": {
     "air": []
   },
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
   "features": [
     [],
-    [
-      "minecraft:lake_water"
-    ],
+    [],
     [],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [
@@ -44,19 +38,29 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "minecraft:ore_emerald"
     ],
     [
       "minecraft:ice_patch",
       "minecraft:pile_ice"
     ],
+    [],
     [
       "minecraft:red_mushroom_normal",
       "mystworlds:pile_powder"
@@ -74,19 +78,20 @@
         "maxCount": 8
       }
     ],
-    "creature": [      
+    "creature": [
       {
-      "type": "minecraft:goat",
-      "weight": 2,
-      "minCount": 3,
-      "maxCount": 6
-    },
-    {
-      "type": "minecraft:llama",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    }],
+        "type": "minecraft:goat",
+        "weight": 2,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:llama",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "misc": [],
     "monster": [
       {
@@ -107,11 +112,7 @@
   },
   "category": "icy",
   "precipitation": "snow",
-  "surface_builder": "mystworlds:iceworld",
-  "scale": 0.8,
   "downfall": 0.4,
-  "depth": 0.3,
   "temperature": 0,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

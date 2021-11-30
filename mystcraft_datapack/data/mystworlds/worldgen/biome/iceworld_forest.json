@@ -25,49 +25,49 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "minecraft:village_taiga",
-    "minecraft:ruined_portal",
-    "minecraft:village_snowy"
-  ],
   "features": [
     [],
-    [
-      "minecraft:lake_water"
-    ],
+    [],
     [],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [
       "minecraft:patch_taiga_grass",
-      "minecraft:taiga_vegetation"
+      "minecraft:trees_taiga"
     ],
     [
-      "minecraft:spruce"
+      "minecraft:spruce_checked"
     ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:ore_lapis_buried",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
+    [],
     [],
     [
       "minecraft:patch_tall_grass_2",
@@ -121,11 +121,7 @@
   },
   "category": "taiga",
   "precipitation": "snow",
-  "surface_builder": "minecraft:grass",
-  "scale": 0.05,
   "downfall": 0.4,
-  "depth": 0.12,
   "temperature": 0,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

@@ -31,72 +31,80 @@
       "minecraft:cave"
     ]
   },
-  "starts": [
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:ruined_portal_desert",
-    "minecraft:nether_fossil"
-  ],
   "features": [
     [],
     [
-      "minecraft:lake_lava",
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_gold_extra"
     ],
     [
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_gold_extra"
     ],
     [
       "minecraft:monster_room",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:monster_room_deep",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
     [
       "minecraft:ore_gold_extra",
-      "minecraft:ore_gold"
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower"
     ],
     [
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_gold_extra"
     ],
     [
       "minecraft:disk_sand",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold"
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower"
     ],
     [
       "minecraft:ore_gold_extra",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_redstone",
-      "minecraft:ore_redstone"
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower"
     ],
+    [],
     [
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:desert_well",
-      "minecraft:fossil",
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
       "minecraft:patch_dead_bush_2",
       "minecraft:patch_dead_bush_badlands",
       "minecraft:patch_dead_bush",
       "minecraft:ore_blackstone",
-      "minecraft:mushroom_field_vegetation",
+      "minecraft:mushroom_island_vegetation",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_gold_extra"
     ],
     [
@@ -177,11 +185,7 @@
   },
   "category": "desert",
   "precipitation": "none",
-  "surface_builder": "minecraft:badlands",
-  "scale": 0.4,
   "downfall": 0.4,
-  "depth": 0.4,
   "temperature": 2,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

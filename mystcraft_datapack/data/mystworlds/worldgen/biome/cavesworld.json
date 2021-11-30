@@ -23,18 +23,15 @@
       "minecraft:cave"
     ]
   },
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal",
-    "mystworlds:caves_ball"
-  ],
   "features": [
     [
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "mystworlds:ore_diamond_extra",
       "mystworlds:ore_iron_extra",
       "mystworlds:ore_iron_extra",
@@ -43,39 +40,48 @@
       "mystworlds:ore_coal_extra",
       "mystworlds:ore_coal_extra",
       "minecraft:dripstone_cluster",
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
       "minecraft:large_dripstone",
       "minecraft:small_dripstone",
-      "minecraft:rare_small_dripstone",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
       "minecraft:ore_tuff",
-      "minecraft:ore_deepslate",
-      "minecraft:fossil"
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
     ],
     [],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [],
     [
-      "minecraft:ore_iron",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_emerald"
     ],
     [
-      "minecraft:ore_diamond"
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried"
     ],
     [
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal"
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [],
+    [],
     [
-      "minecraft:ore_diamond"
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried"
     ],
     []
   ],
@@ -117,11 +123,7 @@
   },
   "category": "none",
   "precipitation": "snow",
-  "surface_builder": "minecraft:mountain",
-  "scale": 0.2,
   "downfall": 0.4,
-  "depth": 0.12,
   "temperature": 0.5,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }

@@ -1,5 +1,4 @@
 {
-  "scale": 0.3,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -20,7 +19,6 @@
       "probability": 0.005
     }
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -32,20 +30,25 @@
     [],
     [],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [],
     [],
     [
       "minecraft:patch_large_fern",
@@ -64,9 +67,6 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "mystworlds:skyland_temple"
   ],
   "spawners": {
     "monster": [
@@ -170,10 +170,8 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
   "precipitation": "rain",
   "temperature": 0.25,
   "downfall": 0.8,
-  "category": "taiga",
-  "depth": 0.2
+  "category": "taiga"
 }

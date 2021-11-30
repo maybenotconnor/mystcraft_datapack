@@ -15,10 +15,12 @@
     "particle": {
       "options": {
         "type": "minecraft:dust",
-        "scale": 1,
-        "r": 0.5137254901960784,
-        "g": 0.5137254901960784,
-        "b": 0.5137254901960784
+        "color": [
+          0.5137254901960784,
+          0.5137254901960784,
+          0.5137254901960784
+        ],
+        "scale": 1
       },
       "probability": 0.002
     }
@@ -31,14 +33,11 @@
       "minecraft:canyon"
     ]
   },
-  "starts": [
-    "mystworlds:rock_ball"
-  ],
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [],
     [
@@ -47,35 +46,32 @@
       "minecraft:patch_dead_bush_badlands"
     ],
     [
-      "minecraft:ore_coal"
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower"
     ],
     [
-      "minecraft:ore_coal",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
       "mystworlds:ore_coal_extra"
     ],
     [
       "minecraft:disk_gravel",
       "minecraft:ore_gravel",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:dripleaf",
-
-      "minecraft:rare_small_dripstone",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
       "minecraft:amethyst_geode",
       "minecraft:glow_lichen",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate"
+      "minecraft:ore_tuff"
     ],
+    [],
     [],
     [
       "minecraft:spring_lava",
       "minecraft:spring_water",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_brown_mushroom",
-      "minecraft:patch_red_mushroom",
       "minecraft:red_mushroom_nether",
       "mystworlds:pile_stone",
       "mystworlds:fungus_stone"
@@ -114,12 +110,8 @@
   },
   "category": "none",
   "precipitation": "rain",
-  "surface_builder": "minecraft:stone",
-  "scale": 0.2,
   "downfall": 0.4,
-  "depth": 0.3,
   "temperature": 0.8,
-  "player_spawn_friendly": true,
   "spawn_costs": {},
   "creature_spawn_probability": 0.1
 }

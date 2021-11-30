@@ -36,22 +36,24 @@
       "y_factor": 60
     },
     "top_slide": {
-      "target": 250,
+      "target": 1.953125,
       "size": 3,
       "offset": 0
     },
     "bottom_slide": {
-      "target": 320,
+      "target": 2.5,
       "size": 4,
       "offset": -3
     },
     "size_horizontal": 1,
     "size_vertical": 2,
-    "density_factor": 0,
-    "density_offset": 0.019921875,
-    "simplex_surface_noise": false,
     "amplified": false,
-    "min_y": 0
+    "min_y": 0,
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
   },
   "default_block": {
     "Name": "minecraft:stone"
@@ -62,10 +64,56 @@
     },
     "Name": "minecraft:lava"
   },
-  "min_surface_level": 0,
   "noise_caves_enabled": false,
   "noodle_caves_enabled": false,
   "aquifers_enabled": false,
   "deepslate_enabled": false,
-  "ore_veins_enabled": false
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:bedrock_floor",
+          "true_at_and_below": {
+            "above_bottom": 5
+          },
+          "false_at_and_above": {
+            "above_bottom": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:vertical_gradient",
+            "random_name": "minecraft:bedrock_roof",
+            "true_at_and_below": {
+              "below_top": 4
+            },
+            "false_at_and_above": {
+              "below_top": -1
+            }
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      }
+    ]
+  }
 }

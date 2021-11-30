@@ -1,12 +1,10 @@
 {
-  "scale": 0.2,
   "effects": {
     "sky_color": 12303291,
     "fog_color": 14671839,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -16,15 +14,16 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
-      "minecraft:plain_vegetation",
+      "minecraft:monster_room_deep",
+      "minecraft:trees_plains",
       "minecraft:warm_ocean_vegetation"
     ],
     [],
@@ -32,25 +31,31 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
-      "minecraft:ore_deepslate",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:ore_clay",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
+    [],
+    [],
     [
       "minecraft:patch_tall_grass_2",
       "minecraft:glow_lichen",
@@ -58,20 +63,12 @@
       "minecraft:cave_vines",
       "minecraft:lush_caves_clay",
       "minecraft:lush_caves_vegetation",
-      "minecraft:rooted_azalea_trees",
-      "minecraft:azalea_tree",
-      "minecraft:rooted_azalea_trees",
-      "minecraft:azalea_tree",
-      "minecraft:rooted_azalea_trees",
-      "minecraft:azalea_tree",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
   ],
   "spawners": {
     "monster": [
@@ -110,10 +107,8 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "underground",
-  "depth": 0.1
+  "category": "underground"
 }

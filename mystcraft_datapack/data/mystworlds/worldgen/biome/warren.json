@@ -23,10 +23,8 @@
   "carvers": {
     "air": []
   },
-  "starts": [
-    "mystworlds:warrens"
-  ],
   "features": [
+    [],
     [],
     [],
     [],
@@ -50,11 +48,7 @@
   },
   "category": "none",
   "precipitation": "none",
-  "surface_builder": "minecraft:nope",
-  "scale": 0.05,
   "downfall": 0.4,
-  "depth": 0.12,
   "temperature": 0.5,
-  "player_spawn_friendly": true,
   "spawn_costs": {}
 }
