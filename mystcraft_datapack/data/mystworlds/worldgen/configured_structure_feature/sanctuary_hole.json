@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:sanctuary_hole",
-    "size": 1
-  },
-  "type": "minecraft:bastion_remnant"
-}

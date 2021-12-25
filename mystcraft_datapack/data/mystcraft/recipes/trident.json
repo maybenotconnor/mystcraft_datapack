@@ -3,17 +3,14 @@
     "pattern": [
         "###",
         " H ",
-        " / "
+        " # "
     ],
     "key": {
         "#": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:prismarine_shard"
         },
         "H": {
             "item": "minecraft:heart_of_the_sea"
-        },
-        "/": {
-            "item": "minecraft:stick"
         }
     },
     "result": {

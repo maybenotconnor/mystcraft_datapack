@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:nightmare_portal",
-    "size": 6
-  },
-  "type": "minecraft:village"
-}

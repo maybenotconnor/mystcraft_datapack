@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:caves_ball",
-    "size": 1
-  },
-  "type": "minecraft:bastion_remnant"
-}

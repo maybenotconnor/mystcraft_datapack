@@ -1,60 +1,12 @@
 #Give Crafting Book Init
 scoreboard objectives add mystguide trigger
 
-#Cave Dimension Init
-scoreboard objectives add cavetele trigger
-
-#Village Dimension Init
-scoreboard objectives add villagetele trigger
-
-#Volcano Dimension Init
-scoreboard objectives add volcanotele trigger
-
-#Twilight Dimension Init
-scoreboard objectives add twilighttele trigger
-
-#Overworld Init
-scoreboard objectives add overworldtele trigger
-
-#Archipeligo Dimension Init
-scoreboard objectives add archipeligotele trigger
-
-#Sanctuary Dimension Init
-scoreboard objectives add sanctuarytele trigger
-
-#Ice Dimension Init
-scoreboard objectives add icetele trigger
-
-#Small Dimension Init
-scoreboard objectives add smalltele trigger
-
-#Stone Age Init
-scoreboard objectives add rocktele trigger
-
-#Warren Dimension Init
-scoreboard objectives add warrentele trigger
-
-#Skylands Init
-scoreboard objectives add skylandtele trigger
-
-#In Lectern Init
-scoreboard objectives add lecternuse minecraft.custom:minecraft.interact_with_lectern
-
-#In Book Init
-scoreboard objectives add bookuse minecraft.used:written_book
-
 #Carrot Book Init
 scoreboard objectives add carrotbookuse minecraft.used:minecraft.carrot_on_a_stick
 
 #Random Time Init
 scoreboard objectives add time dummy
 scoreboard objectives add time_div dummy
-
-#Player Walking Init
-scoreboard objectives add walking minecraft.custom:minecraft.walk_one_cm
-
-#Has Triggers Init
-scoreboard objectives add hastriggers dummy
 
 #Death Book Init
 scoreboard objectives add deathX dummy
@@ -78,4 +30,4 @@ scoreboard objectives add uuid_tp_3 dummy
 #when player leaves (unused)
 #scoreboard objectives add offline minecraft.custom:minecraft.leave_game
 
-say Mystcraft Initialized!
+say Mystcraft Lite Initialized!
