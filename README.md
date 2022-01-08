@@ -7,7 +7,7 @@ To install, move the mystcraft_datapack folder into .minecraft/saves/YOURSAVE/da
 Then add the mystcraft_resources.zip into .minecraft/resourcepacks and activate it in the GUI
 
 ## How to play
-Mystcraft lite adds some books for teleportation resources
+Mystcraft lite adds some books for teleportation resources. Check the guide!
 
 #### In-Game Guide:
 >/trigger mystguide
@@ -19,5 +19,6 @@ Also, please report any bugs and I will fix them asap.
 
 ### Future Plans
 Update dimensions to 1.18
+Possible move to fabric mod
 
 Thanks to Vanilla Tweaks and the Minecraft Commands subreddit/discord for helping this datapack become a reality.

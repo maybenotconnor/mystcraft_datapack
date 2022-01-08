@@ -5,11 +5,11 @@ execute as @a[scores={mystguide=1..}] at @s run give @s written_book{display:{Na
 scoreboard players remove @a[scores={mystguide=1..}] mystguide 1
 
 #Link Book Teleport
-execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{linkbook:1b}}}] at @s run function mystcraft:linkbook/pre_player
+execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{linkbook:1b}}}] at @s run function mystcraft:linkbook/link_teleport
 
 #Skull Book Teleport
 scoreboard players add @a deathY 0
-execute as @a[scores={carrotbookuse=1..,death_lastUsed=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{skullbook:1b}}}] at @s unless score @s deathY matches 0 run function mystcraft:deathbook/pre_player
+execute as @a[scores={carrotbookuse=1..,death_lastUsed=..0},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{skullbook:1b}}}] at @s unless score @s deathY matches 0 run function mystcraft:deathbook/death_teleport
 
 #PlayerBook Teleport
 execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{playerbook:1b}}}] at @s run function mystcraft:playerbook/playerbook_tp
