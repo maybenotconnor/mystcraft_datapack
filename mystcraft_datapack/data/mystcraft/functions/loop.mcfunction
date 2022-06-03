@@ -23,5 +23,5 @@ execute as @e[type=item,tag=fresh_craft] at @s run function mystcraft:crafting/c
 #execute as @a[scores={walking=50..,hastriggers=1..}] run function mystcraft:triggers/disabletriggers
 
 #store player death point
-execute as @a[scores={mystdeaths=1..}] at @s run function mystcraft:deathbook/get_death_point
-scoreboard players set @a mystdeaths 0
+#execute as @a[scores={mystdeaths=1..}] at @s run function mystcraft:deathbook/get_death_point
+#scoreboard players set @a mystdeath_uses 0

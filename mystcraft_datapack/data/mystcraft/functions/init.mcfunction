@@ -9,12 +9,12 @@ scoreboard objectives add time dummy
 scoreboard objectives add time_div dummy
 
 #Death Book Init
-scoreboard objectives add deathX dummy
-scoreboard objectives add deathY dummy
-scoreboard objectives add deathZ dummy
-scoreboard objectives add deathDim dummy
-scoreboard objectives add death_lastUsed dummy
-scoreboard objectives add mystdeaths deathCount
+#scoreboard objectives add deathX dummy
+#scoreboard objectives add deathY dummy
+#scoreboard objectives add deathZ dummy
+#scoreboard objectives add deathDim dummy
+#scoreboard objectives add death_lastUsed dummy
+scoreboard objectives add mystdeath_uses deathCount
 
 #playerbook uuids
 scoreboard objectives add uuid_self_0 dummy

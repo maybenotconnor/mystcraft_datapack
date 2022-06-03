@@ -1,6 +1,11 @@
 
-#transfer data to marker, dim not currently used
-execute store result entity @s data.Dimension double 1 run scoreboard players get @p[tag=myst.death.tping] deathDim 
-execute store result entity @s Pos[0] double 1 run scoreboard players get @p[tag=myst.death.tping] deathX
-execute store result entity @s Pos[1] double 1 run scoreboard players get @p[tag=myst.death.tping] deathY
-execute store result entity @s Pos[2] double 1 run scoreboard players get @p[tag=myst.death.tping] deathZ
+#transfer data to marker
+data modify entity @s data.Dimension set from entity @p[tag=myst.death.tping] LastDeathLocation.dimension
+execute store result entity @s Pos[0] double 1 run data get entity @p[tag=myst.death.tping] LastDeathLocation.pos[0]
+execute store result entity @s Pos[1] double 1 run data get entity @p[tag=myst.death.tping] LastDeathLocation.pos[1]
+execute store result entity @s Pos[2] double 1 run data get entity @p[tag=myst.death.tping] LastDeathLocation.pos[2]
+
+#tp player to marker in dim
+execute if data entity @s {data:{Dimension:"minecraft:overworld"}} run execute in minecraft:overworld positioned as @s run tp @p[tag=myst.death.tping] ~ ~ ~
+execute if data entity @s {data:{Dimension:"minecraft:the_nether"}} run execute in minecraft:the_nether positioned as @s run tp @p[tag=myst.death.tping] ~ ~ ~
+execute if data entity @s {data:{Dimension:"minecraft:the_end"}} run execute in minecraft:the_end positioned as @s run tp @p[tag=myst.death.tping] ~ ~ ~

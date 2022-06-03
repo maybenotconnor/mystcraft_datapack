@@ -1,4 +1,5 @@
 # Sets the death point of the player to teleport to
+#UNUSED
 
 scoreboard players set @s death_lastUsed 0
 
