@@ -1,5 +1,5 @@
 # Minecraft Mystcraft Datapack
-Datapack addon for Minecraft Java Edition 1.18 based on the popular game MYST, adding interdimensional book travel.
+Datapack addon for Minecraft Java Edition 1.21 based on the popular game MYST, adding ~~interdimensional~~ book travel.
 
 ## Installation
 To install, move the mystcraft_datapack folder into .minecraft/saves/YOURSAVE/datapacks
@@ -10,7 +10,7 @@ Then add the mystcraft_resources.zip into .minecraft/resourcepacks and activate 
 Mystcraft lite adds some books for teleportation resources. Check the guide!
 
 #### In-Game Guide:
->/trigger mystguide
+>/trigger mystguide - Not functioning in 1.21
 
 ## Contributing
 If anyone wants to add features go ahead and fork and I will most likely merge pull requests. Anything on the future plans list is up for grabs.
