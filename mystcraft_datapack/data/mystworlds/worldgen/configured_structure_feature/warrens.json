@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:warrens",
-    "size": 7
-  },
-  "type": "minecraft:bastion_remnant"
-}

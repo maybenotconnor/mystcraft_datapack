@@ -1,14 +1,14 @@
 {
-  "name": "sanctuary_watertree",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
         "location": "mystworlds:sanctuary_watertree",
-        "processors": "minecraft:empty",
-        "projection": "terrain_matching",
-        "element_type": "minecraft:single_pool_element"
+        "override_liquid_settings": "apply_waterlogging",
+        "processors": "minecraft:empty"
       }
     }
   ]

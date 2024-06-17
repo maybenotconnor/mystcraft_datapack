@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "mystworlds:skyland_temple",
-    "size": 6
-  },
-  "type": "minecraft:bastion_remnant"
-}

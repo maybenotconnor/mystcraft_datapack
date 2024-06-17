@@ -1,0 +1,95 @@
+{
+  "temperature": 1,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 16753830,
+    "fog_color": 9227005,
+    "water_color": 10944509,
+    "water_fog_color": 329011,
+    "grass_color": 5759881,
+    "foliage_color": 16747149,
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.01
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 9,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:bee",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 10
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:spring_delta",
+      "minecraft:spring_water",
+      "minecraft:disk_sand"
+    ],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:flower_default",
+      "minecraft:flower_warm",
+      "minecraft:flower_forest_flowers",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sunflower",
+      "minecraft:patch_grass_normal"
+    ],
+    [
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_upper"
+    ],
+    [
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_sugar_cane"
+    ],
+    [
+      "minecraft:trees_flower_forest",
+      "minecraft:trees_cherry"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}
