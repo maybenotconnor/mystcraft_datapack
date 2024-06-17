@@ -8,21 +8,25 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Player Book\",\"color\":\"red\",\"italic\":false}'},HideFlags:6,Unbreakable:1b,CustomModelData:789689,playerbook:1b}"
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:6,Unbreakable:1,CustomModelData:789689,playerbook:1}"
             },
             {
-              "function": "minecraft:copy_nbt",
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Player Book",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
-                  "source": "Item.tag.playeruuid",
+                  "source": "Item.components.minecraft:profile.id",
                   "target": "playeruuid",
-                  "op": "replace"
-                },
-                {
-                  "source": "Item.tag.playername",
-                  "target": "playername",
                   "op": "replace"
                 }
               ]
@@ -32,12 +36,12 @@
               "entity": "this",
               "lore": [
                 {
-                  "nbt": "Item.tag.SkullOwner.Name",
-                  "italic": false,
-                  "entity": "@e[type=item,nbt={Item:{id:\"minecraft:player_head\",Count:1b}},limit=1,sort=nearest,distance=0..1]"
+                  "nbt": "Item.components.minecraft:profile.name",
+                  "entity": "@e[type=item,nbt={Item:{id:\"minecraft:player_head\",count:1}},limit=1,sort=nearest,distance=0..1]",
+                  "italic": false
                 }
               ],
-              "replace": true
+              "mode": "replace_all"
             }
           ]
         }
@@ -45,3 +49,4 @@
     }
   ]
 }
+

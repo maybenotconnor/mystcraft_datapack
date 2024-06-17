@@ -2,12 +2,12 @@ function mystcraft:teleports
 #function mystcraft:vertical/vertical_detect
 
 #run link craft as dropped book
-execute as @e[type=item,nbt={Item:{id:"minecraft:book",Count:1b}}] at @s run function mystcraft:crafting/crafting
+execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1}}] at @s run function mystcraft:crafting/crafting
 
 #THESE ARE LAGGY - FIX EVENTUALLY
 
 #functions for crafted link book
-execute as @e[type=item,nbt={Item:{tag:{fresh_link:1b}}}] at @s run function mystcraft:linkbook/link_crafting
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_link:1}}}}] at @s run function mystcraft:linkbook/link_crafting
 
 #functions for crafted player book
 execute as @e[type=item,tag=fresh_playerbook] at @s run function mystcraft:playerbook/playerbook_crafting

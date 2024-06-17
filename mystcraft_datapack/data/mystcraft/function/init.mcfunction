@@ -30,4 +30,4 @@ scoreboard objectives add uuid_tp_3 dummy
 #when player leaves (unused)
 #scoreboard objectives add offline minecraft.custom:minecraft.leave_game
 
-#say Mystcraft Lite Initialized!
+say Mystcraft Lite Initialized!

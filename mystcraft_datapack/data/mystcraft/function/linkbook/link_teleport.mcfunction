@@ -2,7 +2,7 @@
 tag @s add myst.link.tping
 
 #drops dummy item
-execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["myst.link.dropped"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Linking Book","italic":false,"color":"green"}',Lore:['{"text":"Unobtainable"}']},HideFlags:6,Unbreakable:1b,CustomModelData:696312,linkbook:1b}}}
+execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["myst.link.dropped"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"text":"Linking Book","italic":false,"color":"green"}',"minecraft:lore":['{"text":"Unobtainable"}'],"minecraft:custom_data":{HideFlags:6,Unbreakable:1,CustomModelData:696312,linkbook:1}}}}
 
 #copies held nbt data to dropped dummy
 execute at @s run data modify entity @e[type=item,distance=..5,tag=myst.link.dropped,limit=1,sort=nearest] Item set from entity @s SelectedItem

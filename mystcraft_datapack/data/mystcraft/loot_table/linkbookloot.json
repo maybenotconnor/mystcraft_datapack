@@ -21,11 +21,7 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:6,Unbreakable:1b,CustomModelData:696312,linkbook:1b,fresh_link:1b}"
-            },
-            {
-              "function": "minecraft:copy_nbt",
+              "function": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -36,6 +32,14 @@
               ]
             },
             {
+              "function": "minecraft:set_custom_model_data",
+              "value": 696312
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:6,Unbreakable:1,CustomModelData:696312,linkbook:1,fresh_link:1}"
+            },
+            {
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -44,6 +48,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -62,6 +67,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -80,6 +86,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -98,6 +105,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -116,6 +124,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -134,6 +143,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -152,6 +162,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -170,6 +181,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -188,6 +200,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -206,6 +219,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -224,6 +238,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -242,6 +257,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -260,6 +276,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
@@ -278,6 +295,7 @@
                   "italic": false
                 }
               ],
+              "mode": "replace_all",
               "conditions": [
                 {
                   "condition": "minecraft:location_check",
