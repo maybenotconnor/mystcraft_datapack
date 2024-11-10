@@ -9,13 +9,7 @@
       "water_fog_color": 2039583,
       "grass_color": 789516,
       "foliage_color": 657930,
-      "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
-      "particle": {
-        "options": {
-          "type": "minecraft:falling_obsidian_tear"
-        },
-        "probability": 0.02
-      }
+      "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
     },
     "spawners": {},
     "spawn_costs": {},

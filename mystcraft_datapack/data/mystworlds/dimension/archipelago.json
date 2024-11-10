@@ -1,0 +1,48 @@
+{
+  "type": "mystworlds:myst_default",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "mystworlds:archipelago",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "mystworlds:archipelago_land",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -1,
+            "depth": -1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "mystworlds:archipelago_water",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "mystworlds:archipelago_swamp",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": -1,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -7,13 +7,13 @@ scoreboard objectives add mystguide trigger
 #Village Dimension Init
 #scoreboard objectives add villagetele trigger
 #Volcano Dimension Init
-#scoreboard objectives add volcanotele trigger
+scoreboard objectives add volcanotele trigger
 #Twilight Dimension Init
 #scoreboard objectives add twilighttele trigger
 #Overworld Init
 scoreboard objectives add overworldtele trigger
 #Archipeligo Dimension Init
-#scoreboard objectives add archipeligotele trigger
+scoreboard objectives add archipelagotele trigger
 #Sanctuary Dimension Init
 scoreboard objectives add sanctuarytele trigger
 #Ice Dimension Init
@@ -23,7 +23,7 @@ scoreboard objectives add smalltele trigger
 #Stone Age Init
 #scoreboard objectives add rocktele trigger
 #Warren Dimension Init
-#scoreboard objectives add warrentele trigger
+scoreboard objectives add warrentele trigger
 #Skylands Init
 #scoreboard objectives add skylandtele trigger
 

@@ -1,0 +1,17 @@
+{
+    "structures": [
+      {
+        "structure": "mystworlds:warrens",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 1819881358,
+      "frequency": 1,
+      "spread_type": "linear",
+      "spacing": 2,
+      "separation": 1
+    }
+  }
+  

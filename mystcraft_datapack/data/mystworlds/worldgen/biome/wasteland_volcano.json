@@ -1,0 +1,65 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 13234173,
+    "fog_color": 16774552,
+    "water_color": 5071528,
+    "water_fog_color": 0,
+    "grass_color": 14904407,
+    "foliage_color": 13734216,
+    "mood_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.stony_peaks"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.015
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    ["minecraft:lake_lava_surface"],
+    [],
+    [],
+    [],
+    [
+      "minecraft:delta"
+    ],
+    [],
+    [],
+    [
+      "minecraft:blackstone_blobs",
+      "minecraft:spring_delta",
+      "minecraft:patch_fire",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:ore_gold_deltas",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small"
+    ]
+  ]
+}

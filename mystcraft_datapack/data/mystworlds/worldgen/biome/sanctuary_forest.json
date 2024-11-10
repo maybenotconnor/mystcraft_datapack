@@ -57,7 +57,7 @@
     ]
   },
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": [
     [
       "minecraft:spring_delta",
@@ -85,8 +85,7 @@
       "minecraft:patch_sugar_cane"
     ],
     [
-      "minecraft:trees_flower_forest",
-      "minecraft:trees_cherry"
+      "minecraft:trees_flower_forest"
     ],
     [
       "minecraft:freeze_top_layer"

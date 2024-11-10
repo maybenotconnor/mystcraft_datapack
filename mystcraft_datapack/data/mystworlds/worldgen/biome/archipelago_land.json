@@ -1,0 +1,112 @@
+{
+    "temperature": 0.5,
+    "downfall": 1,
+    "has_precipitation": true,
+    "effects": {
+      "sky_color": 6410748,
+      "fog_color": 936423,
+      "water_color": 2384383,
+      "water_fog_color": 1591456,
+      "grass_color": 39206,
+      "foliage_color": 358947
+    },
+    "spawners": {
+      "ambient": [],
+      "creature": [
+        {
+          "type": "minecraft:rabbit",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 10
+        },
+        {
+          "type": "minecraft:fox",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 10
+        }
+      ],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:spider",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:slime",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 4
+        }
+      ],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [
+      [],
+      [],
+      [],
+      [
+        "minecraft:oak"
+      ],
+      [
+        "minecraft:dark_oak_checked",
+        "minecraft:dark_forest_vegetation"
+      ],
+      [],
+      [
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel",
+        "minecraft:disk_sand",
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_gold",
+        "minecraft:ore_redstone",
+        "minecraft:ore_diamond",
+        "minecraft:ore_lapis",
+        "minecraft:amethyst_geode",
+        "minecraft:glow_lichen",
+        "minecraft:ore_tuff"
+      ],
+      [
+        "minecraft:kelp_cold",
+        "minecraft:seagrass_deep",
+        "minecraft:sea_pickle",
+        "minecraft:seagrass_cold",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:flower_default"
+      ],
+      [
+        "minecraft:spring_water",
+        "minecraft:patch_pumpkin",
+        "minecraft:patch_grass_plain",
+        "minecraft:patch_tall_grass_2",
+        "minecraft:patch_sugar_cane",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal",
+        "minecraft:flower_plain",
+        "minecraft:patch_berry_rare"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ]
+  }
+  

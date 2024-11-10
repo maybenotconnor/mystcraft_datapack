@@ -6,12 +6,8 @@
         " # "
     ],
     "key": {
-        "#": {
-            "item": "minecraft:prismarine_shard"
-        },
-        "H": {
-            "item": "minecraft:heart_of_the_sea"
-        }
+        "#": ["minecraft:prismarine_shard"],
+        "H": ["minecraft:heart_of_the_sea"]
     },
     "result": {
         "id": "minecraft:trident",

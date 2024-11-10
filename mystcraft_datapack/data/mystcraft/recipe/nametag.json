@@ -1,16 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:string"
-        },
-        {
-            "item": "minecraft:paper"
-        },
-        {
-            "item": "minecraft:paper"
-        }
-    ],
+    "ingredients": ["minecraft:string","minecraft:paper","minecraft:paper"],
     "result": {
         "id": "minecraft:name_tag",
         "count": 1
