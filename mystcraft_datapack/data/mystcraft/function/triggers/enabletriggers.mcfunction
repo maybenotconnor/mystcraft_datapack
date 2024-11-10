@@ -9,7 +9,7 @@ scoreboard players enable @s smalltele
 scoreboard players enable @s volcanotele
 #scoreboard players enable @s rocktele
 scoreboard players enable @s warrentele
-#scoreboard players enable @s skylandtele
+scoreboard players enable @s skylandtele
 
 scoreboard players set @s walking 0
 scoreboard players set @s hastriggers 1

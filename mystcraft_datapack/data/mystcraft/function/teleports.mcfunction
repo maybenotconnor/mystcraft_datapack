@@ -29,4 +29,4 @@ execute as @a[scores={sanctuarytele=1..}] at @s run function mystcraft:dim_teles
 execute as @a[scores={smalltele=1..}] at @s run function mystcraft:dim_teles/func_small
 #execute as @a[scores={rocktele=1..}] at @s run function mystcraft:dim_teles/func_rock
 execute as @a[scores={warrentele=1..}] at @s run function mystcraft:dim_teles/func_warrens
-#execute as @a[scores={skylandtele=1..}] at @s run function mystcraft:dim_teles/func_skyland
+execute as @a[scores={skylandtele=1..}] at @s run function mystcraft:dim_teles/func_skyland

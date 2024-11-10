@@ -9,7 +9,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{smallbook:1b}}
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{volcanobook:1b}}}] run scoreboard players enable @s volcanotele
 #execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{rockbook:1b}}}] run scoreboard players enable @s rocktele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{warrenbook:1b}}}] run scoreboard players enable @s warrentele
-#execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{skylandbook:1b}}}] run scoreboard players enable @s skylandtele
+execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",tag:{skylandbook:1b}}}] run scoreboard players enable @s skylandtele
 
 scoreboard players set @s walking 0
 scoreboard players set @s hastriggers 1

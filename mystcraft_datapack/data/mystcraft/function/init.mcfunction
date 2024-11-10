@@ -25,7 +25,7 @@ scoreboard objectives add smalltele trigger
 #Warren Dimension Init
 scoreboard objectives add warrentele trigger
 #Skylands Init
-#scoreboard objectives add skylandtele trigger
+scoreboard objectives add skylandtele trigger
 
 #for dimension triggers:
 #Player Walking Init

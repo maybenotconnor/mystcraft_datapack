@@ -1,0 +1,11 @@
+{
+  "type": "mystworlds:myst_default",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "mystworlds:skyland",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mystworlds:skyland_forest"
+    }
+  }
+}

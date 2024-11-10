@@ -15,7 +15,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:player_head",count:1}},sort=nearest,l
 kill @e[type=item,nbt={Item:{id:"minecraft:shears",count:1}},sort=nearest,limit=1]
 kill @e[type=item,nbt={Item:{id:"minecraft:iron_bars",count:1}},sort=nearest,limit=1]
 #kill @e[type=item,nbt={Item:{id:"minecraft:stone",count:1}},sort=nearest,limit=1]
-#kill @e[type=item,nbt={Item:{id:"minecraft:phantom_membrane",count:1}},sort=nearest,limit=1]
+kill @e[type=item,nbt={Item:{id:"minecraft:phantom_membrane",count:1}},sort=nearest,limit=1]
 
 #explode end crystal
 execute as @e[type=end_crystal,sort=nearest,limit=1] run playsound entity.generic.explode ambient @a

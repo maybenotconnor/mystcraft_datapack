@@ -1,5 +1,5 @@
 function mystcraft:teleports
-#function mystcraft:vertical/vertical_detect
+function mystcraft:vertical/vertical_detect
 
 #run link craft as dropped book
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1}}] at @s run function mystcraft:crafting/crafting
