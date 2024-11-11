@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "mystworlds:skyland_forest",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "start_pool": "mystworlds:skyland_temple",
+  "terrain_adaptation": "beard_thin",
+  "size": 1,
+  "start_height": {
+    "absolute": 110
+  },
+  "max_distance_from_center": 32,
+  "use_expansion_hack": false,
+  "liquid_settings": "apply_waterlogging"
+}

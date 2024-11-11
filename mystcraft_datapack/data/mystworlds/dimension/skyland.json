@@ -4,8 +4,33 @@
     "type": "minecraft:noise",
     "settings": "mystworlds:skyland",
     "biome_source": {
-      "type": "minecraft:fixed",
-      "biome": "mystworlds:skyland_forest"
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "mystworlds:skyland_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "mystworlds:skyland_air",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "temperature": 1,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 8964812,
+    "fog_color": 9227005,
+    "water_color": 5871796,
+    "water_fog_color": 329011,
+    "grass_color": 5759964,
+    "foliage_color": 6417357
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 9,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:goat",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": [
+    [
+      "minecraft:disk_sand"
+    ],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:twisting_vines",
+      "minecraft:vines",
+      "minecraft:patch_berry_bush",
+      "minecraft:patch_berry_common",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:flower_default",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_grass_normal"
+    ],
+    [
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_upper"
+    ],
+    [
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_sugar_cane"
+    ],
+    [
+      "minecraft:trees_windswept_forest"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

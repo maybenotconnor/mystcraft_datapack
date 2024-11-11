@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "mystworlds:skyland_temple",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:concentric_rings",
+      "salt": 16854326,
+      "frequency_reduction_method": "default",
+      "frequency": 1,
+      "distance": 1,
+      "spread": 1,
+      "count": 128,
+      "preferred_biomes": "mystworlds:skyland_forest"
+  }
+}
