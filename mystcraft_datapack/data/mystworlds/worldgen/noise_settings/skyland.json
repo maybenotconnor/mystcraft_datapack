@@ -14,8 +14,8 @@
     }
   },
   "noise": {
-    "min_y": -64,
-    "height": 512,
+    "min_y": 0,
+    "height": 320,
     "size_horizontal": 1,
     "size_vertical": 1
   },
@@ -265,10 +265,10 @@
       }
     },
     "final_density": {
-      //[df-editor]:{"pos":[650,1075],"collapsed":false}
+      //[df-editor]:{"pos":[650,1000],"collapsed":false}
       "type": "squeeze",
       "argument": {
-        //[df-editor]:{"pos":[400,1075],"collapsed":false}
+        //[df-editor]:{"pos":[400,1000],"collapsed":false}
         "type": "add",
         "argument1": {
           //[df-editor]:{"pos":[150,550],"collapsed":false}
@@ -316,7 +316,7 @@
                         },
                         "argument2": 20 //[df-editor]:{"pos":[-1850,400],"collapsed":true}
                       },
-                      "argument2": 4 //[df-editor]:{"pos":[-1600,550],"collapsed":false}
+                      "argument2": 4 //[df-editor]:{"pos":[-1600,550],"collapsed":true}
                     },
                     "argument2": {
                       //[df-editor]:{"pos":[-1350,625],"collapsed":false}
@@ -351,27 +351,27 @@
           }
         },
         "argument2": {
-          //[df-editor]:{"pos":[-350,1375],"collapsed":false}
+          //[df-editor]:{"pos":[150,1225],"collapsed":false}
           "type": "squeeze",
           "argument": {
-            //[df-editor]:{"pos":[-600,1375],"collapsed":false}
+            //[df-editor]:{"pos":[-100,1225],"collapsed":false}
             "type": "mul",
-            "argument1": 0.52, //[df-editor]:{"pos":[-850,1000],"collapsed":true}
+            "argument1": 0.52, //[df-editor]:{"pos":[-350,850],"collapsed":true}
             "argument2": {
-              //[df-editor]:{"pos":[-850,1450],"collapsed":false}
+              //[df-editor]:{"pos":[-350,1300],"collapsed":false}
               "type": "interpolated",
               "argument": {
-                //[df-editor]:{"pos":[-1100,1450],"collapsed":false}
+                //[df-editor]:{"pos":[-600,1300],"collapsed":false}
                 "type": "blend_density",
                 "argument": {
-                  //[df-editor]:{"pos":[-1350,1450],"collapsed":false}
+                  //[df-editor]:{"pos":[-850,1300],"collapsed":false}
                   "type": "add",
-                  "argument1": -0.23, //[df-editor]:{"pos":[-1600,1150],"collapsed":true}
+                  "argument1": -0.2, //[df-editor]:{"pos":[-1100,1000],"collapsed":false}
                   "argument2": {
-                    //[df-editor]:{"pos":[-1600,1525],"collapsed":false}
+                    //[df-editor]:{"pos":[-1100,1375],"collapsed":false}
                     "type": "mul",
                     "argument1": {
-                      //[df-editor]:{"pos":[-1850,1225],"collapsed":false}
+                      //[df-editor]:{"pos":[-1350,1075],"collapsed":false}
                       "type": "y_clamped_gradient",
                       "from_y": -128,
                       "to_y": 0,
@@ -379,18 +379,18 @@
                       "to_value": 0.97
                     },
                     "argument2": {
-                      //[df-editor]:{"pos":[-1850,1525],"collapsed":false}
+                      //[df-editor]:{"pos":[-1350,1375],"collapsed":false}
                       "type": "add",
-                      "argument1": 0.25, //[df-editor]:{"pos":[-2100,1300],"collapsed":true}
+                      "argument1": 0.25, //[df-editor]:{"pos":[-1600,1150],"collapsed":true}
                       "argument2": {
-                        //[df-editor]:{"pos":[-2100,1600],"collapsed":false}
+                        //[df-editor]:{"pos":[-1600,1450],"collapsed":false}
                         "type": "add",
-                        "argument1": -23.5, //[df-editor]:{"pos":[-2350,1450],"collapsed":true}
+                        "argument1": -23.5, //[df-editor]:{"pos":[-1850,1300],"collapsed":true}
                         "argument2": {
-                          //[df-editor]:{"pos":[-2350,1675],"collapsed":false}
+                          //[df-editor]:{"pos":[-1850,1525],"collapsed":false}
                           "type": "mul",
                           "argument1": {
-                            //[df-editor]:{"pos":[-2619,1454],"collapsed":false}
+                            //[df-editor]:{"pos":[-2100,1375],"collapsed":false}
                             "type": "y_clamped_gradient",
                             "from_y": 180,
                             "to_y": 400,
@@ -398,10 +398,10 @@
                             "to_value": 0
                           },
                           "argument2": {
-                            //[df-editor]:{"pos":[-2600,1675],"collapsed":false}
+                            //[df-editor]:{"pos":[-2100,1525],"collapsed":false}
                             "type": "add",
-                            "argument1": 23.7, //[df-editor]:{"pos":[-2850,1600],"collapsed":true}
-                            "argument2": "minecraft:end/base_3d_noise" //[df-editor]:{"pos":[-2935,1752],"collapsed":false}
+                            "argument1": 23.7, //[df-editor]:{"pos":[-2350,1450],"collapsed":true}
+                            "argument2": "minecraft:end/base_3d_noise" //[df-editor]:{"pos":[-2350,1600],"collapsed":true}
                           }
                         }
                       }
