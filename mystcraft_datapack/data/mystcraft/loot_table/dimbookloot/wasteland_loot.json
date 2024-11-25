@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 672
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:7,volcanobook:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "text": "Wasteland",
+                "color": "dark_red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Go to \nThe Wasteland",
+                  "color": "dark_red",
+                  "bold": true,
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "/trigger volcanotele add 1"
+                  }
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

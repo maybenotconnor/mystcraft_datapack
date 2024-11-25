@@ -8,8 +8,12 @@
           "name": "minecraft:carrot_on_a_stick",
           "functions": [
             {
+              "function": "minecraft:set_custom_model_data",
+              "value": 789689
+            },
+            {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:6,Unbreakable:1,CustomModelData:789689,playerbook:1}"
+              "tag": "{HideFlags:6,Unbreakable:1,playerbook:1}"
             },
             {
               "function": "minecraft:set_name",
@@ -49,4 +53,3 @@
     }
   ]
 }
-

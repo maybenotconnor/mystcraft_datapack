@@ -37,7 +37,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:6,Unbreakable:1,CustomModelData:696312,linkbook:1,fresh_link:1}"
+              "tag": "{HideFlags:6,Unbreakable:1,linkbook:1,fresh_link:1}"
             },
             {
               "function": "minecraft:set_lore",
@@ -101,7 +101,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "The Nightmare",
+                  "text": "Archipelago",
                   "italic": false
                 }
               ],
@@ -110,45 +110,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "mystworlds:twilightworld"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "The Caves",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:cavesworld"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Archipeligo",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:archipeligo"
+                    "dimension": "mystworlds:archipelago"
                   }
                 }
               ]
@@ -167,7 +129,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "mystworlds:sanctuaryworld"
+                    "dimension": "mystworlds:sanctuary"
                   }
                 }
               ]
@@ -186,64 +148,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "mystworlds:volcanoworld"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Ice",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:ice"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "The Village",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:village"
-                  }
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                {
-                  "text": "Rock Age",
-                  "italic": false
-                }
-              ],
-              "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:rock"
+                    "dimension": "mystworlds:wasteland"
                   }
                 }
               ]
@@ -262,7 +167,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "mystworlds:warrendimension"
+                    "dimension": "mystworlds:warrens"
                   }
                 }
               ]
@@ -281,7 +186,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "mystworlds:skylanddimension"
+                    "dimension": "mystworlds:skyland"
                   }
                 }
               ]

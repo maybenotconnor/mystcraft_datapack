@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 669
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:7,skylandbook:1}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "text": "Skylands",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Go to Skylands",
+                  "color": "aqua",
+                  "bold": true,
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "/trigger skylandtele add 1"
+                  }
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

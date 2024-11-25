@@ -19,7 +19,7 @@
               "entity": "attacker",
               "predicate": {
                 "type": "minecraft:creeper",
-                "nbt": "{powered:1}"
+                "nbt": "{powered:1b}"
               }
             }
           ]

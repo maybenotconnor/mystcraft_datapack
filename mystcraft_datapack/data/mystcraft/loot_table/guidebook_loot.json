@@ -1,0 +1,116 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_book_cover",
+                            "title": "Mystcraft Guide",
+                            "author": "MaybeNotConnor",
+                            "generation": 0
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Mystcraft Guide",
+                                "bold": true,
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 681
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "pages": [
+                                {
+                                    "text": "Welcome to Mystcraft!\n\nThere are many worlds waiting to be explored.\nTo craft books, drop the required items on the ground together.\nSome books you cannot craft, and must find in structures."
+                                },
+                                {
+                                    "text": "Books can be opened and the words clicked on to teleport into their dimension. \n\nWhen used, books are dropped at their current location.\n\nThis book describes the books and dimensions."
+                                },
+                                {
+                                    "text": "Important!\n\nSince books are dropped on use, always bring a way out! This can be in the form of an overworld or linking book.\nIt is recommended to use lecterns which can be crafted with a T of slabs in a crafting table."
+                                },
+                                {
+                                    "text": "Linking Book:\nBook + Ender Pearl\n\nThe most powerful of all books. When used, each link book will teleport back to where it was crafted. These cannot be placed on lecterns. Link books can be renamed in an anvil (remember where they go!)"
+                                },
+                                {
+                                    "text": "Sanctuary:\nFound in Villages\n\nSanctuary is a beautiful peaceful world without night or danger. Very nice for building or living in."
+                                },
+                                {
+                                    "text": "Archipelago:\nFound in Shipwrecks\n\nThis is an island world with hilly islands and swamp. Massive caverns stretch deep underwater."
+                                },
+                                {
+                                    "text": "Wasteland:\nFound in Desert Temples\n\nThis world is hot and barren, desert stretching endlessly around a large volcano. Most inhabitants head underground to avoid the sun."
+                                },
+                                {
+                                    "text": "Skylands:\nFound at Ruined Portals\n\nThe skylands exist in an airy void. If you happen to fall out of the Skylands, you will land in the Pocket Dimension."
+                                },
+                                {
+                                    "text": "The Warrens:\nFound in Skylands\n\nNo explorer has successfully returned from the Warrens. Enter at you own risk."
+                                },
+                                {
+                                    "text": "Pocket Dimension:\nToss Book&Quill into an End Crystal\n\nThis dark world has the unique feature of one block in this world being 16 blocks in the overworld, similar to the nether. This makes it easy to travel long distances."
+                                },
+                                {
+                                    "text": "Death Book:\nBook + Bone\n\nThis book is a one-way ticket back to where the player last died. It is consumed on use and can only be used once per death."
+                                },
+                                {
+                                    "text": "Player Book:\nBook + Player Head\n\nIf you manage to obtain the head of a player, this powerful book will teleport you directly to them. \nA player head can be obtained if the player is killed by a charged creeper."
+                                },
+                                [
+                                    {
+                                        "text": "Torn Book:\nBook + Shears\n\n"
+                                    },
+                                    {
+                                        "text": "This",
+                                        "obfuscated": true
+                                    },
+                                    {
+                                        "text": " Why would"
+                                    },
+                                    {
+                                        "text": " you do this",
+                                        "obfuscated": true
+                                    },
+                                    {
+                                        "text": "? \n"
+                                    },
+                                    {
+                                        "text": "This book is ",
+                                        "obfuscated": true
+                                    },
+                                    {
+                                        "text": "very dangerous"
+                                    },
+                                    {
+                                        "text": " and teleports the player to",
+                                        "obfuscated": true
+                                    },
+                                    {
+                                        "text": " a random"
+                                    },
+                                    {
+                                        "text": " dimension.\n\n Do not use this!",
+                                        "obfuscated": true
+                                    }
+                                ],
+                                {
+                                    "text": "Tip on Moving entities:\n\nIf you would like to move an animal or mob across dimensions, hold a lead in your offhand (don't use it) when using a dimensional book. The nearest entity within 6 blocks will teleport with you. This does not teleport players or dropped items."
+                                }
+                            ],
+                            "mode": "replace_all"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

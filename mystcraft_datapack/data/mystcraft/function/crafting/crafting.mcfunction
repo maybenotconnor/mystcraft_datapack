@@ -1,5 +1,5 @@
 #Linking Book
-execute as @e[type=item,nbt={Item:{id:"minecraft:ender_pearl",count:1}},limit=1,sort=nearest,distance=0..1] at @s run loot spawn ~ ~ ~ loot mystcraft:linkbookloot
+execute as @e[type=item,nbt={Item:{id:"minecraft:ender_pearl",count:1}},limit=1,sort=nearest,distance=0..1] at @s run loot spawn ~ ~ ~ loot mystcraft:linkbook_loot
 
 #Skull Book
 execute as @e[type=item,nbt={Item:{id:"minecraft:bone",count:1}},limit=1,sort=nearest,distance=0..1] at @s run summon minecraft:item ~ ~0.1 ~ {Tags:["fresh_craft"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"color":"gray","italic":false,"text":"Death Book"}',"minecraft:lore":['{"italic":false,"text":"Visit Last Death - One Time Use"}'],"minecraft:custom_model_data":4874875,"minecraft:custom_data":{HideFlags:6,Unbreakable:1,CustomModelData:4874875,skullbook:1}}}}
