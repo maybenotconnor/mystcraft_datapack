@@ -9,12 +9,17 @@
     "water_fog_color": 5077600,
     "foliage_color": 9285927,
     "grass_color_modifier": "swamp",
-    "music": {
-      "sound": "minecraft:music.overworld.swamp",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
+    "music": [
+      {
+        "data": {
+          "sound": "minecraft:music.overworld.swamp",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ]
   },
   "spawners": {
     "ambient": [

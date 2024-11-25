@@ -1,6 +1,6 @@
 {
  "parent": "item/generated",
  "textures": {
-  "layer0": "item/pocketbook"
+  "layer0": "mystcraft:item/sanctuarybook"
  }
 }

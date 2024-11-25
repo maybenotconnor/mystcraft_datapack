@@ -15,12 +15,17 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.stony_peaks"
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.stony_peaks"
+        },
+        "weight": 1
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:white_ash"
@@ -41,7 +46,9 @@
   "spawn_costs": {},
   "carvers": [],
   "features": [
-    ["minecraft:lake_lava_surface"],
+    [
+      "minecraft:lake_lava_surface"
+    ],
     [],
     [],
     [],
