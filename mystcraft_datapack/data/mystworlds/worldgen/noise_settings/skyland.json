@@ -8,10 +8,7 @@
     "Name": "minecraft:stone"
   },
   "default_fluid": {
-    "Name": "minecraft:water",
-    "Properties": {
-      "level": "-64"
-    }
+    "Name": "minecraft:air"
   },
   "noise": {
     "min_y": 0,
@@ -210,10 +207,10 @@
               }
             }
           },
-          "argument2": 0.1 //[df-editor]:{"pos":[554.5809326171875,867.6430053710938],"collapsed":false}
+          "argument2": 0.13 //[df-editor]:{"pos":[491,839],"collapsed":false}
         }
       },
-      "argument2": 2 //[df-editor]:{"pos":[931.8809814453125,1166.843017578125],"collapsed":false}
+      "argument2": 2 //[df-editor]:{"pos":[931.8809814453125,1166.843017578125],"collapsed":true}
     },
     "erosion": "minecraft:overworld/erosion",
     "depth": "minecraft:overworld/depth",

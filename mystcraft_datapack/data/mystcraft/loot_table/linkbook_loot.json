@@ -45,6 +45,12 @@
               "tag": "{HideFlags:6,Unbreakable:1,linkbook:1,fresh_link:1}"
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:book"
+              }
+            },
+            {
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [

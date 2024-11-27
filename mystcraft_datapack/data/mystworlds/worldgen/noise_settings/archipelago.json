@@ -526,7 +526,7 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "minecraft:bedrock_floor",
           "true_at_and_below": {
-            "above_bottom": -16
+            "above_bottom": 0
           },
           "false_at_and_above": {
             "above_bottom": -11
