@@ -1,5 +1,6 @@
 # Minecraft Mystcraft Datapack
-Datapack addon for Minecraft Java Edition 1.21.4 based on the popular game MYST, adding interdimensional book travel.
+
+Are you interested in exploring new minecraft dimensions, in the spirit of popular game series MYST? The Mystcraft datapack adds 6 new dimensions which are accessed using teleporting books. You can craft these books as a waypoint system as well! Just don't forget a way back...
 
 ## Installation
 To install, move the mystcraft_datapack folder into .minecraft/saves/YOURSAVE/datapacks
