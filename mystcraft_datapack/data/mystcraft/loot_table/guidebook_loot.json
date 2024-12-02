@@ -50,10 +50,10 @@
                                     "text": "Sanctuary:\nFound in Villages\n\nSanctuary is a beautiful peaceful world without night or danger. Very nice for building or living in."
                                 },
                                 {
-                                    "text": "Archipelago:\nFound in Shipwrecks\n\nThis is an island world with hilly islands and swamp. Massive caverns stretch deep underwater."
+                                    "text": "Archipelago:\nFound in Shipwrecks\n\nThis is an island world with hilly islands and swamp. Massive caverns exist deep underwater."
                                 },
                                 {
-                                    "text": "Wasteland:\nFound in Desert Temples\n\nThis world is hot and barren, desert stretching endlessly around a large volcano. Most inhabitants head underground to avoid the sun."
+                                    "text": "Wasteland:\nFound in Desert Temples\n\nThis world is hot and barren. The desert stretches endlessly around a large volcano."
                                 },
                                 {
                                     "text": "Skylands:\nFound at Ruined Portals\n\nThe skylands exist in an airy void. If you happen to fall out of the Skylands, you will land in the Pocket Dimension."
@@ -108,7 +108,7 @@
                                     }
                                 ],
                                 {
-                                    "text": "Tip on Moving entities:\n\nIf you would like to move an animal or mob across dimensions, hold a lead in your offhand (don't use it) when using a dimensional book. The nearest entity within 6 blocks will teleport with you. This does not teleport players or dropped items."
+                                    "text": "Tip on Moving entities:\n\nIf you would like to move an animal or mob across dimensions, hold a lead in your offhand (don't use it) when using a dimensional book. The nearest entity within 6 blocks will teleport with you. Do not use a book while mounted."
                                 }
                             ],
                             "mode": "replace_all"
