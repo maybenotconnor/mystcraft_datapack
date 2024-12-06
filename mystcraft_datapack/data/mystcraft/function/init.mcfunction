@@ -11,7 +11,7 @@ scoreboard objectives add volcanotele trigger
 #Twilight Dimension Init
 #scoreboard objectives add twilighttele trigger
 #Overworld Init
-scoreboard objectives add overworldtele trigger
+#scoreboard objectives add overworldtele trigger
 #Archipeligo Dimension Init
 scoreboard objectives add archipelagotele trigger
 #Sanctuary Dimension Init
@@ -66,4 +66,4 @@ scoreboard objectives add uuid_tp_3 dummy
 #when player leaves (unused)
 #scoreboard objectives add offline minecraft.custom:minecraft.leave_game
 
-#say Mystcraft Lite Initialized!
+#say Mystcraft Initialized!
