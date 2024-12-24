@@ -20,10 +20,10 @@ execute as @a if score @s uuid_self_0 = $playertp uuid_tp_0 if score @s uuid_sel
 execute run function mystcraft:tpeffect
 
 #drops dummy item
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{playerbook:1}}}}] run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedbook"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"text":"PlayerBook","color":"black","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}',"minecraft:custom_data":{HideFlags:7},"minecraft:custom_model_data":{strings:["playerbook"]},"minecraft:item_model":"minecraft:book"}}}
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{playerbook:true}}}}] run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["droppedbook"],PickupDelay:50,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_name":'{"text":"PlayerBook","color":"black","bold":true,"italic":false}',"minecraft:custom_model_data":{strings:["playerbook"]}}}}
 
 #copies held nbt data to dropped dummy
-data modify entity @e[type=item,limit=1,distance=..5,tag=droppedbook] Item set from entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{playerbook:1}}}}] SelectedItem
+data modify entity @e[type=item,limit=1,distance=..5,tag=droppedbook] Item set from entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{playerbook:true}}}}] SelectedItem
 
 #tp player
 tp @s @a[tag=playerbook_target, limit=1]
@@ -37,3 +37,6 @@ scoreboard players set $playertp uuid_tp_2 0
 scoreboard players set $playertp uuid_tp_3 0
 
 tag @a remove playerbook_target
+
+#allow advancement to trigger again
+advancement revoke @s only mystcraft:playerbook_use

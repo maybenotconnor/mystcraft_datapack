@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "deathbook_use": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+                "minecraft:custom_data": {"deathbook":true}
+              }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "deathbook_use"
+      ]
+    ],
+    "rewards": {
+      "function": "mystcraft:deathbook/death_teleport"
+    },
+    "sends_telemetry_event": true
+  }

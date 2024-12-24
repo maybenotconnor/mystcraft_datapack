@@ -12,6 +12,13 @@
         }
       },
       {
+        "when": "unlinkbook",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mystcraft:item/unlinkbook"
+        }
+      },
+      {
         "when": "playerbook",
         "model": {
           "type": "minecraft:model",

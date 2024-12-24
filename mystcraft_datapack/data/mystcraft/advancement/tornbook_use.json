@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "tornbook_use": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+                "minecraft:custom_data": {"tornbook":true}
+              }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tornbook_use"
+      ]
+    ],
+    "rewards": {
+      "function": "mystcraft:tornbook/tornbook_tp"
+    },
+    "sends_telemetry_event": true
+  }

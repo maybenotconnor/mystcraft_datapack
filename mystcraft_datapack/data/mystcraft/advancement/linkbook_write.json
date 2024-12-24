@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "linkbook_write": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+                "minecraft:custom_data": {"unlinkbook": true}
+              }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "linkbook_write"
+      ]
+    ],
+    "rewards": {
+      "function": "mystcraft:linkbook/link_crafting"
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,15 @@
+{
+  "name": "archi_lab",
+  "fallback": "mystworlds:archi_lab",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mystworlds:archi_lab",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,17 +1,4 @@
-#Link Book Teleport
-execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{linkbook:1}}}}] at @s run function mystcraft:linkbook/link_teleport
-
-#Skull Book Teleport
-execute as @a[scores={carrotbookuse=1..,mystdeath_uses=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skullbook:1}}}}] at @s run function mystcraft:deathbook/death_teleport
-
-#PlayerBook Teleport
-execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{playerbook:1}}}}] at @s run function mystcraft:playerbook/playerbook_tp
-
-#Torn Book Teleport
-execute as @a[scores={carrotbookuse=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{tornbook:1}}}}] at @s run function mystcraft:tornbook/tornbook_tp
-scoreboard players remove @a[scores={carrotbookuse=1..}] carrotbookuse 1
-
-#Dimenional teleports
+#Dimensional teleports - needs to exist because lecterns
 #execute as @a[scores={cavetele=1..}] at @s run function mystcraft:dim_teles/func_cave
 #execute as @a[scores={villagetele=1..}] at @s run function mystcraft:dim_teles/func_village
 execute as @a[scores={volcanotele=1..}] at @s run function mystcraft:dim_teles/func_wasteland

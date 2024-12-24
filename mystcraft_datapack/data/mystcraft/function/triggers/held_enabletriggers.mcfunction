@@ -1,7 +1,7 @@
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{archipelagobook:1}}}}] run scoreboard players enable @s archipelagotele
 #execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{cavebook:1}}}}] run scoreboard players enable @s cavetele
 #execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{icebook:1}}}}] run scoreboard players enable @s icetele
-execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{overworldbook:1}}}}] run scoreboard players enable @s overworldtele
+#execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{overworldbook:1}}}}] run scoreboard players enable @s overworldtele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{sanctuarybook:1}}}}] run scoreboard players enable @s sanctuarytele
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{smallbook:1}}}}] run scoreboard players enable @s smalltele
 #execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{twilightbook:1}}}}] run scoreboard players enable @s twilighttele

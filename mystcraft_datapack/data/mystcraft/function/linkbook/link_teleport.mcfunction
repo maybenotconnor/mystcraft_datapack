@@ -2,7 +2,7 @@
 tag @s add myst.link.tping
 
 #drops dummy item
-execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["myst.link.dropped"],PickupDelay:50,Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_name":'{"text":"Linking Book","italic":false,"color":"green"}',"minecraft:lore":['{"text":"Unobtainable"}'],"minecraft:custom_data":{HideFlags:6,Unbreakable:1,linkbook:1},"minecraft:custom_model_data":{strings:["linkbook"]},"minecraft:item_model":"minecraft:book"}}}
+execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["myst.link.dropped"],PickupDelay:50,Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_name":'{"text":"Linking Book","italic":false,"color":"green"}',"minecraft:lore":['{"text":"Unobtainable"}'],"minecraft:custom_model_data":{strings:["linkbook"]}}}}
 
 #copies held nbt data to dropped dummy
 execute at @s run data modify entity @e[type=item,distance=..5,tag=myst.link.dropped,limit=1,sort=nearest] Item set from entity @s SelectedItem
@@ -24,3 +24,6 @@ function mystcraft:tpeffect
 
 #remove tag
 tag @s remove myst.link.tping
+
+#allow advancement to trigger again
+advancement revoke @s only mystcraft:linkbook_use

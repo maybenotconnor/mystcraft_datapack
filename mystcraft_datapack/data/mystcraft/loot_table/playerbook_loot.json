@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_custom_model_data",
@@ -18,7 +18,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:6,Unbreakable:1,playerbook:1}"
+              "tag": {"playerbook":true}
             },
             {
               "function": "minecraft:set_name",
@@ -27,6 +27,17 @@
                 "text": "Player Book",
                 "color": "red",
                 "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
+                "minecraft:max_stack_size": 1
               }
             },
             {
@@ -39,12 +50,6 @@
                   "op": "replace"
                 }
               ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "minecraft:book"
-              }
             },
             {
               "function": "minecraft:set_lore",

@@ -1,11 +1,5 @@
-#store into fresh_link
-data modify entity @s Item.components.minecraft:custom_data.WarpDim set from entity @p Dimension
+#loot table replace unlinkbook
+loot replace entity @s weapon.mainhand loot mystcraft:linkbook_loot
 
-#legacy
-#execute store result entity @s Item.components.minecraft:custom_data.WarpDim short 1 run data get entity @p Dimension
-
-execute at @s run function mystcraft:crafting/crafting_remove
-
-data modify entity @s PickupDelay set value 50
-
-data remove entity @s Item.components.minecraft:custom_data.fresh_link
+#allow advancement to trigger again
+advancement revoke @s only mystcraft:linkbook_write

@@ -1,28 +1,23 @@
 function mystcraft:teleports
 function mystcraft:vertical/vertical_detect
 
-#run link craft as dropped book
-execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1}}] at @s run function mystcraft:crafting/crafting
-
-#run dim craft as dropped book quill
-execute as @e[type=item,nbt={Item:{id:"minecraft:writable_book",count:1}}] at @s run function mystcraft:crafting/dimcrafting
-
-#functions for crafted small book
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_small:1}}}}] at @s run function mystcraft:crafting/small_crafting
-
-#functions for crafted link book
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_link:1}}}}] at @s run function mystcraft:linkbook/link_crafting
-
+#run player craft as dropped player head
+execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",count:1}}] at @s run function mystcraft:playerbook/playerbook_crafting_check
 #functions for crafted player book
-execute as @e[type=item,tag=fresh_playerbook] at @s run function mystcraft:playerbook/playerbook_crafting
+execute as @e[type=item,tag=fresh_playerbook] at @s run function mystcraft:playerbook/playerbook_crafting_copydata
 
-#remove fresh crafts
-execute as @e[type=item,tag=fresh_craft] at @s run function mystcraft:crafting/crafting_remove
+#run small dim craft as dropped book quill
+execute as @e[type=item,nbt={Item:{id:"minecraft:writable_book",count:1}}] at @s run function mystcraft:small_crafting/small_crafting_summon
+#functions for crafted small book
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_small:1}}}}] at @s run function mystcraft:small_crafting/small_crafting_effect
 
 #free Recipe Book trigger
 scoreboard players enable @a mystguide
 execute as @a[scores={mystguide=1..}] at @s run loot give @s loot mystcraft:guidebook_loot
 scoreboard players remove @a[scores={mystguide=1..}] mystguide 1
+
+#reset deathbook advancement when deathcounter >1 (is reset to 0 on use)
+advancement revoke @a[scores={mystdeath_uses=1..}] only mystcraft:deathbook_use
 
 #comment out this line if in multiplayer/LAN: (not required but improves performance slightly)
 #IN SINGLEPLAYER THIS MUST BE UNCOMENTED OR ELSE IT WONT WORK

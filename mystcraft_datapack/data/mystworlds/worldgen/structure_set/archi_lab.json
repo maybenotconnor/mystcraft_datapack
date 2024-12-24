@@ -1,7 +1,7 @@
 {
     "structures": [
       {
-        "structure": "mystworlds:skyland_temple",
+        "structure": "mystworlds:archi_lab",
         "weight": 1
       }
     ],
@@ -13,6 +13,6 @@
       "distance": 1,
       "spread": 1,
       "count": 2,
-      "preferred_biomes": "mystworlds:skyland_forest"
+      "preferred_biomes": "mystworlds:archipelago_land"
   }
 }

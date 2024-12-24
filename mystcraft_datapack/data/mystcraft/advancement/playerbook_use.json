@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "playerbook_use": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+                "minecraft:custom_data": {"playerbook":true}
+              }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "playerbook_use"
+      ]
+    ],
+    "rewards": {
+      "function": "mystcraft:playerbook/playerbook_tp"
+    },
+    "sends_telemetry_event": true
+  }

@@ -88,7 +88,7 @@
           "argument1": "minecraft:overworld/ridges", //[df-editor]:{"pos":[-12,417],"collapsed":true}
           "argument2": -0.15 //[df-editor]:{"pos":[-22,548],"collapsed":true}
         },
-        "argument2": 2 //[df-editor]:{"pos":[49,627],"collapsed":false}
+        "argument2": 3 //[df-editor]:{"pos":[49,627],"collapsed":false}
       },
       "when_out_of_range": -0.4 //[df-editor]:{"pos":[400,700],"collapsed":true}
     },

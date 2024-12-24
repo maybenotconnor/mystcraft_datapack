@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "linkbook_use": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+                "minecraft:custom_data": {"linkbook":true}
+              }
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "linkbook_use"
+      ]
+    ],
+    "rewards": {
+      "function": "mystcraft:linkbook/link_teleport"
+    },
+    "sends_telemetry_event": true
+  }

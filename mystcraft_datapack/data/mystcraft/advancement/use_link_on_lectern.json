@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "use_link_on_lectern": {
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:lectern"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "weapon.mainhand": {
+                    "items": "minecraft:book",
+                    "predicates": {
+                      "minecraft:custom_data": {"linkbook":true}
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:default_block_use"
+      }
+    },
+    "requirements": [
+      [
+        "use_link_on_lectern"
+      ]
+    ],
+    "rewards": {
+      "loot": []
+    },
+    "sends_telemetry_event": true
+  }
