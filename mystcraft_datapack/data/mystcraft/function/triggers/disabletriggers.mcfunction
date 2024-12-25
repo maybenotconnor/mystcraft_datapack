@@ -4,7 +4,7 @@ scoreboard players set @s bookuse 0
 trigger archipelagotele add 0
 #trigger cavetele add 0
 #trigger icetele add 0
-trigger overworldtele add 0
+#trigger overworldtele add 0
 trigger sanctuarytele add 0
 trigger smalltele add 0
 #trigger twilighttele add 0

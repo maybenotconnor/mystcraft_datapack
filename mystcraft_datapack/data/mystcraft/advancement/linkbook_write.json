@@ -17,7 +17,7 @@
       ]
     ],
     "rewards": {
-      "function": "mystcraft:linkbook/link_crafting"
+      "function": "mystcraft:linkbook/link_crafting_wait"
     },
     "sends_telemetry_event": true
   }

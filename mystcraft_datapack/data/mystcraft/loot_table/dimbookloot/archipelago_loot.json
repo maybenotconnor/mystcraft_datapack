@@ -18,7 +18,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:7,archipelagobook:1}"
+              "tag": {"archipelagobook":true}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -32,17 +38,7 @@
             },
             {
               "function": "minecraft:set_written_book_pages",
-              "pages": [
-                {
-                  "text": "Go to\nThe Archipelago",
-                  "color": "blue",
-                  "bold": true,
-                  "clickEvent": {
-                    "action": "run_command",
-                    "value": "/trigger archipelagotele add 1"
-                  }
-                }
-              ],
+              "pages": [["",{"text":"████████████\n██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_green"},{"text":"████████\n█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_green"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_green"},{"text":"█\n█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_green"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_green"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"aqua"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]}},{"text":"████████████\n████████████\n████████████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to the Archipelago","bold":true,"color":"blue"}]},"color":"dark_blue"}]],
               "mode": "replace_all"
             },
             {

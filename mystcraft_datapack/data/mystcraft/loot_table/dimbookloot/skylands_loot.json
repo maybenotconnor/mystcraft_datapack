@@ -18,7 +18,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:7,skylandbook:1}"
+              "tag": {"skylandbook":true}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -32,17 +38,7 @@
             },
             {
               "function": "minecraft:set_written_book_pages",
-              "pages": [
-                {
-                  "text": "Go to Skylands",
-                  "color": "aqua",
-                  "bold": true,
-                  "clickEvent": {
-                    "action": "run_command",
-                    "value": "/trigger skylandtele add 1"
-                  }
-                }
-              ],
+              "pages": [["",{"text":"████████████\n██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"dark_aqua"},{"text":"██████\n██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"dark_aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"dark_aqua"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"dark_aqua"},{"text":"█\n██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"█\n███","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"█\n████","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"gray"},{"text":"███████\n████████████","clickEvent":{"action":"run_command","value":"/trigger skylandtele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Skylands","bold":true,"color":"aqua"}]},"color":"aqua"}]],
               "mode": "replace_all"
             },
             {

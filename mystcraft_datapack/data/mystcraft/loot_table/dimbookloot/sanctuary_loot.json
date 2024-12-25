@@ -18,7 +18,13 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{HideFlags:7,sanctuarybook:1}"
+              "tag": {"sanctuarybook":true}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -32,17 +38,7 @@
             },
             {
               "function": "minecraft:set_written_book_pages",
-              "pages": [
-                {
-                  "text": "Go to Sanctuary",
-                  "color": "light_purple",
-                  "bold": true,
-                  "clickEvent": {
-                    "action": "run_command",
-                    "value": "/trigger sanctuarytele add 1"
-                  }
-                }
-              ],
+              "pages": [["",{"text":"████████████\n███","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"light_purple"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"light_purple"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"light_purple"},{"text":"███\n██","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"████████","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"light_purple"},{"text":"██\n███","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"#996633"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"#996633"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"#996633"},{"text":"███\n██","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"████████","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"green"},{"text":"██\n█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"██████████","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"green"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"aqua"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]}},{"text":"████████████","clickEvent":{"action":"run_command","value":"/trigger sanctuarytele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to Sanctuary","bold":true,"color":"light_purple"}]},"color":"#3399cc"}]],
               "mode": "replace_all"
             },
             {

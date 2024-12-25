@@ -9,7 +9,7 @@ execute as @e[type=item,tag=fresh_playerbook] at @s run function mystcraft:playe
 #run small dim craft as dropped book quill
 execute as @e[type=item,nbt={Item:{id:"minecraft:writable_book",count:1}}] at @s run function mystcraft:small_crafting/small_crafting_summon
 #functions for crafted small book
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_small:1}}}}] at @s run function mystcraft:small_crafting/small_crafting_effect
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_small:true}}}}] at @s run function mystcraft:small_crafting/small_crafting_effect
 
 #free Recipe Book trigger
 scoreboard players enable @a mystguide
