@@ -4,6 +4,13 @@
       "property": "minecraft:custom_model_data",
       "index": 0,
       "cases": [
+                {
+            "when": "linkbook",
+            "model": {
+              "type": "minecraft:model",
+              "model": "mystcraft:item/linkbook"
+            }
+        },
         {
           "when": "skylandbook",
           "model": {

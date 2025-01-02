@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Linking Book",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "SelectedItem.components.minecraft:custom_data.Warp",
+                  "target": "Warp",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "SelectedItem.components.minecraft:custom_data.WarpDim",
+                  "target": "WarpDim",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "linkbook"
+                ],
+                "mode": "replace_all"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false
+                },
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "linkbook": true
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  [
+                    {
+                      "nbt": "SelectedItem.components.minecraft:lore[0]",
+                      "entity": "@s",
+                      "interpret": true
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

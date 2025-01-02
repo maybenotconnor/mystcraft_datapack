@@ -11,6 +11,8 @@ scoreboard players enable @s volcanotele
 scoreboard players enable @s warrentele
 scoreboard players enable @s skylandtele
 
+scoreboard players enable @s linklecternuse
+
 scoreboard players set @s walking 0
 scoreboard players set @s hastriggers 1
 

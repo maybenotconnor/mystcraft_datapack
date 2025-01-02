@@ -55,4 +55,8 @@ scoreboard objectives add uuid_tp_1 dummy
 scoreboard objectives add uuid_tp_2 dummy
 scoreboard objectives add uuid_tp_3 dummy
 
+#for lectern raycasting 
+scoreboard objectives add raycasttemp dummy
+scoreboard objectives add linklecternuse trigger
+
 #say Mystcraft Initialized!

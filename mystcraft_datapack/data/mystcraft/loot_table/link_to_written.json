@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Linking Book",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "SelectedItem.components.minecraft:custom_data.Warp",
+                  "target": "Warp",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "SelectedItem.components.minecraft:custom_data.WarpDim",
+                  "target": "WarpDim",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "linkbook"
+                ],
+                "mode": "replace_all"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "writtenlink": true
+              }
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 3
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  [
+                    {
+                      "nbt": "SelectedItem.components.minecraft:lore[0]",
+                      "entity": "@s",
+                      "interpret": true
+                    }
+                  ]
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                [
+                  "",
+                  {
+                    "text": "████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n",
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger linklecternuse set 1"
+                    },
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "contents": [
+                        {
+                          "text": "Link to ",
+                          "color": "green",
+                          "bold": true
+                        },
+                        {
+                          "nbt": "SelectedItem.components.minecraft:lore[0]",
+                          "entity": "@p[advancements={mystcraft:use_link_on_lectern=true}]",
+                          "interpret": true
+                        }
+                      ]
+                    },
+                    "color": "green"
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
