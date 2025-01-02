@@ -3,6 +3,17 @@
       "playerbook_use": {
         "trigger": "minecraft:using_item",
         "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "playerbook": true
+                  }
+                }
+              }
+            }
+          },
           "item": {
             "predicates": {
                 "minecraft:custom_data": {"playerbook":true}

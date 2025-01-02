@@ -13,8 +13,8 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{fresh_sm
 
 #any player holding a written link book will have it converted
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book",components:{"minecraft:custom_data":{writtenlink:true}}}}] run loot replace entity @s weapon.mainhand loot mystcraft:written_to_link
-#same for offhand - THERE IS A MAJOR BUG
-execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:written_book",components:{"minecraft:custom_data":{writtenlink:true}}}]}] run loot replace entity @s weapon.offhand loot mystcraft:written_to_link
+#same for offhand, need to get data from different slot
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:written_book",components:{"minecraft:custom_data":{writtenlink:true}}}]}] run loot replace entity @s weapon.offhand loot mystcraft:written_to_link_offhand
 
 #free Recipe Book trigger
 scoreboard players enable @a mystguide

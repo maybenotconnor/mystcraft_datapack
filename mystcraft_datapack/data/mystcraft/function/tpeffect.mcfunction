@@ -1,5 +1,5 @@
-execute at @s run playsound minecraft:item.book.page_turn block @a[distance=0..15] ~ ~ ~ 1.2 1 1
-execute at @s run playsound mystcraft:mysttele block @a[distance=0..15] ~ ~ ~ 1 1 1
+execute at @s run playsound minecraft:item.book.page_turn block @a[distance=0..15] ~ ~ ~ 1.2 1
+execute at @s run playsound mystcraft:mysttele block @a[distance=0..15] ~ ~ ~ 1 1
 execute at @s run particle minecraft:enchanted_hit ~ ~ ~ .4 .4 .4 1 100 normal @a
 execute at @s run particle minecraft:nautilus ~ ~ ~ .4 .4 .4 1 100 normal @a
 

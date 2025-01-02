@@ -16,7 +16,7 @@
               "predicate": {
                 "slots": {
                   "weapon.mainhand": {
-                    "items": "minecraft:book",
+                    "items": "minecraft:enchanted_book",
                     "predicates": {
                       "minecraft:custom_data": {"linkbook":true}
                     }

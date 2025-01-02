@@ -3,6 +3,17 @@
       "tornbook_use": {
         "trigger": "minecraft:using_item",
         "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "tornbook": true
+                  }
+                }
+              }
+            }
+          },
           "item": {
             "predicates": {
                 "minecraft:custom_data": {"tornbook":true}

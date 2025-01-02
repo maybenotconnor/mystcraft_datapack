@@ -17,7 +17,7 @@ scoreboard objectives add archipelagotele trigger
 #Sanctuary Dimension Init
 scoreboard objectives add sanctuarytele trigger
 #Ice Dimension Init
-#scoreboard objectives add icetele trigger
+scoreboard objectives add icetele trigger
 #Small Dimension Init
 scoreboard objectives add smalltele trigger
 #Stone Age Init

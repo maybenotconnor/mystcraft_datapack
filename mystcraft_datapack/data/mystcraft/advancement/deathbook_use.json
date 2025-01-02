@@ -3,6 +3,17 @@
       "deathbook_use": {
         "trigger": "minecraft:using_item",
         "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "deathbook": true
+                  }
+                }
+              }
+            }
+          },
           "item": {
             "predicates": {
                 "minecraft:custom_data": {"deathbook":true}

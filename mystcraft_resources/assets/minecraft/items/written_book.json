@@ -54,6 +54,13 @@
             }
         },
         {
+          "when": "icebook",
+          "model": {
+            "type": "minecraft:model",
+            "model": "mystcraft:item/icebook"
+          }
+        },
+        {
             "when": "guidebook",
             "model": {
               "type": "minecraft:model",

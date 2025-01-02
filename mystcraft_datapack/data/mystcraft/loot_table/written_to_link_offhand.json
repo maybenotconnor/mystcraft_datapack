@@ -25,7 +25,7 @@
               "source": "this",
               "ops": [
                 {
-                  "source": "SelectedItem.components.minecraft:custom_data.Warp",
+                  "source": "Inventory[{Slot:-106b}].components.minecraft:custom_data.Warp",
                   "target": "Warp",
                   "op": "replace"
                 }
@@ -36,7 +36,7 @@
               "source": "this",
               "ops": [
                 {
-                  "source": "SelectedItem.components.minecraft:custom_data.WarpDim",
+                  "source": "Inventory[{Slot:-106b}].components.minecraft:custom_data.WarpDim",
                   "target": "WarpDim",
                   "op": "replace"
                 }
@@ -77,7 +77,7 @@
                 [
                   [
                     {
-                      "nbt": "SelectedItem.components.minecraft:lore[0]",
+                      "nbt": "Inventory[{Slot:-106b}].components.minecraft:lore[0]",
                       "entity": "@s",
                       "interpret": true
                     }

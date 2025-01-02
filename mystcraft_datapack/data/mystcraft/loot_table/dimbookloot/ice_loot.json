@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_model_data",
+              "strings": {
+                "values": [
+                  "icebook"
+                ],
+                "mode": "replace_all"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {"icebook":true}
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "text": "Blizzard",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [["",{"text":"████████████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},"\n",{"text":"████████████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"██████████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"aqua"},{"text":"█\n█████████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"aqua"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#66ccff"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"gray"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}}},{"text":"████████████\n████████████\n████████████","clickEvent":{"action":"run_command","value":"/trigger icetele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to The Blizzard","bold":true,"color":"aqua"}},"color":"#dddddd"}]],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "generation": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,17 @@
       "linkbook_write": {
         "trigger": "minecraft:using_item",
         "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "unlinkbook": true
+                  }
+                }
+              }
+            }
+          },
           "item": {
             "predicates": {
                 "minecraft:custom_data": {"unlinkbook": true}

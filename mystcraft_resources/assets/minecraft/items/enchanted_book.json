@@ -42,7 +42,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/book"
+      "model": "minecraft:item/enchanted_book"
     }
   }
 }
