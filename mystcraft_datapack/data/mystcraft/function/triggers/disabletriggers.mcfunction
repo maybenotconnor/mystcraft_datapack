@@ -14,5 +14,7 @@ trigger volcanotele set 0
 trigger warrentele set 0
 trigger skylandtele set 0
 
+trigger linklecternuse set 0
+
 scoreboard players set @s walking 0
 scoreboard players set @s hastriggers 0

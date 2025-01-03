@@ -1,0 +1,9 @@
+{
+    "feature": "minecraft:mega_spruce",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 4
+      }
+    ]
+  }

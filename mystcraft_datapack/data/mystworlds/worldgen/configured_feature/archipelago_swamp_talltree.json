@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size",
+        "limit": 2,
+        "lower_size": 1,
+        "upper_size": 2
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mud"
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mangrove_log"
+        }
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mangrove_leaves"
+        }
+      },
+      "root_placer": {
+        "type": "minecraft:mangrove_root_placer",
+        "root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mangrove_roots"
+          }
+        },
+        "trunk_offset_y": 0,
+        "mangrove_root_placement": {
+          "max_root_width": 3,
+          "max_root_length": 3,
+          "random_skew_chance": 0,
+          "can_grow_through": [],
+          "muddy_roots_in": [],
+          "muddy_roots_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:muddy_mangrove_roots"
+            }
+          }
+        }
+      },
+      "trunk_placer": {
+        "type": "minecraft:giant_trunk_placer",
+        "base_height": 16,
+        "height_rand_a": 1,
+        "height_rand_b": 5
+      },
+      "foliage_placer": {
+        "type": "minecraft:jungle_foliage_placer",
+        "radius": 2,
+        "offset": 0,
+        "height": 3
+      },
+      "decorators": [
+        {
+          "type": "minecraft:leave_vine",
+          "probability": 0.5
+        }
+      ]
+    }
+  }

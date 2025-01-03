@@ -237,6 +237,25 @@
                   }
                 }
               ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "The Blizzard",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all",
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "dimension": "minecraft:ice"
+                  }
+                }
+              ]
             }
           ]
         }

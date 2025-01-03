@@ -121,7 +121,9 @@
         "minecraft:dark_oak_checked",
         "minecraft:dark_forest_vegetation"
       ],
-      [],
+      [
+        "mystworlds:archipelago_lantern"
+      ],
       [
         "minecraft:ore_iron_upper",
         "minecraft:disk_clay",

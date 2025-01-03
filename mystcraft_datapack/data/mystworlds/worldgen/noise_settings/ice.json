@@ -1,0 +1,675 @@
+{
+  "sea_level": -69,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": true,
+  "legacy_random_source": false,
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:ice"
+  },
+  "noise": {
+    "min_y": -64,
+    "height": 512,
+    "size_horizontal": 1,
+    "size_vertical": 1
+  },
+  "noise_router": {
+    "barrier": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_barrier",
+      "xz_scale": 0,
+      "y_scale": 0
+    },
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 0,
+      "y_scale": 0
+    },
+    "lava": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_lava",
+      "xz_scale": 1,
+      "y_scale": 1
+    },
+    "temperature": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:temperature",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    },
+    "vegetation": {
+      //[df-editor]:{"pos":[767.2350463867188,752.6185302734375],"collapsed":false}
+      "type": "clamp",
+      "min": -0.46,
+      "max": 0.46,
+      "input": {
+        //[df-editor]:{"pos":[445,719],"collapsed":false}
+        "type": "add",
+        "argument1": {
+          //[df-editor]:{"pos":[162,623],"collapsed":false}
+          "type": "squeeze",
+          "argument": {
+            //[df-editor]:{"pos":[-36,760],"collapsed":false}
+            "type": "add",
+            "argument1": {
+              //[df-editor]:{"pos":[-100.03766632080078,638.0730590820312],"collapsed":false}
+              "type": "add",
+              "argument1": {
+                //[df-editor]:{"pos":[-21,461],"collapsed":false}
+                "type": "mul",
+                "argument1": {
+                  //[df-editor]:{"pos":[-300,409],"collapsed":false}
+                  "type": "end_islands"
+                },
+                "argument2": 20 //[df-editor]:{"pos":[-341,493],"collapsed":true}
+              },
+              "argument2": 3.8 //[df-editor]:{"pos":[-341,668],"collapsed":false}
+            },
+            "argument2": {
+              //[df-editor]:{"pos":[-298,822],"collapsed":false}
+              "type": "y_clamped_gradient",
+              "from_y": 0,
+              "to_y": 200,
+              "from_value": 0,
+              "to_value": 5
+            }
+          }
+        },
+        "argument2": {
+          //[df-editor]:{"pos":[133,887],"collapsed":false}
+          "type": "y_clamped_gradient",
+          "from_y": 30,
+          "to_y": 50,
+          "from_value": 1,
+          "to_value": 0
+        }
+      }
+    },
+    "continents": "minecraft:overworld/continents",
+    "erosion": "minecraft:overworld/erosion",
+    "depth": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": 50,
+      "to_y": 70,
+      "from_value": -1,
+      "to_value": 1
+    },
+    "ridges": {
+      "type": "minecraft:range_choice",
+      "input": {
+        "type": "minecraft:end_islands"
+      },
+      "min_inclusive": -0.1,
+      "max_exclusive": 0.9999999999999999,
+      "when_in_range": "minecraft:overworld/ridges",
+      "when_out_of_range": -0.4
+    },
+    "initial_density_without_jaggedness": 0,
+    "final_density": {
+      //[df-editor]:{"pos":[1139,745],"collapsed":false}
+      "type": "squeeze",
+      "argument": {
+        //[df-editor]:{"pos":[731,805],"collapsed":false}
+        "type": "squeeze",
+        "argument": {
+          //[df-editor]:{"pos":[400,850],"collapsed":false}
+          "type": "max",
+          "argument1": {
+            //[df-editor]:{"pos":[127,421],"collapsed":false}
+            "type": "squeeze",
+            "argument": {
+              //[df-editor]:{"pos":[-116,420],"collapsed":false}
+              "type": "add",
+              "argument1": {
+                //[df-editor]:{"pos":[151.8563232421875,578.7188110351562],"collapsed":false}
+                "type": "squeeze",
+                "argument": {
+                  //[df-editor]:{"pos":[319,294],"collapsed":false}
+                  "type": "add",
+                  "argument1": {
+                    //[df-editor]:{"pos":[-334,328],"collapsed":false}
+                    "type": "add",
+                    "argument1": {
+                      //[df-editor]:{"pos":[-867,226],"collapsed":false}
+                      "type": "noise",
+                      "noise": "minecraft:surface_secondary",
+                      "xz_scale": 0.6,
+                      "y_scale": 0.9999999999999997
+                    },
+                    "argument2": {
+                      //[df-editor]:{"pos":[-559,476],"collapsed":false}
+                      "type": "y_clamped_gradient",
+                      "from_y": 60,
+                      "to_y": 100,
+                      "from_value": 0,
+                      "to_value": -2
+                    }
+                  },
+                  "argument2": {
+                    //[df-editor]:{"pos":[-76,35],"collapsed":false}
+                    "type": "add",
+                    "argument1": {
+                      //[df-editor]:{"pos":[-969,474],"collapsed":false}
+                      "type": "y_clamped_gradient",
+                      "from_y": 60,
+                      "to_y": 100,
+                      "from_value": 0.7999999999999999,
+                      "to_value": 0
+                    },
+                    "argument2": {
+                      //[df-editor]:{"pos":[-359,82],"collapsed":false}
+                      "type": "y_clamped_gradient",
+                      "from_y": -64,
+                      "to_y": -32,
+                      "from_value": 2,
+                      "to_value": 0
+                    }
+                  }
+                }
+              },
+              "argument2": {
+                //[df-editor]:{"pos":[-282,548],"collapsed":false}
+                "type": "clamp",
+                "min": -0.40000000000000013,
+                "max": 0,
+                "input": {
+                  //[df-editor]:{"pos":[-852,28],"collapsed":false}
+                  "type": "add",
+                  "argument1": {
+                    //[df-editor]:{"pos":[510,486],"collapsed":false}
+                    "type": "clamp",
+                    "min": -0.6000000000000001,
+                    "max": -0.0001,
+                    "input": {
+                      //[df-editor]:{"pos":[1173,194],"collapsed":false}
+                      "type": "add",
+                      "argument1": {
+                        //[df-editor]:{"pos":[511,122],"collapsed":false}
+                        "type": "noise",
+                        "noise": "minecraft:noodle",
+                        "xz_scale": 20,
+                        "y_scale": 20
+                      },
+                      "argument2": {
+                        //[df-editor]:{"pos":[977,402],"collapsed":false}
+                        "type": "y_clamped_gradient",
+                        "from_y": 50,
+                        "to_y": 200,
+                        "from_value": 0,
+                        "to_value": 4.000000000000002
+                      }
+                    }
+                  },
+                  "argument2": {
+                    //[df-editor]:{"pos":[-1373,148],"collapsed":false}
+                    "type": "y_clamped_gradient",
+                    "from_y": 50,
+                    "to_y": 110,
+                    "from_value": 0.01,
+                    "to_value": 1
+                  }
+                }
+              }
+            }
+          },
+          "argument2": {
+            //[df-editor]:{"pos":[150,925],"collapsed":false}
+            "type": "add",
+            "argument1": {
+              //[df-editor]:{"pos":[-100,700],"collapsed":false}
+              "type": "clamp",
+              "min": -0.23,
+              "max": 0,
+              "input": {
+                //[df-editor]:{"pos":[-350,700],"collapsed":false}
+                "type": "squeeze",
+                "argument": {
+                  //[df-editor]:{"pos":[-600,700],"collapsed":false}
+                  "type": "add",
+                  "argument1": {
+                    //[df-editor]:{"pos":[-850,625],"collapsed":false}
+                    "type": "clamp",
+                    "min": -10,
+                    "max": 2,
+                    "input": {
+                      //[df-editor]:{"pos":[-1100,625],"collapsed":false}
+                      "type": "interpolated",
+                      "argument": {
+                        //[df-editor]:{"pos":[-1350,625],"collapsed":false}
+                        "type": "add",
+                        "argument1": {
+                          //[df-editor]:{"pos":[-1600,625],"collapsed":false}
+                          "type": "add",
+                          "argument1": {
+                            //[df-editor]:{"pos":[-1850,550],"collapsed":false}
+                            "type": "mul",
+                            "argument1": {
+                              //[df-editor]:{"pos":[-2100,475],"collapsed":false}
+                              "type": "cache_2d",
+                              "argument": {
+                                //[df-editor]:{"pos":[-2350,475],"collapsed":false}
+                                "type": "flat_cache",
+                                "argument": {
+                                  //[df-editor]:{"pos":[-2600,475],"collapsed":false}
+                                  "type": "interpolated",
+                                  "argument": {
+                                    //[df-editor]:{"pos":[-2850,475],"collapsed":false}
+                                    "type": "end_islands"
+                                  }
+                                }
+                              }
+                            },
+                            "argument2": -20 //[df-editor]:{"pos":[-2159,632],"collapsed":false}
+                          },
+                          "argument2": -4 //[df-editor]:{"pos":[-1922,746],"collapsed":false}
+                        },
+                        "argument2": {
+                          //[df-editor]:{"pos":[-1600,775],"collapsed":false}
+                          "type": "y_clamped_gradient",
+                          "from_y": 0,
+                          "to_y": 200,
+                          "from_value": 0,
+                          "to_value": -8
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    //[df-editor]:{"pos":[-852,773],"collapsed":false}
+                    "type": "clamp",
+                    "min": -5,
+                    "max": 1.8000000000000003,
+                    "input": {
+                      //[df-editor]:{"pos":[-1100,850],"collapsed":false}
+                      "type": "mul",
+                      "argument1": {
+                        //[df-editor]:{"pos":[-1367,880],"collapsed":false}
+                        "type": "noise",
+                        "noise": "minecraft:surface",
+                        "xz_scale": 1.0999999999999999,
+                        "y_scale": 1.6000000000000003
+                      },
+                      "argument2": 1.3 //[df-editor]:{"pos":[-1315,805],"collapsed":true}
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              //[df-editor]:{"pos":[-100,1150],"collapsed":false}
+              "type": "add",
+              "argument1": {
+                //[df-editor]:{"pos":[-350,925],"collapsed":false}
+                "type": "squeeze",
+                "argument": {
+                  //[df-editor]:{"pos":[-583,845],"collapsed":false}
+                  "type": "add",
+                  "argument1": {
+                    //[df-editor]:{"pos":[-850,925],"collapsed":false}
+                    "type": "y_clamped_gradient",
+                    "from_y": -32,
+                    "to_y": 30,
+                    "from_value": -0.6000000000000001,
+                    "to_value": 0
+                  },
+                  "argument2": {
+                    //[df-editor]:{"pos":[-573,1030],"collapsed":false}
+                    "type": "y_clamped_gradient",
+                    "from_y": 50,
+                    "to_y": 256,
+                    "from_value": -0.00001,
+                    "to_value": -0.6
+                  }
+                }
+              },
+              "argument2": {
+                //[df-editor]:{"pos":[-350,1150],"collapsed":false}
+                "type": "squeeze",
+                "argument": {
+                  //[df-editor]:{"pos":[-594,1207],"collapsed":false}
+                  "type": "add",
+                  "argument1": {
+                    //[df-editor]:{"pos":[-857,1137],"collapsed":false}
+                    "type": "squeeze",
+                    "argument": {
+                      //[df-editor]:{"pos":[-1100,1075],"collapsed":false}
+                      "type": "clamp",
+                      "min": -0.001,
+                      "max": 4.999999999999999,
+                      "input": {
+                        //[df-editor]:{"pos":[-1350,1075],"collapsed":false}
+                        "type": "add",
+                        "argument1": {
+                          //[df-editor]:{"pos":[-1600,1075],"collapsed":false}
+                          "type": "add",
+                          "argument1": 0, //[df-editor]:{"pos":[-1850,1000],"collapsed":true}
+                          "argument2": {
+                            //[df-editor]:{"pos":[-1850,1150],"collapsed":false}
+                            "type": "add",
+                            "argument1": {
+                              //[df-editor]:{"pos":[-2100,1150],"collapsed":false}
+                              "type": "add",
+                              "argument1": 0.1, //[df-editor]:{"pos":[-2350,1150],"collapsed":true}
+                              "argument2": {
+                                //[df-editor]:{"pos":[-2350,1225],"collapsed":false}
+                                "type": "y_clamped_gradient",
+                                "from_y": 200,
+                                "to_y": 256,
+                                "from_value": 0,
+                                "to_value": -1.5
+                              }
+                            },
+                            "argument2": {
+                              //[df-editor]:{"pos":[-2062,1339],"collapsed":false}
+                              "type": "noise",
+                              "noise": "minecraft:surface_secondary",
+                              "xz_scale": 1.3,
+                              "y_scale": 0.30000000000000004
+                            }
+                          }
+                        },
+                        "argument2": {
+                          //[df-editor]:{"pos":[-1600,1225],"collapsed":false}
+                          "type": "y_clamped_gradient",
+                          "from_y": 50,
+                          "to_y": 200,
+                          "from_value": 0.6,
+                          "to_value": 0
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    //[df-editor]:{"pos":[-647,1408],"collapsed":false}
+                    "type": "clamp",
+                    "min": -0.20000000000000004,
+                    "max": -0.02,
+                    "input": {
+                      //[df-editor]:{"pos":[-808,1613],"collapsed":false}
+                      "type": "add",
+                      "argument1": 0.6000000000000001, //[df-editor]:{"pos":[-983,1319],"collapsed":false}
+                      "argument2": {
+                        //[df-editor]:{"pos":[-1040,1515],"collapsed":false}
+                        "type": "add",
+                        "argument1": {
+                          //[df-editor]:{"pos":[-1279,1331],"collapsed":false}
+                          "type": "y_clamped_gradient",
+                          "from_y": 100,
+                          "to_y": 250,
+                          "from_value": 0,
+                          "to_value": 4
+                        },
+                        "argument2": {
+                          //[df-editor]:{"pos":[-1338,1584],"collapsed":false}
+                          "type": "noise",
+                          "noise": "minecraft:noodle",
+                          "xz_scale": 15,
+                          "y_scale": 15
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },  
+    "vein_toggle": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:y",
+        "min_inclusive": -60,
+        "max_exclusive": 51,
+        "when_in_range": {
+          "type": "minecraft:noise",
+          "noise": "minecraft:ore_veininess",
+          "xz_scale": 1.5,
+          "y_scale": 1.5
+        },
+        "when_out_of_range": 0
+      }
+    },
+    "vein_ridged": {
+      "type": "minecraft:add",
+      "argument1": -0.07999999821186066,
+      "argument2": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:y",
+              "min_inclusive": -60,
+              "max_exclusive": 51,
+              "when_in_range": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:ore_vein_a",
+                "xz_scale": 4,
+                "y_scale": 4
+              },
+              "when_out_of_range": 0
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:interpolated",
+            "argument": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:y",
+              "min_inclusive": -60,
+              "max_exclusive": 51,
+              "when_in_range": {
+                "type": "minecraft:noise",
+                "noise": "minecraft:ore_vein_b",
+                "xz_scale": 4,
+                "y_scale": 4
+              },
+              "when_out_of_range": 0
+            }
+          }
+        }
+      }
+    },
+    "vein_gap": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:ore_gap",
+      "xz_scale": 1,
+      "y_scale": 1
+    }
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:bedrock_floor",
+          "true_at_and_below": {
+            "absolute": -64
+          },
+          "false_at_and_above": {
+            "absolute": -61
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:deepslate",
+          "true_at_and_below": {
+            "absolute": 0
+          },
+          "false_at_and_above": {
+            "absolute": 8
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "mystworlds:ice_mountains"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:stone_depth",
+            "offset": 20,
+            "surface_type": "floor",
+            "add_surface_depth": false,
+            "secondary_depth_range": 0
+          },
+          "then_run": {
+            "type": "minecraft:sequence",
+            "sequence": [
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:steep"
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:packed_ice"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "minecraft:aquifer_barrier",
+                  "min_threshold": 0.4,
+                  "max_threshold": 4
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:powder_snow"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:snow_block"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "mystworlds:ice_surface"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 1
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "noise": "minecraft:aquifer_barrier",
+                      "min_threshold": 0.4,
+                      "max_threshold": 4
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:powder_snow"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:snow_block"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:noise_threshold",
+              "noise": "minecraft:aquifer_barrier",
+              "min_threshold": 0.5,
+              "max_threshold": 4
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:packed_ice"
+              }
+            }
+          },
+          {
+            "type": "minecraft:block",
+            "result_state": {
+              "Name": "minecraft:stone"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

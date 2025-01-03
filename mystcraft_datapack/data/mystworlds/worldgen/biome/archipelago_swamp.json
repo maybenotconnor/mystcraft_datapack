@@ -100,7 +100,9 @@
   "features": [
     [],
     [],
-    [],
+    [
+      "mystworlds:archipelago_swamp_talltree"
+    ],
     [],
     [],
     [],
