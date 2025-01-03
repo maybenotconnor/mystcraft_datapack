@@ -252,7 +252,7 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "dimension": "minecraft:ice"
+                    "dimension": "mystworlds:ice"
                   }
                 }
               ]
