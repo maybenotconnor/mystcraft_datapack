@@ -132,11 +132,15 @@
         "minecraft:ore_dirt",
         "minecraft:ore_gravel",
         "minecraft:ore_coal_upper",
-        "minecraft:ore_iron_middle",
-        "minecraft:ore_gold",
-        "minecraft:ore_redstone",
         "minecraft:ore_diamond",
         "minecraft:ore_lapis",
+        "minecraft:ore_clay",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_medium",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_copper_large",
         "minecraft:dripstone_cluster",
         "minecraft:amethyst_geode",
         "minecraft:glow_lichen",
@@ -157,7 +161,7 @@
         "minecraft:brown_mushroom_normal",
         "minecraft:red_mushroom_normal",
         "minecraft:flower_plain",
-        "minecraft:patch_berry_rare"
+        "mystworlds:ore_lapis_extra"
       ],
       [
         "minecraft:freeze_top_layer"

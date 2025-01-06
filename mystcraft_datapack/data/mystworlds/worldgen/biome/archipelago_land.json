@@ -7,7 +7,7 @@
       "fog_color": 936423,
       "water_color": 2384383,
       "water_fog_color": 1591456,
-      "grass_color": 39206,
+      "grass_color": 29212,
       "foliage_color": 358947
     },
     "spawners": {
@@ -67,9 +67,10 @@
       ],
       [
         "minecraft:dark_oak_checked",
-        "minecraft:dark_forest_vegetation"
+        "minecraft:forest_flowers"
+        
       ],
-      [],
+      ["minecraft:dark_forest_vegetation"],
       [
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
@@ -91,7 +92,8 @@
         "minecraft:sea_pickle",
         "minecraft:seagrass_cold",
         "minecraft:brown_mushroom_normal",
-        "minecraft:flower_default"
+        "minecraft:flower_default",
+        "minecraft:dark_forest_vegetation"
       ],
       [
         "minecraft:spring_water",
@@ -102,7 +104,10 @@
         "minecraft:brown_mushroom_normal",
         "minecraft:red_mushroom_normal",
         "minecraft:flower_plain",
-        "minecraft:patch_berry_rare"
+        "minecraft:patch_berry_rare",
+        "minecraft:patch_berry_bush",
+        "minecraft:patch_berry_common",
+        "mystworlds:archipelago_berry"
       ],
       [
         "minecraft:freeze_top_layer"

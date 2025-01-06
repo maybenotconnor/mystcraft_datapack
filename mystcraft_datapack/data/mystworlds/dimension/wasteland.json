@@ -10,7 +10,7 @@
           "biome": "mystworlds:wasteland_desert",
           "parameters": {
             "temperature": 0,
-            "humidity": 1,
+            "humidity": -0.5,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -22,7 +22,7 @@
           "biome": "mystworlds:wasteland_volcano",
           "parameters": {
             "temperature": 0,
-            "humidity": -1,
+            "humidity": 0.5,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
@@ -34,11 +34,11 @@
           "biome": "mystworlds:wasteland_underground",
           "parameters": {
             "temperature": 0,
-            "humidity": -1,
+            "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 1,
-            "depth": -1,
+            "depth": -0.5,
             "offset": 0
           }
         }
