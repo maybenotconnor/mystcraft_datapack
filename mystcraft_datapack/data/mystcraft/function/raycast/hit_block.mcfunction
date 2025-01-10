@@ -2,8 +2,8 @@ scoreboard players set #hit raycasttemp 1
 
 # THIS FUNCTION CAN BE RUN FOR MULTIPLE REASONS
 
-#if the lectern has no book, then make it have one
-execute if block ~ ~ ~ minecraft:lectern[has_book=false] run setblock ~ ~ ~ lectern[has_book=true]
+#if the lectern has no book, then make it have one, make sure facing right direction
+$execute if block ~ ~ ~ minecraft:lectern[has_book=false] run setblock ~ ~ ~ lectern[has_book=true,facing=$(facing)]
 #if not using to teleport then copy data
 execute if score @s linklecternuse matches 0 run data modify block ~ ~ ~ Book merge from entity @s SelectedItem
 
