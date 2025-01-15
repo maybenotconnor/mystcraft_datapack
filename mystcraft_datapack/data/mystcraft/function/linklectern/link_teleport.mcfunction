@@ -2,7 +2,7 @@
 tag @s add myst.link.tping
 
 #add tag to closest entity if lead is held
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] run tag @s add myst.link.tping
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run tag @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] add myst.link.tping
 
 #summon marker
 summon marker ~ ~ ~ {Tags:["myst.link.marker"]}

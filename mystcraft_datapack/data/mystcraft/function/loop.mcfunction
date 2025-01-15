@@ -24,6 +24,9 @@ scoreboard players remove @a[scores={mystguide=1..}] mystguide 1
 #reset deathbook advancement when deathcounter >1 (is reset to 0 on use)
 advancement revoke @a[scores={mystdeath_uses=1..}] only mystcraft:deathbook_use
 
+#for some reason the link tag remove command is not working when crossing dimensions, so we will reset it every tick
+tag @e remove myst.link.tping
+
 #comment out this line if in multiplayer/LAN: (not required but improves performance slightly)
 #IN SINGLEPLAYER THIS MUST BE UNCOMENTED OR ELSE IT WONT WORK
 execute as @a[nbt={SelectedItem:{id:"minecraft:written_book"}}] run function mystcraft:triggers/held_enabletriggers
