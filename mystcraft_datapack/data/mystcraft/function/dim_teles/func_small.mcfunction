@@ -3,7 +3,7 @@ function mystcraft:dim_teles/drop_book
 
 #entity tp if holding lead
 execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]},nbt=!{Dimension:"minecraft:overworld"}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] in mystworlds:small positioned as @s run tp @s ~ 100 ~
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] in mystworlds:small at @s run tp @s ~ 100 ~
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] at @s in mystworlds:small run tp @s ~ 100 ~
 
 #if already in pocket dim
 execute as @s[nbt={Dimension:"mystworlds:small",Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run execute as @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] at @s in minecraft:overworld run spreadplayers ~ ~ 0 16 false @s 
