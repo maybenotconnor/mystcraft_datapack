@@ -38,9 +38,314 @@
             },
             {
               "function": "minecraft:set_written_book_pages",
-              "pages": [["",{"text":"████████████\n████████████\n████████████\n████████████\n██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"████████\n█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"████████\n█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"████████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}}},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}}},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_green"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"aqua"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}}},{"text":"████████████\n████████████\n████████████\n████████████","clickEvent":{"action":"run_command","value":"/trigger archipelagotele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Go to the Archipelago","bold":true,"color":"blue"}},"color":"dark_blue"}]],
+              "pages": [
+                [
+                  "",
+                  {
+                    "text": "████████████\n████████████\n████████████\n████████████\n██",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "██",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "████████\n█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "████████\n█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "\n",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    }
+                  },
+                  {
+                    "text": "████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "██████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "\n",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    }
+                  },
+                  {
+                    "text": "█████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "██",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "\n",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    }
+                  },
+                  {
+                    "text": "████████████\n████████████\n████████████\n████████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger archipelagotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to the Archipelago",
+                        "bold": true,
+                        "color": "blue"
+                      }
+                    },
+                    "color": "dark_blue"
+                  }
+                ]
+              ],
               "mode": "replace_all"
-            },
+            },            
             {
               "function": "minecraft:set_book_cover",
               "generation": 3

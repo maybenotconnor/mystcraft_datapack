@@ -56,7 +56,7 @@
               "components": {
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": false,
-                "minecraft:hide_additional_tooltip": {}
+                "tooltip_display": {"hidden_components":["minecraft:written_book_content"]}
               }
             },
             {
@@ -91,25 +91,25 @@
                 [
                   "",
                   {
-                    "text": "████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n",
-                    "clickEvent": {
+                    "text": "████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████\n████████████",
+                    "click_event": {
                       "action": "run_command",
-                      "value": "/trigger linklecternuse set 1"
+                      "command": "/trigger linklecternuse set 1"
                     },
-                    "hoverEvent": {
+                    "hover_event": {
                       "action": "show_text",
-                      "contents": [
-                        {
-                          "text": "Link to ",
-                          "color": "green",
-                          "bold": true
-                        },
-                        {
-                          "nbt": "SelectedItem.components.minecraft:lore[0]",
-                          "entity": "@p[advancements={mystcraft:use_link_on_lectern=true}]",
-                          "interpret": true
-                        }
-                      ]
+                      "value": {
+                        "text": "Link to ",
+                        "color": "green",
+                        "bold": true,
+                        "extra": [
+                          {
+                            "nbt": "SelectedItem.components.minecraft:lore[0]",
+                            "entity": "@p[advancements={mystcraft:use_link_on_lectern=true}]",
+                            "interpret": true
+                          }
+                        ]
+                      }
                     },
                     "color": "dark_green"
                   }

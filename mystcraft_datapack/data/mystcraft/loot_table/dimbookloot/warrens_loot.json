@@ -1,53 +1,1396 @@
 {
   "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:written_book",
-          "functions": [
-            {
-              "function": "minecraft:set_custom_model_data",
-              "strings": {
-                "values": [
-                  "warrenbook"
-                ],
-                "mode": "replace_all"
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:written_book",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_custom_model_data",
+                          "strings": {
+                              "values": [
+                                  "warrenbook"
+                              ],
+                              "mode": "replace_all"
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_custom_data",
+                          "tag": {
+                              "warrenbook": true
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:max_stack_size": 1
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_name",
+                          "entity": "this",
+                          "target": "custom_name",
+                          "name": {
+                              "text": "Warrens",
+                              "color": "gray",
+                              "italic": false
+                          }
+                      },
+                      {
+                          "function": "minecraft:set_written_book_pages",
+                          "pages": [
+                              [
+                                  "",
+                                  {
+                                      "text": "███",
+                                      "color": "gray",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      }
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "████\n█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█\n███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "████████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "███\n█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "████\n█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█\n███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "████████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "████",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "██",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  "\n",
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  },
+                                  {
+                                      "text": "█",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "#cc9966"
+                                  },
+                                  {
+                                      "text": "███",
+                                      "click_event": {
+                                          "action": "run_command",
+                                          "command": "/trigger warrentele set 1"
+                                      },
+                                      "hover_event": {
+                                          "action": "show_text",
+                                          "value": [
+                                              "",
+                                              {
+                                                  "text": "Go to The Warrens",
+                                                  "bold": true,
+                                                  "color": "dark_gray"
+                                              }
+                                          ]
+                                      },
+                                      "color": "gray"
+                                  }
+                              ]
+                          ],
+                          "mode": "replace_all"
+                      },
+                      {
+                          "function": "minecraft:set_book_cover",
+                          "generation": 3
+                      }
+                  ]
               }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {"warrenbook": true}
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:max_stack_size": 1
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "target": "custom_name",
-              "name": {
-                "text": "Warrens",
-                "color": "gray",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_written_book_pages",
-              "pages": [["",{"text":"███","color":"gray","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},"\n",{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},"\n",{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"████\n█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█\n███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"████████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},"\n",{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},"\n",{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"███\n█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},"\n",{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"████\n█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█\n███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"████████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},"\n",{"text":"████","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},"\n",{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"#cc9966"},{"text":"███","clickEvent":{"action":"run_command","value":"/trigger warrentele set 1"},"hoverEvent":{"action":"show_text","contents":["",{"text":"Go to The Warrens","bold":true,"color":"dark_gray"}]},"color":"gray"}]],
-              "mode": "replace_all"
-            },
-            {
-              "function": "minecraft:set_book_cover",
-              "generation": 3
-            }
           ]
-        }
-      ]
-    }
+      }
   ]
 }

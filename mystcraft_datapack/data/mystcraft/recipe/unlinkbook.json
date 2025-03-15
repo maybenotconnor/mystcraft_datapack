@@ -24,8 +24,8 @@
             "unlinkbook"
           ]
         },
-        "minecraft:custom_name": "{'italic':false,'text':'Empty Linking Book'}",
-        "minecraft:lore": ["{'italic':false,'text':'Use to Establish Link'}"]
+        "minecraft:custom_name": {italic:false,text:"Empty Linking Book"},
+        "minecraft:lore": [{italic:false,text:"Use to Establish Link"}]
       }
     }
   }

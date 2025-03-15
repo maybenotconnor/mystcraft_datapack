@@ -38,7 +38,770 @@
             },
             {
               "function": "minecraft:set_written_book_pages",
-              "pages": [["",{"text":"████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"███████\n████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"███\n████████████\n███","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"████████\n███","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"\n","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}}},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█████\n████████████\n████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"███████\n██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█\n██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"████","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"██","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"blue"},{"text":"█","clickEvent":{"action":"run_command","value":"/trigger smalltele set 1"},"hoverEvent":{"action":"show_text","contents":{"text":"Travel through the Pocket Dimension","bold":true}},"color":"#330066"}]],
+              "pages": [[
+                "",
+                {
+                  "text": "████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "███████\n████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "\n",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  }
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "\n",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  }
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "███\n████████████\n███",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "████████\n███",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "\n",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  }
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "\n",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  }
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█████\n████████████\n████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "███████\n██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█\n██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "████",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "██",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "blue"
+                },
+                {
+                  "text": "█",
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "/trigger smalltele set 1"
+                  },
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Travel through the Pocket Dimension",
+                      "bold": true
+                    }
+                  },
+                  "color": "#330066"
+                }
+              ]],
               "mode": "replace_all"
             },
             {

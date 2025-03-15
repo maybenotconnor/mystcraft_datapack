@@ -24,8 +24,8 @@
             "tornbook"
           ]
         },
-        "minecraft:custom_name": "{'italic':false,'text':'Torn Book'}",
-        "minecraft:lore": ["{'italic':false,'obfuscated': true,'text':'Random Teleport'}"]
+        "minecraft:custom_name": {italic:false,text:"Torn Book"},
+        "minecraft:lore": [{italic:false,obfuscated: true,text:"Random Teleport"}]
       }
     }
   }
