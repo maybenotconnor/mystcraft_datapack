@@ -3,12 +3,12 @@
   "downfall": 0.4,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 16753830,
+    "sky_color": 16746395,
     "fog_color": 9227005,
     "water_color": 10944509,
     "water_fog_color": 329011,
     "grass_color": 5759881,
-    "foliage_color": 16747149,
+    "foliage_color": 16746395,
     "particle": {
       "options": {
         "type": "minecraft:crimson_spore"
@@ -72,7 +72,10 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sunflower",
-      "minecraft:patch_grass_normal"
+      "minecraft:patch_grass_normal",
+      "minecraft:fallen_birch_tree",
+      "minecraft:wildflowers_birch_forest",
+      "minecraft:trees_birch_and_oak_leaf_litter"
     ],
     [
       "minecraft:ore_diorite_upper",

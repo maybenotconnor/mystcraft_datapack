@@ -93,7 +93,9 @@
         "minecraft:seagrass_cold",
         "minecraft:brown_mushroom_normal",
         "minecraft:flower_default",
-        "minecraft:dark_forest_vegetation"
+        "minecraft:dark_forest_vegetation",
+        "minecraft:patch_firefly_bush_near_water",
+        "minecraft:dark_oak_leaf_litter"
       ],
       [
         "minecraft:spring_water",

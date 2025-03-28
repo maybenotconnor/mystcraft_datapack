@@ -55,7 +55,8 @@
       "minecraft:flower_default",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_grass_normal"
+      "minecraft:patch_grass_normal",
+      "minecraft:patch_leaf_litter"
     ],
     [
       "minecraft:ore_diorite_upper",

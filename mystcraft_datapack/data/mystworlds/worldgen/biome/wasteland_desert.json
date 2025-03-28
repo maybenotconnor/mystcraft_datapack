@@ -145,7 +145,8 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:disk_sand",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:patch_dry_grass_desert"
     ],
     [],
     [

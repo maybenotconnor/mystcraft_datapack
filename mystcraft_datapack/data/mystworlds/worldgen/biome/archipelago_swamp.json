@@ -109,6 +109,8 @@
     [],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_firefly_bush_near_water_swamp",
+      "minecraft:patch_firefly_bush_swamp",
       "minecraft:trees_mangrove",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",

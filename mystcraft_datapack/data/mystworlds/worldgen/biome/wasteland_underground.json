@@ -102,7 +102,8 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:disk_sand",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:patch_dry_grass_desert"
     ],
     ["mystworlds:ore_gold_extra"],
     [
