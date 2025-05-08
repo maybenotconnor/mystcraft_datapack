@@ -1,8 +1,10 @@
 #add tag
 tag @s add myst.link.tping
 
-#add tag to closest entity if lead is held
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run tag @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] add myst.link.tping
+#LEASHED TO PLAYER
+execute as @s run function mystcraft:mobs/player_score
+#LEASHED ENTITY
+execute at @s as @e[distance=..10,type=!player,type=!item] if data entity @s leash run function mystcraft:mobs/leashed_score {tag: myst.link.tping}
 
 #drops dummy item
 execute at @s run summon minecraft:item ~ ~0.1 ~ {Age:-32750,Tags:["myst.link.dropped"],PickupDelay:50,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:custom_name":'{"text":"Linking Book","italic":false,"color":"green"}',"minecraft:lore":['{"text":"Unobtainable"}'],"minecraft:custom_model_data":{strings:["linkbook"]}}}}
@@ -27,6 +29,9 @@ function mystcraft:tpeffect
 
 #remove tag from all entities
 tag @e remove myst.link.tping
+
+#clean up leashed scoreboard and tag
+function mystcraft:mobs/clear
 
 #allow advancement to trigger again
 advancement revoke @s only mystcraft:linkbook_use

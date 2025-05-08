@@ -55,6 +55,17 @@ scoreboard objectives add uuid_tp_1 dummy
 scoreboard objectives add uuid_tp_2 dummy
 scoreboard objectives add uuid_tp_3 dummy
 
+#leash uuids
+scoreboard objectives add uuid_leash_0 dummy
+scoreboard objectives add uuid_leash_1 dummy
+scoreboard objectives add uuid_leash_2 dummy
+scoreboard objectives add uuid_leash_3 dummy
+
+scoreboard objectives add uuid_leashplayer_0 dummy
+scoreboard objectives add uuid_leashplayer_1 dummy
+scoreboard objectives add uuid_leashplayer_2 dummy
+scoreboard objectives add uuid_leashplayer_3 dummy
+
 #for lectern raycasting 
 scoreboard objectives add raycasttemp dummy
 scoreboard objectives add linklecternuse trigger

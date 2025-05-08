@@ -111,7 +111,7 @@
                     }
                   ],
                   {
-                    "text": "Tip on Moving entities:\n\nIf you would like to move an animal, hold a lead in your offhand (don't use it) when using a dimensional or linking book. The nearest mob within 6 blocks will teleport with you. Do not use a book while mounted."
+                    "text": "Tip on Moving entities:\n\nAny mob you are connected to via a lead should teleport with you using dimensional or linking books. Do not use a book while mounted."
                   }
                 ],
                 "mode": "replace_all"
