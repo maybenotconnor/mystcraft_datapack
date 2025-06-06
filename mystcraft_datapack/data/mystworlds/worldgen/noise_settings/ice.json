@@ -46,35 +46,35 @@
       "shift_z": "minecraft:shift_z"
     },
     "vegetation": {
-      //[df-editor]:{"pos":[767.2350463867188,752.6185302734375],"collapsed":false}
+
       "type": "clamp",
       "min": -0.46,
       "max": 0.46,
       "input": {
-        //[df-editor]:{"pos":[445,719],"collapsed":false}
+
         "type": "add",
         "argument1": {
-          //[df-editor]:{"pos":[162,623],"collapsed":false}
+
           "type": "squeeze",
           "argument": {
-            //[df-editor]:{"pos":[-36,760],"collapsed":false}
+
             "type": "add",
             "argument1": {
-              //[df-editor]:{"pos":[-100.03766632080078,638.0730590820312],"collapsed":false}
+
               "type": "add",
               "argument1": {
-                //[df-editor]:{"pos":[-21,461],"collapsed":false}
+
                 "type": "mul",
                 "argument1": {
-                  //[df-editor]:{"pos":[-300,409],"collapsed":false}
+
                   "type": "end_islands"
                 },
-                "argument2": 20 //[df-editor]:{"pos":[-341,493],"collapsed":true}
+                "argument2": 20
               },
-              "argument2": 3.8 //[df-editor]:{"pos":[-341,668],"collapsed":false}
+              "argument2": 3.8
             },
             "argument2": {
-              //[df-editor]:{"pos":[-298,822],"collapsed":false}
+
               "type": "y_clamped_gradient",
               "from_y": 0,
               "to_y": 200,
@@ -84,7 +84,7 @@
           }
         },
         "argument2": {
-          //[df-editor]:{"pos":[133,887],"collapsed":false}
+
           "type": "y_clamped_gradient",
           "from_y": 30,
           "to_y": 50,
@@ -114,38 +114,38 @@
     },
     "initial_density_without_jaggedness": 0,
     "final_density": {
-      //[df-editor]:{"pos":[1139,745],"collapsed":false}
+
       "type": "squeeze",
       "argument": {
-        //[df-editor]:{"pos":[731,805],"collapsed":false}
+
         "type": "squeeze",
         "argument": {
-          //[df-editor]:{"pos":[400,850],"collapsed":false}
+
           "type": "max",
           "argument1": {
-            //[df-editor]:{"pos":[127,421],"collapsed":false}
+
             "type": "squeeze",
             "argument": {
-              //[df-editor]:{"pos":[-116,420],"collapsed":false}
+
               "type": "add",
               "argument1": {
-                //[df-editor]:{"pos":[151.8563232421875,578.7188110351562],"collapsed":false}
+
                 "type": "squeeze",
                 "argument": {
-                  //[df-editor]:{"pos":[319,294],"collapsed":false}
+
                   "type": "add",
                   "argument1": {
-                    //[df-editor]:{"pos":[-334,328],"collapsed":false}
+
                     "type": "add",
                     "argument1": {
-                      //[df-editor]:{"pos":[-867,226],"collapsed":false}
+
                       "type": "noise",
                       "noise": "minecraft:surface_secondary",
                       "xz_scale": 0.6,
                       "y_scale": 0.9999999999999997
                     },
                     "argument2": {
-                      //[df-editor]:{"pos":[-559,476],"collapsed":false}
+
                       "type": "y_clamped_gradient",
                       "from_y": 60,
                       "to_y": 100,
@@ -154,10 +154,10 @@
                     }
                   },
                   "argument2": {
-                    //[df-editor]:{"pos":[-76,35],"collapsed":false}
+
                     "type": "add",
                     "argument1": {
-                      //[df-editor]:{"pos":[-969,474],"collapsed":false}
+
                       "type": "y_clamped_gradient",
                       "from_y": 60,
                       "to_y": 100,
@@ -165,7 +165,7 @@
                       "to_value": 0
                     },
                     "argument2": {
-                      //[df-editor]:{"pos":[-359,82],"collapsed":false}
+
                       "type": "y_clamped_gradient",
                       "from_y": -64,
                       "to_y": -32,
@@ -176,30 +176,30 @@
                 }
               },
               "argument2": {
-                //[df-editor]:{"pos":[-282,548],"collapsed":false}
+
                 "type": "clamp",
                 "min": -0.40000000000000013,
                 "max": 0,
                 "input": {
-                  //[df-editor]:{"pos":[-852,28],"collapsed":false}
+
                   "type": "add",
                   "argument1": {
-                    //[df-editor]:{"pos":[510,486],"collapsed":false}
+
                     "type": "clamp",
                     "min": -0.6000000000000001,
                     "max": -0.0001,
                     "input": {
-                      //[df-editor]:{"pos":[1173,194],"collapsed":false}
+
                       "type": "add",
                       "argument1": {
-                        //[df-editor]:{"pos":[511,122],"collapsed":false}
+
                         "type": "noise",
                         "noise": "minecraft:noodle",
                         "xz_scale": 20,
                         "y_scale": 20
                       },
                       "argument2": {
-                        //[df-editor]:{"pos":[977,402],"collapsed":false}
+
                         "type": "y_clamped_gradient",
                         "from_y": 50,
                         "to_y": 200,
@@ -209,7 +209,7 @@
                     }
                   },
                   "argument2": {
-                    //[df-editor]:{"pos":[-1373,148],"collapsed":false}
+
                     "type": "y_clamped_gradient",
                     "from_y": 50,
                     "to_y": 110,
@@ -221,58 +221,58 @@
             }
           },
           "argument2": {
-            //[df-editor]:{"pos":[150,925],"collapsed":false}
+
             "type": "add",
             "argument1": {
-              //[df-editor]:{"pos":[-100,700],"collapsed":false}
+
               "type": "clamp",
               "min": -0.23,
               "max": 0,
               "input": {
-                //[df-editor]:{"pos":[-350,700],"collapsed":false}
+
                 "type": "squeeze",
                 "argument": {
-                  //[df-editor]:{"pos":[-600,700],"collapsed":false}
+
                   "type": "add",
                   "argument1": {
-                    //[df-editor]:{"pos":[-850,625],"collapsed":false}
+
                     "type": "clamp",
                     "min": -10,
                     "max": 2,
                     "input": {
-                      //[df-editor]:{"pos":[-1100,625],"collapsed":false}
+
                       "type": "interpolated",
                       "argument": {
-                        //[df-editor]:{"pos":[-1350,625],"collapsed":false}
+
                         "type": "add",
                         "argument1": {
-                          //[df-editor]:{"pos":[-1600,625],"collapsed":false}
+
                           "type": "add",
                           "argument1": {
-                            //[df-editor]:{"pos":[-1850,550],"collapsed":false}
+
                             "type": "mul",
                             "argument1": {
-                              //[df-editor]:{"pos":[-2100,475],"collapsed":false}
+
                               "type": "cache_2d",
                               "argument": {
-                                //[df-editor]:{"pos":[-2350,475],"collapsed":false}
+
                                 "type": "flat_cache",
                                 "argument": {
-                                  //[df-editor]:{"pos":[-2600,475],"collapsed":false}
+
                                   "type": "interpolated",
                                   "argument": {
-                                    //[df-editor]:{"pos":[-2850,475],"collapsed":false}
+
                                     "type": "end_islands"
                                   }
                                 }
                               }
                             },
-                            "argument2": -20 //[df-editor]:{"pos":[-2159,632],"collapsed":false}
+                            "argument2": -20
                           },
-                          "argument2": -4 //[df-editor]:{"pos":[-1922,746],"collapsed":false}
+                          "argument2": -4
                         },
                         "argument2": {
-                          //[df-editor]:{"pos":[-1600,775],"collapsed":false}
+
                           "type": "y_clamped_gradient",
                           "from_y": 0,
                           "to_y": 200,
@@ -283,37 +283,37 @@
                     }
                   },
                   "argument2": {
-                    //[df-editor]:{"pos":[-852,773],"collapsed":false}
+
                     "type": "clamp",
                     "min": -5,
                     "max": 1.8000000000000003,
                     "input": {
-                      //[df-editor]:{"pos":[-1100,850],"collapsed":false}
+
                       "type": "mul",
                       "argument1": {
-                        //[df-editor]:{"pos":[-1367,880],"collapsed":false}
+
                         "type": "noise",
                         "noise": "minecraft:surface",
                         "xz_scale": 1.0999999999999999,
                         "y_scale": 1.6000000000000003
                       },
-                      "argument2": 1.3 //[df-editor]:{"pos":[-1315,805],"collapsed":true}
+                      "argument2": 1.3
                     }
                   }
                 }
               }
             },
             "argument2": {
-              //[df-editor]:{"pos":[-100,1150],"collapsed":false}
+
               "type": "add",
               "argument1": {
-                //[df-editor]:{"pos":[-350,925],"collapsed":false}
+
                 "type": "squeeze",
                 "argument": {
-                  //[df-editor]:{"pos":[-583,845],"collapsed":false}
+
                   "type": "add",
                   "argument1": {
-                    //[df-editor]:{"pos":[-850,925],"collapsed":false}
+
                     "type": "y_clamped_gradient",
                     "from_y": -32,
                     "to_y": 30,
@@ -321,7 +321,7 @@
                     "to_value": 0
                   },
                   "argument2": {
-                    //[df-editor]:{"pos":[-573,1030],"collapsed":false}
+
                     "type": "y_clamped_gradient",
                     "from_y": 50,
                     "to_y": 256,
@@ -331,35 +331,35 @@
                 }
               },
               "argument2": {
-                //[df-editor]:{"pos":[-350,1150],"collapsed":false}
+
                 "type": "squeeze",
                 "argument": {
-                  //[df-editor]:{"pos":[-594,1207],"collapsed":false}
+
                   "type": "add",
                   "argument1": {
-                    //[df-editor]:{"pos":[-857,1137],"collapsed":false}
+
                     "type": "squeeze",
                     "argument": {
-                      //[df-editor]:{"pos":[-1100,1075],"collapsed":false}
+
                       "type": "clamp",
                       "min": -0.001,
                       "max": 4.999999999999999,
                       "input": {
-                        //[df-editor]:{"pos":[-1350,1075],"collapsed":false}
+
                         "type": "add",
                         "argument1": {
-                          //[df-editor]:{"pos":[-1600,1075],"collapsed":false}
+
                           "type": "add",
-                          "argument1": 0, //[df-editor]:{"pos":[-1850,1000],"collapsed":true}
+                          "argument1": 0,
                           "argument2": {
-                            //[df-editor]:{"pos":[-1850,1150],"collapsed":false}
+
                             "type": "add",
                             "argument1": {
-                              //[df-editor]:{"pos":[-2100,1150],"collapsed":false}
+
                               "type": "add",
-                              "argument1": 0.1, //[df-editor]:{"pos":[-2350,1150],"collapsed":true}
+                              "argument1": 0.1,
                               "argument2": {
-                                //[df-editor]:{"pos":[-2350,1225],"collapsed":false}
+
                                 "type": "y_clamped_gradient",
                                 "from_y": 200,
                                 "to_y": 256,
@@ -368,7 +368,7 @@
                               }
                             },
                             "argument2": {
-                              //[df-editor]:{"pos":[-2062,1339],"collapsed":false}
+
                               "type": "noise",
                               "noise": "minecraft:surface_secondary",
                               "xz_scale": 1.3,
@@ -377,7 +377,7 @@
                           }
                         },
                         "argument2": {
-                          //[df-editor]:{"pos":[-1600,1225],"collapsed":false}
+
                           "type": "y_clamped_gradient",
                           "from_y": 50,
                           "to_y": 200,
@@ -388,19 +388,19 @@
                     }
                   },
                   "argument2": {
-                    //[df-editor]:{"pos":[-647,1408],"collapsed":false}
+
                     "type": "clamp",
                     "min": -0.20000000000000004,
                     "max": -0.02,
                     "input": {
-                      //[df-editor]:{"pos":[-808,1613],"collapsed":false}
+
                       "type": "add",
-                      "argument1": 0.6000000000000001, //[df-editor]:{"pos":[-983,1319],"collapsed":false}
+                      "argument1": 0.6000000000000001,
                       "argument2": {
-                        //[df-editor]:{"pos":[-1040,1515],"collapsed":false}
+
                         "type": "add",
                         "argument1": {
-                          //[df-editor]:{"pos":[-1279,1331],"collapsed":false}
+
                           "type": "y_clamped_gradient",
                           "from_y": 100,
                           "to_y": 250,
@@ -408,7 +408,7 @@
                           "to_value": 4
                         },
                         "argument2": {
-                          //[df-editor]:{"pos":[-1338,1584],"collapsed":false}
+
                           "type": "noise",
                           "noise": "minecraft:noodle",
                           "xz_scale": 15,

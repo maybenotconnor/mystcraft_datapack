@@ -24,8 +24,8 @@
             "deathbook"
           ]
         },
-        "minecraft:custom_name": {italic:false,text:"Death Book",color:'gray'},
-        "minecraft:lore": [{italic:false,text:"Visit Last Death - One Time Use"}]
+        "minecraft:custom_name": {"italic":false,"text":"Death Book","color":"gray"},
+        "minecraft:lore": [{"italic":false,"text":"Visit Last Death - One Time Use"}]
       }
     }
   }
