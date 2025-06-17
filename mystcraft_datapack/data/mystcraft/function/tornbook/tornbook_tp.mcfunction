@@ -17,8 +17,8 @@ execute if score $random time matches 2..3 in mystworlds:sanctuary run spreadpla
 execute if score $random time matches 3..4 in mystworlds:archipelago run spreadplayers 0 0 30 500 false @s
 execute if score $random time matches 4..5 in mystworlds:warrens run tp @s ~ 64 ~
 execute if score $random time matches 5..6 in mystworlds:wasteland run spreadplayers 0 0 30 500 false @s
-execute if score $random time matches 6..7 in mystworlds:small run spreadplayers 0 0 30 500 false @s
-execute if score $random time matches 7.. in minecraft:the_end run spreadplayers 0 0 50 3000 false @s 
+execute if score $random time matches 6..7 in mystworlds:ice run spreadplayers 0 0 30 500 false @s
+execute if score $random time matches 7.. in mystworlds:small run spreadplayers 0 0 50 500 false @s 
 
 execute run function mystcraft:tpeffect
 
