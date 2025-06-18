@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "exists": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "exists"
+    ]
+  ],
+  "rewards": {
+    "function": "mystcraft:player_init"
+  },
+  "sends_telemetry_event": true
+}
