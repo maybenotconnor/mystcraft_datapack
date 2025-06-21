@@ -8,17 +8,16 @@ item replace entity @s weapon.mainhand with minecraft:air
 # scoreboard players operation $random time /= $random time_div
 
 #use the random command
-execute store result score $random time run random value 1..8
+execute store result score $random time run random value 0..7
 
 #spread player in dimension
 execute if score $random time matches 0..1 in minecraft:overworld run spreadplayers 0 0 100 3000 false @s
-execute if score $random time matches 1..2 in mystworlds:skyland run spreadplayers 0 0 50 1500 false @s
+execute if score $random time matches 1..2 in mystworlds:skyland run spreadplayers 0 0 50 1200 false @s
 execute if score $random time matches 2..3 in mystworlds:sanctuary run spreadplayers 0 0 30 500 false @s
 execute if score $random time matches 3..4 in mystworlds:archipelago run spreadplayers 0 0 30 500 false @s
 execute if score $random time matches 4..5 in mystworlds:warrens run tp @s ~ 64 ~
 execute if score $random time matches 5..6 in mystworlds:wasteland run spreadplayers 0 0 30 500 false @s
-execute if score $random time matches 6..7 in mystworlds:ice run spreadplayers 0 0 30 500 false @s
-execute if score $random time matches 7.. in mystworlds:small run spreadplayers 0 0 50 500 false @s 
+execute if score $random time matches 6.. in mystworlds:ice run spreadplayers 0 0 30 500 false @s
 
 execute run function mystcraft:tpeffect
 

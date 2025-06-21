@@ -1,8 +1,10 @@
 #add tag
 tag @s add myst.link.tping
 
-#add tag to closest entity if lead is held
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lead"}]}] at @s run tag @e[limit=1,sort=nearest,distance=..6,type=!player,type=!item] add myst.link.tping
+#LEASHED TO PLAYER
+execute as @s run function mystcraft:mobs/player_score
+#LEASHED ENTITY
+execute at @s as @e[distance=..10,type=!player,type=!item] if data entity @s leash run function mystcraft:mobs/leashed_score {tag: myst.link.tping}
 
 #summon marker
 summon marker ~ ~ ~ {Tags:["myst.link.marker"]}

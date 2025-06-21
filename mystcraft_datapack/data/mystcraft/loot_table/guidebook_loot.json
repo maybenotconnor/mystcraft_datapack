@@ -111,7 +111,7 @@
                     }
                   ],
                   {
-                    "text": "Tip on Moving entities:\n\nAny mob you are connected to via a lead should teleport with you using dimensional or linking books. Do not use a book while mounted."
+                    "text": "Tip on Moving entities:\n\nAny mob you are connected to via a lead should teleport with you using dimensional or linking books. Using a book while mounted will leave the mounted mob behind."
                   }
                 ],
                 "mode": "replace_all"
