@@ -3,12 +3,12 @@
   "downfall": 0.4,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 16423342,
+    "sky_color": 16746915,
     "fog_color": 9227005,
     "water_color": 10944509,
     "water_fog_color": 329011,
     "grass_color": 5759881,
-    "foliage_color": 16423342,
+    "foliage_color": 16746915,
     "particle": {
       "options": {
         "type": "minecraft:crimson_spore"

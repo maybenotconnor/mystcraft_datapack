@@ -112,7 +112,10 @@
       "when_in_range": "minecraft:overworld/ridges",
       "when_out_of_range": -0.4
     },
-    "initial_density_without_jaggedness": 0,
+    "preliminary_surface_level": {
+      "type": "minecraft:constant",
+      "argument": 70
+    },
     "final_density": {
 
       "type": "squeeze",

@@ -304,7 +304,10 @@
       "to_value": 1
     },
     "ridges": {"type":"constant","argument": 0},
-    "initial_density_without_jaggedness": 0,
+    "preliminary_surface_level": {
+      "type": "minecraft:constant",
+      "argument": 50
+    },
     "final_density": {
 
       "type": "squeeze",

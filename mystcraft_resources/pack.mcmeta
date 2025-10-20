@@ -1,7 +1,8 @@
 {
   "pack": {
-    "pack_format": 64,
-    "description": "Resources for Mystcraft Datapack for MC 1.21.8"
+    "description": "Resources for Mystcraft Datapack for MC 1.21.10",
+    "min_format": [69, 0],
+    "max_format": [69, 0]
   }
 
 }
