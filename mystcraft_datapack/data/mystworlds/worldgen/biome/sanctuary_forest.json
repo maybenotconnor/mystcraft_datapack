@@ -3,18 +3,22 @@
   "downfall": 0.4,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 16746915,
-    "fog_color": 9227005,
     "water_color": 10944509,
-    "water_fog_color": 329011,
     "grass_color": 5759881,
-    "foliage_color": 16746915,
-    "particle": {
-      "options": {
-        "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.01
-    }
+    "foliage_color": 16746915
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 16746915,
+    "minecraft:visual/fog_color": 9227005,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:crimson_spore"
+        },
+        "probability": 0.01
+      }
+    ]
   },
   "spawners": {
     "creature": [

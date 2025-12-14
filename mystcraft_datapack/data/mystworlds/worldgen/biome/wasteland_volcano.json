@@ -3,35 +3,38 @@
   "downfall": 0,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 13234173,
-    "fog_color": 16774552,
     "water_color": 5071528,
-    "water_fog_color": 0,
     "grass_color": 14904407,
-    "foliage_color": 13734216,
-    "mood_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "data": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": "minecraft:music.overworld.stony_peaks"
-        },
-        "weight": 1
+    "foliage_color": 13734216
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 13234173,
+    "minecraft:visual/fog_color": 16774552,
+    "minecraft:visual/water_fog_color": 0,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
       }
-    ],
-    "particle": {
-      "options": {
-        "type": "minecraft:white_ash"
-      },
-      "probability": 0.015
-    }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": "minecraft:music.overworld.stony_peaks"
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.015
+      }
+    ]
   },
   "spawners": {
     "ambient": [],

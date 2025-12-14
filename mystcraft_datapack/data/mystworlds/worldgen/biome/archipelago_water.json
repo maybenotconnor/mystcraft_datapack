@@ -3,12 +3,14 @@
     "downfall": 1,
     "has_precipitation": true,
     "effects": {
-      "sky_color": 6410748,
-      "fog_color": 936423,
       "water_color": 2384383,
-      "water_fog_color": 1591456,
       "grass_color": 39206,
       "foliage_color": 358947
+    },
+    "attributes": {
+      "minecraft:visual/sky_color": 6410748,
+      "minecraft:visual/fog_color": 936423,
+      "minecraft:visual/water_fog_color": 1591456
     },
     "spawners": {
       "ambient": [],
@@ -168,4 +170,3 @@
       ]
     ]
   }
-  

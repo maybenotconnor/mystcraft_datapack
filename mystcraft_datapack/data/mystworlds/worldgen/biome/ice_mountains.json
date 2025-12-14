@@ -3,29 +3,30 @@
   "downfall": 0,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 9157617,
-    "fog_color": 6587820,
     "water_color": 1915992,
-    "water_fog_color": 0,
     "grass_color": 7328938,
-    "foliage_color": 1594675,
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.overworld.frozen_peaks",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": false
-        },
-        "weight": 1
+    "foliage_color": 1594675
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 9157617,
+    "minecraft:visual/fog_color": 6587820,
+    "minecraft:visual/water_fog_color": 0,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.frozen_peaks",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
       }
-    ],
-    "particle": {
-      "options": {
-        "type": "minecraft:snowflake"
-      },
-      "probability": 0.001
-    }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:snowflake"
+        },
+        "probability": 0.001
+      }
+    ]
   },
   "spawners": {
     "ambient": [

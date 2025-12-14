@@ -3,23 +3,22 @@
   "downfall": 0.9,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 7907327,
-    "fog_color": 12638463,
     "water_color": 3832426,
-    "water_fog_color": 5077600,
     "foliage_color": 9285927,
-    "grass_color_modifier": "swamp",
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.overworld.swamp",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": false
-        },
-        "weight": 1
+    "grass_color_modifier": "swamp"
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 7907327,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 5077600,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.overworld.swamp",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
       }
-    ]
+    }
   },
   "spawners": {
     "ambient": [
