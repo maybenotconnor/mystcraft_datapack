@@ -3,7 +3,7 @@
 item replace entity @s weapon.mainhand with minecraft:air
 
 # #psuedo-random dimension based on time of day
-# execute store result score $random time run time query daytime
+# execute store result score $random time run time of minecraft:overworld query minecraft:day
 # scoreboard players set $random time_div 3400
 # scoreboard players operation $random time /= $random time_div
 

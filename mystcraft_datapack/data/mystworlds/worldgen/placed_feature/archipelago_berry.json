@@ -1,5 +1,5 @@
 {
-    "feature": "minecraft:patch_berry_bush",
+    "feature": "mystworlds:archipelago_berry",
     "placement": [
       {
         "type": "minecraft:rarity_filter",
@@ -11,6 +11,34 @@
       {
         "type": "minecraft:heightmap",
         "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+        "type": "minecraft:count",
+        "count": 64
+      },
+      {
+        "type": "minecraft:random_offset",
+        "xz_spread": {
+          "type": "minecraft:trapezoid",
+          "min": -4,
+          "max": 4,
+          "plateau": 0
+        },
+        "y_spread": {
+          "type": "minecraft:trapezoid",
+          "min": -3,
+          "max": 3,
+          "plateau": 0
+        }
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:would_survive",
+          "state": {
+            "Name": "minecraft:sweet_berry_bush"
+          }
+        }
       },
       {
         "type": "minecraft:biome"
