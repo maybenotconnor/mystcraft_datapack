@@ -11,6 +11,7 @@
     "minecraft:visual/sky_color": 2700355,
     "minecraft:visual/fog_color": 0,
     "minecraft:visual/water_fog_color": 2039583,
+    "minecraft:visual/ambient_light_color": "#585029",
     "minecraft:audio/ambient_sounds": {
       "loop": "minecraft:ambient.basalt_deltas.loop",
       "mood": {
