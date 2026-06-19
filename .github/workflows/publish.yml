@@ -1,0 +1,63 @@
+name: Publish to GitHub Release & Modrinth
+
+# Fires when you publish a GitHub Release (tag vX.Y.Z + changelog in the body).
+# Do NOT attach zips to the release yourself — this workflow builds and uploads them,
+# then publishes a matching version to Modrinth.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write # allows mc-publish to upload assets to the triggering release
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Compute metadata
+        id: meta
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          # Modrinth version numbers historically have no leading "v" (e.g. 1.7.10),
+          # but the zip asset names keep the "v" (e.g. mystcraft_datapack_v1.7.10.zip).
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "version=${TAG#v}" >> "$GITHUB_OUTPUT"
+          # Read the compatible Minecraft versions, flatten newlines to spaces.
+          gv="$(tr '\n' ' ' < .github/mc-game-versions.txt | tr -s ' ' | sed 's/^ *//;s/ *$//')"
+          echo "game_versions=$gv" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG | version=${TAG#v} | game-versions=$gv"
+
+      - name: Build pack zips
+        env:
+          TAG: ${{ steps.meta.outputs.tag }}
+        run: |
+          # Zip each folder's CONTENTS so pack.mcmeta lands at the zip root.
+          ( cd mystcraft_datapack  && zip -r -X -q "../mystcraft_datapack_${TAG}.zip"  . -x '.DS_Store' '*/.DS_Store' '__MACOSX*' )
+          ( cd mystcraft_resources && zip -r -X -q "../mystcraft_resources_${TAG}.zip" . -x '.DS_Store' '*/.DS_Store' '__MACOSX*' )
+          ls -la ./*.zip
+
+      - name: Publish to GitHub Release & Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          # --- Modrinth ---
+          modrinth-id: c70X558N
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          # --- GitHub (uploads zips to the triggering release) ---
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          # First file = primary (datapack), rest = secondary (resource pack).
+          files: |
+            mystcraft_datapack_*.zip
+            mystcraft_resources_*.zip
+
+          name: ${{ github.event.release.name }}
+          version: ${{ steps.meta.outputs.version }}
+          changelog: ${{ github.event.release.body }}
+
+          loaders: datapack
+          game-versions: ${{ steps.meta.outputs.game_versions }}
