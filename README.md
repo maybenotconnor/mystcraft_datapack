@@ -27,6 +27,8 @@ If anyone wants to add features go ahead and fork and I will most likely merge p
 
 Also, please report any bugs and I will fix them asap.
 
+Maintainers: see [RELEASING.md](RELEASING.md) for how releases are cut — publishing a GitHub Release auto-builds the zips and publishes to GitHub + Modrinth.
+
 ### Future Plans
 If other datapack developers are interested, feel free to implement these below:
 - Better structures
