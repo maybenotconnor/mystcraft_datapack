@@ -6,359 +6,363 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_model_data",
               "strings": {
                 "values": [
                   "volcanobook"
                 ],
                 "mode": "replace_all"
-              }
+              },
+              "type": "minecraft:set_custom_model_data"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": {"volcanobook":true}
+              "tag": {
+                "volcanobook": true
+              },
+              "type": "minecraft:set_custom_data"
             },
             {
-              "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:set_name",
               "entity": "this",
               "target": "custom_name",
               "name": {
                 "text": "Wasteland",
                 "color": "dark_red",
                 "italic": false
-              }
+              },
+              "type": "minecraft:set_name"
             },
             {
-              "function": "minecraft:set_written_book_pages",
-              "pages": [[
-                "",
-                {
-                  "text": "███",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+              "pages": [
+                [
+                  "",
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  {
+                    "text": "█████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "color": "#66ffcc"
-                },
-                {
-                  "text": "█████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  "\n",
+                  {
+                    "text": "████████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  "\n",
+                  {
+                    "text": "████████████\n████████████\n█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "████████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  {
+                    "text": "██",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "black"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  {
+                    "text": "█████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "████████████\n████████████\n█",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  "\n",
+                  {
+                    "text": "█",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  {
+                    "text": "██",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "black"
                   },
-                  "color": "#66ffcc"
-                },
-                {
-                  "text": "██",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  {
+                    "text": "█████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  "\n",
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "black"
                   },
-                  "color": "black"
-                },
-                {
-                  "text": "█████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  {
+                    "text": "█████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  "\n",
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "black"
                   },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "█",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  {
+                    "text": "█████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  "\n",
+                  {
+                    "text": "████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "black"
                   },
-                  "color": "#66ffcc"
-                },
-                {
-                  "text": "██",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  {
+                    "text": "███",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#66ffcc"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  {
+                    "text": "█████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#ffcc66"
                   },
-                  "color": "black"
-                },
-                {
-                  "text": "█████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
+                  "\n",
+                  {
+                    "text": "████████████\n████████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#ffcc66"
                   },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
+                  "\n",
+                  {
+                    "text": "████████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#ffcc66"
                   },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "███",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "black"
-                },
-                {
-                  "text": "█████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "███",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "black"
-                },
-                {
-                  "text": "█████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#66ffcc"
-                },
-                "\n",
-                {
-                  "text": "████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "black"
-                },
-                {
-                  "text": "███",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#66ffcc"
-                },
-                {
-                  "text": "█████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#ffcc66"
-                },
-                "\n",
-                {
-                  "text": "████████████\n████████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#ffcc66"
-                },
-                "\n",
-                {
-                  "text": "████████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#ffcc66"
-                },
-                "\n",
-                {
-                  "text": "████████████",
-                  "click_event": {
-                    "action": "run_command",
-                    "command": "/trigger volcanotele set 1"
-                  },
-                  "hover_event": {
-                    "action": "show_text",
-                    "value": {
-                      "text": "Go to The Wasteland",
-                      "bold": true,
-                      "color": "red"
-                    }
-                  },
-                  "color": "#ffcc66"
-                }
-              ]],
-              "mode": "replace_all"
+                  "\n",
+                  {
+                    "text": "████████████",
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger volcanotele set 1"
+                    },
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": {
+                        "text": "Go to The Wasteland",
+                        "bold": true,
+                        "color": "red"
+                      }
+                    },
+                    "color": "#ffcc66"
+                  }
+                ]
+              ],
+              "mode": "replace_all",
+              "type": "minecraft:set_written_book_pages"
             },
             {
-              "function": "minecraft:set_book_cover",
-              "generation": 3
+              "generation": 3,
+              "type": "minecraft:set_book_cover"
             }
           ]
         }

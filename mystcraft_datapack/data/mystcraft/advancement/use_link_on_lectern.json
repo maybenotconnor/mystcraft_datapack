@@ -1,41 +1,46 @@
 {
-    "criteria": {
-      "use_link_on_lectern": {
-        "conditions": {
-          "location": [
+  "criteria": {
+    "use_link_on_lectern": {
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
             {
-              "condition": "minecraft:block_state_property",
-              "block": "minecraft:lectern",
-              "properties": {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:lectern",
+              "state": {
                 "has_book": "false"
               }
             },
             {
-              "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "slots": {
                   "weapon.mainhand": {
                     "items": "minecraft:enchanted_book",
                     "predicates": {
-                      "minecraft:custom_data": {"linkbook":true}
+                      "minecraft:custom_data": {
+                        "linkbook": true
+                      }
                     }
                   }
                 }
-              }
+              },
+              "type": "minecraft:entity_properties"
             }
           ]
-        },
-        "trigger": "minecraft:default_block_use"
-      }
-    },
-    "requirements": [
-      [
-        "use_link_on_lectern"
-      ]
-    ],
-    "rewards": {
-      "function": "mystcraft:linklectern/create_writtenlink"
-    },
-    "sends_telemetry_event": true
-  }
+        }
+      },
+      "trigger": "minecraft:default_block_use"
+    }
+  },
+  "requirements": [
+    [
+      "use_link_on_lectern"
+    ]
+  ],
+  "rewards": {
+    "function": "mystcraft:linklectern/create_writtenlink"
+  },
+  "sends_telemetry_event": true
+}

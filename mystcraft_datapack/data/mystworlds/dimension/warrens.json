@@ -1,16 +1,15 @@
 {
-    "type": "mystworlds:warrens",
-    "generator": {
-      "type": "minecraft:flat",
-      "settings": {
-        "biome": "mystworlds:warrens",
-        "layers": [
-          {
-            "block": "minecraft:bedrock",
-            "height": 0
-          }
-        ]
-      }
+  "type": "mystworlds:warrens",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "mystworlds:warrens",
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 0
+        }
+      ]
     }
   }
-  
+}

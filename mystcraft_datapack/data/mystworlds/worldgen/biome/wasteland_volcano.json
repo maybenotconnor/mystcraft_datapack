@@ -36,17 +36,6 @@
       }
     ]
   },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "spawn_costs": {},
   "carvers": [],
   "features": [
     [

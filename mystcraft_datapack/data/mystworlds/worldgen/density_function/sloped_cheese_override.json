@@ -1,7 +1,5 @@
 {
   "type": "minecraft:add",
-  "argument1": {
-    "type": "minecraft:end_islands"
-  },
-  "argument2": "mystworlds:base_3d_noise_override"
+  "left": "minecraft:end/islands",
+  "right": "mystworlds:base_3d_noise_override"
 }

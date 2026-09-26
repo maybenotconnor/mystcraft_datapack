@@ -1,124 +1,124 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:written_book",
-            "functions": [
-              {
-                "function": "minecraft:set_book_cover",
-                "title": "Mystcraft Guide",
-                "author": "MaybeNotConnor",
-                "generation": 0
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": [
+            {
+              "title": "Mystcraft Guide",
+              "author": "MaybeNotConnor",
+              "generation": 0,
+              "type": "minecraft:set_book_cover"
+            },
+            {
+              "entity": "this",
+              "name": {
+                "text": "Mystcraft Guide",
+                "bold": true,
+                "italic": false
               },
-              {
-                "function": "minecraft:set_name",
-                "entity": "this",
-                "name": {
-                  "text": "Mystcraft Guide",
-                  "bold": true,
-                  "italic": false
-                }
-              },
-              {
-                "function": "minecraft:set_custom_model_data",
-                "strings": {
-                  "values": [
-                    "guidebook"
-                  ],
-                  "mode": "replace_all"
-                }
-              },
-              {
-                "function": "minecraft:set_written_book_pages",
-                "pages": [
-                  {
-                    "text": "Welcome to Mystcraft!\n\nThere are many worlds waiting to be explored.\nBooks can be crafted in a crafting table.\nSome books you cannot craft, and must find in structures."
-                  },
-                  {
-                    "text": "Books can be opened and the words clicked on to teleport into their dimension. \n\nWhen used, books are dropped at their current location.\n\nThis book describes the books and dimensions."
-                  },
-                  {
-                    "text": "Important!\n\nSince books are dropped on use, always bring a way out! This is most commonly a linking book.\nThe book won't fall if on a lectern, crafted as a T of slabs in a crafting table."
-                  },
-                  {
-                    "text": "Linking Book:\nBook + Ender Pearl\n\nThe most powerful of all books. Empty linking books need to be set by right-clicking, then using the book will teleport the player back to that location."
-                  },
-                  {
-                    "text": "Sanctuary:\nFound in Villages\n\nSanctuary is a beautiful peaceful world without night or danger. Very nice for building or living in."
-                  },
-                  {
-                    "text": "Archipelago:\nFound in Shipwrecks\n\nThis is an island world with hilly forests and swamp. Massive caverns exist deep underwater."
-                  },
-                  {
-                    "text": "Wasteland:\nFound in Desert Temples\n\nThis world is hot and barren. The desert stretches endlessly around large volcanic rocks."
-                  },
-                  {
-                    "text": "Blizzard:\nFound in Dungeons\n\nThis world is frozen, surrounded by icy peaks. Watch out for powdered snow!"
-                  },
-                  {
-                    "text": "Skylands:\nFound in Strongholds\n\nThe skylands float in an airy void. If you happen to fall out of the Skylands, you will land in the Pocket Dimension."
-                  },
-                  {
-                    "text": "The Warrens:\nFound in Skylands\n\nNo explorer has successfully returned from the Warrens. Enter at you own risk."
-                  },
-                  {
-                    "text": "Pocket Dimension:\nToss Book&Quill into an End Crystal\n\nThis dark world has the unique feature of one block in this world being 16 blocks in the overworld, similar to the nether. This makes it easy to travel long distances."
-                  },
-                  {
-                    "text": "Death Book:\nBook + Bone\n\nThis book is a one-way ticket back to where the player last died. It is consumed on use and can only be used once per death."
-                  },
-                  {
-                    "text": "Player Book:\nBook + Player Head\n\nThis powerful book can teleport you directly to another player. This must be crafted by dropping the items on the ground.\nA player head can be obtained if the player is killed by a charged creeper."
-                  },
-                  [
-                    {
-                      "text": "Torn Book:\nBook + Shears\n\n"
-                    },
-                    {
-                      "text": "This",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " Why would"
-                    },
-                    {
-                      "text": " you do this",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "? \n"
-                    },
-                    {
-                      "text": "This book is ",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": "very dangerous"
-                    },
-                    {
-                      "text": " and teleports the player to",
-                      "obfuscated": true
-                    },
-                    {
-                      "text": " a random"
-                    },
-                    {
-                      "text": " dimension.\n\n Do not use this!",
-                      "obfuscated": true
-                    }
-                  ],
-                  {
-                    "text": "Tip on Moving entities:\n\nAny mob you are connected to via a lead should teleport with you using dimensional or linking books. Using a book while mounted will leave the mounted mob behind."
-                  }
+              "type": "minecraft:set_name"
+            },
+            {
+              "strings": {
+                "values": [
+                  "guidebook"
                 ],
                 "mode": "replace_all"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              },
+              "type": "minecraft:set_custom_model_data"
+            },
+            {
+              "pages": [
+                {
+                  "text": "Welcome to Mystcraft!\n\nThere are many worlds waiting to be explored.\nBooks can be crafted in a crafting table.\nSome books you cannot craft, and must find in structures."
+                },
+                {
+                  "text": "Books can be opened and the words clicked on to teleport into their dimension. \n\nWhen used, books are dropped at their current location.\n\nThis book describes the books and dimensions."
+                },
+                {
+                  "text": "Important!\n\nSince books are dropped on use, always bring a way out! This is most commonly a linking book.\nThe book won't fall if on a lectern, crafted as a T of slabs in a crafting table."
+                },
+                {
+                  "text": "Linking Book:\nBook + Ender Pearl\n\nThe most powerful of all books. Empty linking books need to be set by right-clicking, then using the book will teleport the player back to that location."
+                },
+                {
+                  "text": "Sanctuary:\nFound in Villages\n\nSanctuary is a beautiful peaceful world without night or danger. Very nice for building or living in."
+                },
+                {
+                  "text": "Archipelago:\nFound in Shipwrecks\n\nThis is an island world with hilly forests and swamp. Massive caverns exist deep underwater."
+                },
+                {
+                  "text": "Wasteland:\nFound in Desert Temples\n\nThis world is hot and barren. The desert stretches endlessly around large volcanic rocks."
+                },
+                {
+                  "text": "Blizzard:\nFound in Dungeons\n\nThis world is frozen, surrounded by icy peaks. Watch out for powdered snow!"
+                },
+                {
+                  "text": "Skylands:\nFound in Strongholds\n\nThe skylands float in an airy void. If you happen to fall out of the Skylands, you will land in the Pocket Dimension."
+                },
+                {
+                  "text": "The Warrens:\nFound in Skylands\n\nNo explorer has successfully returned from the Warrens. Enter at you own risk."
+                },
+                {
+                  "text": "Pocket Dimension:\nToss Book&Quill into an End Crystal\n\nThis dark world has the unique feature of one block in this world being 16 blocks in the overworld, similar to the nether. This makes it easy to travel long distances."
+                },
+                {
+                  "text": "Death Book:\nBook + Bone\n\nThis book is a one-way ticket back to where the player last died. It is consumed on use and can only be used once per death."
+                },
+                {
+                  "text": "Player Book:\nBook + Player Head\n\nThis powerful book can teleport you directly to another player. This must be crafted by dropping the items on the ground.\nA player head can be obtained if the player is killed by a charged creeper."
+                },
+                [
+                  {
+                    "text": "Torn Book:\nBook + Shears\n\n"
+                  },
+                  {
+                    "text": "This",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " Why would"
+                  },
+                  {
+                    "text": " you do this",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "? \n"
+                  },
+                  {
+                    "text": "This book is ",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "very dangerous"
+                  },
+                  {
+                    "text": " and teleports the player to",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " a random"
+                  },
+                  {
+                    "text": " dimension.\n\n Do not use this!",
+                    "obfuscated": true
+                  }
+                ],
+                {
+                  "text": "Tip on Moving entities:\n\nAny mob you are connected to via a lead should teleport with you using dimensional or linking books. Using a book while mounted will leave the mounted mob behind."
+                }
+              ],
+              "mode": "replace_all",
+              "type": "minecraft:set_written_book_pages"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

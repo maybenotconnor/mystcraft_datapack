@@ -1,16 +1,15 @@
 {
-    "type": "mystworlds:small",
-    "generator": {
-      "type": "minecraft:flat",
-      "settings": {
-        "biome": "mystworlds:small",
-        "layers": [
-          {
-            "block": "minecraft:barrier",
-            "height": 100
-          }
-        ]
-      }
+  "type": "mystworlds:small",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "mystworlds:small",
+      "layers": [
+        {
+          "block": "minecraft:barrier",
+          "height": 100
+        }
+      ]
     }
   }
-  
+}

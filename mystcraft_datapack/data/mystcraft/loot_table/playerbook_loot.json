@@ -6,31 +6,32 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_model_data",
               "strings": {
                 "values": [
                   "playerbook"
                 ],
                 "mode": "replace_all"
-              }
+              },
+              "type": "minecraft:set_custom_model_data"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": {"playerbook":true}
+              "tag": {
+                "playerbook": true
+              },
+              "type": "minecraft:set_custom_data"
             },
             {
-              "function": "minecraft:set_name",
               "entity": "this",
               "name": {
                 "text": "Player Book",
                 "color": "red",
                 "italic": false
-              }
+              },
+              "type": "minecraft:set_name"
             },
             {
-              "function": "minecraft:set_components",
               "components": {
                 "minecraft:consumable": {
                   "consume_seconds": 999999,
@@ -40,10 +41,10 @@
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": false,
                 "!minecraft:rarity": {}
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -51,10 +52,10 @@
                   "target": "playeruuid",
                   "op": "replace"
                 }
-              ]
+              ],
+              "type": "minecraft:copy_custom_data"
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -63,7 +64,8 @@
                   "italic": false
                 }
               ],
-              "mode": "replace_all"
+              "mode": "replace_all",
+              "type": "minecraft:set_lore"
             }
           ]
         }

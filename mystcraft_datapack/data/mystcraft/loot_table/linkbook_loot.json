@@ -6,22 +6,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "count": 1,
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_name",
               "entity": "this",
               "name": {
                 "text": "Linking Book",
                 "color": "green",
                 "italic": false
-              }
+              },
+              "type": "minecraft:set_name"
             },
             {
-              "function": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -29,10 +28,10 @@
                   "target": "Warp",
                   "op": "replace"
                 }
-              ]
+              ],
+              "type": "minecraft:copy_custom_data"
             },
             {
-              "function": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -40,19 +39,19 @@
                   "target": "WarpDim",
                   "op": "replace"
                 }
-              ]
+              ],
+              "type": "minecraft:copy_custom_data"
             },
             {
-              "function": "minecraft:set_custom_model_data",
               "strings": {
                 "values": [
                   "linkbook"
                 ],
                 "mode": "replace_all"
-              }
+              },
+              "type": "minecraft:set_custom_model_data"
             },
             {
-              "function": "minecraft:set_components",
               "components": {
                 "minecraft:consumable": {
                   "consume_seconds": 999999,
@@ -61,14 +60,16 @@
                 },
                 "minecraft:max_stack_size": 1,
                 "minecraft:enchantment_glint_override": false
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": {"linkbook":true}
+              "tag": {
+                "linkbook": true
+              },
+              "type": "minecraft:set_custom_data"
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -77,17 +78,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:overworld"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "minecraft:overworld"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -96,17 +95,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:the_nether"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "minecraft:the_nether"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -115,17 +112,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:the_end"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "minecraft:the_end"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -134,17 +129,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:archipelago"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:archipelago"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -153,17 +146,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:sanctuary"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:sanctuary"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -172,17 +163,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:wasteland"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:wasteland"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -191,17 +180,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:warrens"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:warrens"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -210,17 +197,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:skyland"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:skyland"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -229,17 +214,15 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:small"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:small"
+                },
+                "type": "minecraft:location_check"
+              }
             },
             {
-              "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
                 {
@@ -248,14 +231,13 @@
                 }
               ],
               "mode": "replace_all",
-              "conditions": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "mystworlds:ice"
-                  }
-                }
-              ]
+              "type": "minecraft:set_lore",
+              "condition": {
+                "predicate": {
+                  "dimension": "mystworlds:ice"
+                },
+                "type": "minecraft:location_check"
+              }
             }
           ]
         }

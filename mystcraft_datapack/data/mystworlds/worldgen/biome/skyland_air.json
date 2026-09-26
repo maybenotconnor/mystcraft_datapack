@@ -10,37 +10,54 @@
   "attributes": {
     "minecraft:visual/sky_color": 8964812,
     "minecraft:visual/fog_color": 9227005,
-    "minecraft:visual/water_fog_color": 329011
-  },
-  "spawners": {
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 9,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 2,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:goat",
-        "weight": 10,
-        "minCount": 2,
-        "maxCount": 4
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 9
+            },
+            {
+              "type": "minecraft:pig",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 6
+              },
+              "weight": 10
+            },
+            {
+              "type": "minecraft:cow",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 1
+            },
+            {
+              "type": "minecraft:goat",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "spawn_costs": {}
       }
-    ]
+    }
   },
-  "spawn_costs": {},
   "carvers": [],
   "features": [
     [

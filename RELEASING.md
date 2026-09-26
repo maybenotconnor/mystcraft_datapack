@@ -16,7 +16,7 @@ to Modrinth — no manual zipping or uploading.
    - `mystcraft_datapack/pack.mcmeta` → `min_format`/`max_format` (data pack format)
    - `mystcraft_resources/pack.mcmeta` → `min_format`/`max_format` (resource pack format)
    - `.github/mc-game-versions.txt` → the compatible Minecraft version(s) for Modrinth
-     (one per line or comma-separated, e.g. `26.2` or `26.2, 26.2.1`)
+     (one per line or comma-separated, e.g. `26.3` or `26.3, 26.3.1`)
 
    The current pack formats and Minecraft versions are published in Mojang's release
    changelog under "Technical Changes" (look for "The Data Pack version is now X" and
@@ -93,4 +93,4 @@ alpha channel automatically.
   Versions page) and the GitHub Release assets, then re-publish the release (or
   re-run the workflow from the Actions tab) to regenerate everything.
 - **Modrinth rejects a game version** — the value in `.github/mc-game-versions.txt`
-  must exactly match a version Modrinth recognizes (e.g. `26.2`, not `1.26.2`).
+  must exactly match a version Modrinth recognizes (e.g. `26.3`, not `1.26.3`).

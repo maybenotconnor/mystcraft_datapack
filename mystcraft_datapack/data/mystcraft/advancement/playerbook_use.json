@@ -1,9 +1,12 @@
 {
-    "criteria": {
-      "playerbook_use": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "player": {
+  "criteria": {
+    "playerbook_use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
             "equipment": {
               "mainhand": {
                 "predicates": {
@@ -13,22 +16,25 @@
                 }
               }
             }
-          },
-          "item": {
-            "predicates": {
-                "minecraft:custom_data": {"playerbook":true}
-              }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "playerbook": true
+            }
           }
         }
       }
-    },
-    "requirements": [
-      [
-        "playerbook_use"
-      ]
-    ],
-    "rewards": {
-      "function": "mystcraft:playerbook/playerbook_tp"
-    },
-    "sends_telemetry_event": true
-  }
+    }
+  },
+  "requirements": [
+    [
+      "playerbook_use"
+    ]
+  ],
+  "rewards": {
+    "function": "mystcraft:playerbook/playerbook_tp"
+  },
+  "sends_telemetry_event": true
+}

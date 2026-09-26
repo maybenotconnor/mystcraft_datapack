@@ -1,120 +1,128 @@
 {
-    "temperature": 0.5,
-    "downfall": 1,
-    "has_precipitation": true,
-    "effects": {
-      "water_color": 2384383,
-      "grass_color": 41256,
-      "foliage_color": 358947
-    },
-    "attributes": {
-      "minecraft:visual/sky_color": 6410748,
-      "minecraft:visual/fog_color": 936423,
-      "minecraft:visual/water_fog_color": 1591456
-    },
-    "spawners": {
-      "ambient": [],
-      "creature": [
-        {
-          "type": "minecraft:rabbit",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 10
+  "temperature": 0.5,
+  "downfall": 1,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 2384383,
+    "grass_color": 41256,
+    "foliage_color": 358947
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": 6410748,
+    "minecraft:visual/fog_color": 936423,
+    "minecraft:visual/water_fog_color": 1591456,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:rabbit",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 10
+              },
+              "weight": 10
+            },
+            {
+              "type": "minecraft:fox",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 10
+              },
+              "weight": 10
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:skeleton",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            }
+          ]
         },
-        {
-          "type": "minecraft:fox",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 10
-        }
-      ],
-      "misc": [],
-      "monster": [
-        {
-          "type": "minecraft:spider",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:skeleton",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:slime",
-          "weight": 100,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
-          "type": "minecraft:enderman",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 4
-        }
-      ],
-      "water_ambient": [],
-      "water_creature": []
-    },
-    "spawn_costs": {},
-    "carvers": [],
-    "features": [
-      [],
-      [],
-      [],
-      [
-        "minecraft:oak"
-      ],
-      [
-        "minecraft:dark_oak_checked",
-        "minecraft:forest_flowers"
-
-      ],
-      ["minecraft:dark_forest_vegetation"],
-      [
-        "minecraft:disk_clay",
-        "minecraft:disk_gravel",
-        "minecraft:disk_sand",
-        "minecraft:ore_dirt",
-        "minecraft:ore_gravel",
-        "minecraft:ore_iron_middle",
-        "minecraft:ore_gold",
-        "minecraft:ore_redstone",
-        "minecraft:ore_diamond",
-        "minecraft:ore_lapis",
-        "minecraft:amethyst_geode",
-        "minecraft:glow_lichen",
-        "minecraft:ore_tuff"
-      ],
-      [
-        "minecraft:kelp_cold",
-        "minecraft:seagrass_deep",
-        "minecraft:sea_pickle",
-        "minecraft:seagrass_cold",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:flower_default",
-        "minecraft:dark_forest_vegetation",
-        "minecraft:patch_firefly_bush_near_water",
-        "minecraft:dark_oak_leaf_litter"
-      ],
-      [
-        "minecraft:spring_water",
-        "minecraft:patch_pumpkin",
-        "minecraft:patch_grass_plain",
-        "minecraft:patch_tall_grass_2",
-        "minecraft:patch_sugar_cane",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
-        "minecraft:flower_plain",
-        "minecraft:patch_berry_rare",
-        "minecraft:patch_berry_bush",
-        "minecraft:patch_berry_common",
-        "mystworlds:archipelago_berry"
-      ],
-      [
-        "minecraft:freeze_top_layer"
-      ]
+        "spawn_costs": {}
+      }
+    }
+  },
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "minecraft:oak"
+    ],
+    [
+      "minecraft:dark_oak_checked",
+      "minecraft:forest_flowers"
+    ],
+    [
+      "minecraft:dark_forest_vegetation"
+    ],
+    [
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:disk_sand",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:amethyst_geode",
+      "minecraft:glow_lichen",
+      "minecraft:ore_tuff"
+    ],
+    [
+      "minecraft:kelp_cold",
+      "minecraft:seagrass_deep",
+      "minecraft:sea_pickle",
+      "minecraft:seagrass_cold",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:flower_default",
+      "minecraft:dark_forest_vegetation",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:dark_oak_leaf_litter"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_sugar_cane",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:flower_plain",
+      "minecraft:patch_berry_rare",
+      "minecraft:patch_berry_bush",
+      "minecraft:patch_berry_common",
+      "mystworlds:archipelago_berry"
+    ],
+    [
+      "minecraft:freeze_top_layer"
     ]
-  }
+  ]
+}

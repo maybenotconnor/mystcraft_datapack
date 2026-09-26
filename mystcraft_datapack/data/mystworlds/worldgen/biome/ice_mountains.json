@@ -26,71 +26,72 @@
         },
         "probability": 0.001
       }
-    ]
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "count": 8,
+              "weight": 10
+            }
+          ],
+          "creature": [
+            {
+              "type": "minecraft:goat",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 30
+            },
+            {
+              "type": "minecraft:polar_bear",
+              "count": 1,
+              "weight": 1
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:zombie",
+              "count": 4,
+              "weight": 50
+            },
+            {
+              "type": "minecraft:witch",
+              "count": 1,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:stray",
+              "count": 4,
+              "weight": 80
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 4,
+                "max_inclusive": 6
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "spawn_costs": {}
+      }
+    }
   },
-  "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:goat",
-        "weight": 30,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "minecraft:polar_bear",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
-    "misc": [],
-    "monster": [
-      {
-        "type": "minecraft:spider",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 50,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:stray",
-        "weight": 80,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "spawn_costs": {},
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",

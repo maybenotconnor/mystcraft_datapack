@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:replace_single_block",
+  "targets": [
+    {
+      "target": {
+        "predicate_type": "minecraft:tag_match",
+        "tag": "minecraft:base_stone_overworld"
+      },
+      "state": {
+        "id": "minecraft:sea_lantern"
+      }
+    }
+  ]
+}

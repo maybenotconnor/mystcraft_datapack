@@ -18,49 +18,72 @@
         },
         "probability": 0.01
       }
-    ]
-  },
-  "spawners": {
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 9,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:horse",
-        "weight": 3,
-        "minCount": 2,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:donkey",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:bee",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:fox",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:rabbit",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 10
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 9
+            },
+            {
+              "type": "minecraft:horse",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 6
+              },
+              "weight": 3
+            },
+            {
+              "type": "minecraft:donkey",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 1
+            },
+            {
+              "type": "minecraft:bee",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            },
+            {
+              "type": "minecraft:fox",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 6
+              },
+              "weight": 5
+            },
+            {
+              "type": "minecraft:rabbit",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 10
+              },
+              "weight": 10
+            }
+          ]
+        },
+        "spawn_costs": {}
       }
-    ]
+    }
   },
-  "spawn_costs": {},
   "carvers": [],
   "features": [
     [

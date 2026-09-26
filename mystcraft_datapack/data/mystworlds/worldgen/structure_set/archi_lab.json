@@ -1,18 +1,18 @@
 {
-    "structures": [
-      {
-        "structure": "mystworlds:archi_lab",
-        "weight": 1
-      }
-    ],
-    "placement": {
-      "type": "minecraft:concentric_rings",
-      "salt": 16854326,
-      "frequency_reduction_method": "default",
-      "frequency": 1,
-      "distance": 1,
-      "spread": 1,
-      "count": 1,
-      "preferred_biomes": "mystworlds:archipelago_land"
+  "structures": [
+    {
+      "structure": "mystworlds:archi_lab",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 16854326,
+    "frequency_reduction_method": "default",
+    "frequency": 1,
+    "distance": 1,
+    "spread": 1,
+    "count": 1,
+    "preferred_biomes": "mystworlds:archipelago_land"
   }
 }

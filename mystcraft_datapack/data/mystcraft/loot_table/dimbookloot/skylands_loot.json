@@ -6,38 +6,39 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_custom_model_data",
               "strings": {
                 "values": [
                   "skylandbook"
                 ],
                 "mode": "replace_all"
-              }
+              },
+              "type": "minecraft:set_custom_model_data"
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": {"skylandbook":true}
+              "tag": {
+                "skylandbook": true
+              },
+              "type": "minecraft:set_custom_data"
             },
             {
-              "function": "minecraft:set_components",
               "components": {
                 "minecraft:max_stack_size": 1
-              }
+              },
+              "type": "minecraft:set_components"
             },
             {
-              "function": "minecraft:set_name",
               "entity": "this",
               "target": "custom_name",
               "name": {
                 "text": "Skylands",
                 "color": "aqua",
                 "italic": false
-              }
+              },
+              "type": "minecraft:set_name"
             },
             {
-              "function": "minecraft:set_written_book_pages",
               "pages": [
                 [
                   "",
@@ -505,11 +506,12 @@
                   }
                 ]
               ],
-              "mode": "replace_all"
-            },            
+              "mode": "replace_all",
+              "type": "minecraft:set_written_book_pages"
+            },
             {
-              "function": "minecraft:set_book_cover",
-              "generation": 3
+              "generation": 3,
+              "type": "minecraft:set_book_cover"
             }
           ]
         }

@@ -21,7 +21,12 @@
         "minecraft:gameplay/bed_rule": {
             "can_sleep": "never",
             "can_set_spawn": "never",
-            "explodes": true
+            "destroy_on_use": true
+        },
+        "minecraft:gameplay/straw_bed_rule": {
+            "can_sleep": "never",
+            "can_set_spawn": "never",
+            "destroy_on_use": true
         }
     }
   }
